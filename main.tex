@@ -1,0 +1,26 @@
+% @Author: Project Team
+% @Date: 2026
+
+\documentclass[12pt, oneside, a4paper]{enetcom-pfe-report}
+
+\graphicspath{{images/}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Include useful commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{Commands}
+
+\hypersetup{
+  pdftitle={\reportTitle~-~\reportSubject},%
+  pdfauthor={\reportAuthor},%
+  pdfsubject={\reportSubject},%
+  pdfkeywords={report} {internship} {pfe} {recruitment} {portal}
+}
+\dominitoc
+\begin{document}
+  \doublespacing{}% Double spacing between lines
+    \pagenumbering{arabic} % 1 2 3 4 ...
+    \setcounter{page}{1}
+  \input{chapitre/04-GeneralIntroduction}
+  \input{chapitre/05-Chapter1}
+\end{document}
