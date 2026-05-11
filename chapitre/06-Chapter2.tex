@@ -1,1 +1,432 @@
-﻿
+\chapter{REQUIREMENTS ANALYSIS             AND SPECIFICATION}
+\thispagestyle{MyStyle}
+\minitoc
+\newpage
+\thispagestyle{MyStyle}
+
+\section*{Introduction}
+\addcontentsline{toc}{section}{Introduction}
+
+This chapter is dedicated to the project's preparation phase. It begins with the elicitation and specification of system requirements, followed by their modeling using a global use case diagram. The chapter then presents the organization and management of the project using the SCRUM methodology, including team roles, the product backlog, and sprint planning. It also describes the working environment in terms of hardware, tools, and technologies, and concludes with the proposed system architecture.
+
+\section{Requirements Elicitation}
+
+The purpose of requirements elicitation is to identify the stakeholders' needs and expectations in the recruitment process. In this project, requirements were gathered through an analysis of the existing recruitment system at Sopra HR Software and discussions with recruiters to understand their difficulties and daily practices. This step highlighted the need for a centralized recruitment platform, better candidate tracking, and improved support for recruiter decision-making, which serve as the basis for the formal requirements defined in the next section.
+
+\subsection{Requirements Specifications}
+
+The specification of requirements begins during the preliminary analysis phase, which marks the start of the system development process. This phase focuses on identifying and formalizing both functional and non-functional requirements of the proposed recruitment portal, based on the information gathered during requirements elicitation. These requirements are expressed using clear textual descriptions and simple models to ensure a precise understanding of the system's expected behavior and constraints.
+
+\subsection{Identification of Actors}
+
+An information system interacts with different users, each having specific roles and responsibilities. In the proposed recruitment portal, these users are identified as system actors and are presented in Table~\ref{tab:actors}.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\begin{tabularx}{\textwidth}{|>{\bfseries\centering\arraybackslash}p{3.5cm}|X|}
+\hline
+\textbf{Actor} & \textbf{Description} \\
+\hline
+Administrator / HR
+  & Manages the recruitment platform by creating job offers, configuring scoring criteria, and supervising applications and system settings. \\
+\hline
+Manager
+  & Reviews applications related to their department and contributes to candidate evaluation and selection. \\
+\hline
+Candidate
+  & Applies for job offers by submitting a CV and tracks the status of submitted applications. \\
+\hline
+Visitor
+  & Browses job offers without authentication and registers to become a candidate. \\
+\hline
+\end{tabularx}
+\caption{Identification of System Actors}
+\label{tab:actors}
+\end{table}
+
+\section{Functional and Non-Functional Requirements}
+
+In this section, we present the functional and non-functional requirements for the development of our portal, Sopra Recruit. The proposed solution aims to centralize the management of job offers and applications, automate CV analysis through parsing and scoring mechanisms, and support recruiters in candidate pre-selection and decision-making. These requirements define the expected behavior of the system as well as the quality constraints necessary to ensure efficiency, reliability, and security.
+
+\subsection{Functional Requirements}
+
+The functional requirements of the intelligent recruitment portal are organized according to the different user profiles interacting with the system. These profiles include the Visitor, the Candidate, the Human Resources Officer, the Manager, and the automated system. Each actor is associated with a specific set of functionalities that define their interactions with the platform.
+
+\paragraph*{Visitor (Unauthenticated User)}
+
+The Visitor represents a user who accesses the platform without authentication. The functional needs associated with this actor are as follows:
+
+\begin{itemize}[label={-}]
+    \item Browse the institutional pages of the recruitment portal.
+    \item Consult the list of published job offers.
+    \item Search and filter job offers according to defined criteria.
+    \item View detailed information about a selected job offer.
+    \item Create a candidate account through a public registration form.
+    \item Activate the account by confirming the email address.
+\end{itemize}
+
+\paragraph*{Candidate}
+
+The Candidate is an authenticated user who applies for job offers and manages personal applications. The Candidate's functional requirements are:
+
+\begin{itemize}[label={-}]
+    \item Sign in and sign out of the platform securely.
+    \item Manage personal account information and update profile data.
+    \item Consult available job offers and their detailed descriptions.
+    \item Apply to job offers by submitting a CV and complementary information.
+    \item Reuse an existing CV or upload a new one during application submission.
+    \item Track the status of submitted applications.
+    \item Consult planned interviews and receive related notifications.
+\end{itemize}
+
+\paragraph*{Human Resources Officer (HR) / Administrator}
+
+The Human Resources Officer acts as the administrator of the recruitment platform and is responsible for managing and supervising the entire recruitment process. This role has full access to the system and oversees both functional and organizational aspects of the application. The functional requirements for this role include:
+
+\begin{itemize}[label={-}]
+    \item Access the secured administration interface.
+    \item Manage user accounts and assign roles and permissions.
+    \item Create, publish, update and archive job offers.
+    \item Define and analyze received applications.
+    \item Evaluate applications and decide on rejection or progression.
+    \item Forward selected applications to managers.
+    \item Plan and manage recruitment interviews.
+    \item Review and modify job offers proposed by managers, and decide whether to approve or reject them, with automatic publication upon approval.
+    \item Monitor recruitment activity through dashboards and reports.
+\end{itemize}
+
+\paragraph*{Manager}
+
+The Manager is an authenticated internal user who participates in the recruitment decision-making process within a specific department. The platform may involve multiple managers, each responsible for evaluating candidates and proposing recruitment needs related to their organizational unit. The functional requirements associated with this actor include:
+
+\begin{itemize}[label={-}]
+    \item Access the secured management interface.
+    \item Consult the applications forwarded by the HR department.
+    \item Review candidate profiles and evaluation results.
+    \item Validate or reject candidate applications.
+    \item Participate in interview follow-up.
+    \item Manage personal notifications and profile information.
+    \item Propose a new job offer by submitting a dedicated request form when a position becomes vacant or requires reinforcement.
+    \item Submit the proposed job offer to the Human Resources Officer for review and validation.
+\end{itemize}
+
+\subsection{Non-Functional Requirements}
+
+Beyond the functionalities described above, the recruitment portal must meet a set of quality requirements that determine its acceptance by end users (candidates, HR officers, managers) and the platform's long-term sustainability. These requirements are formulated as observable constraints rather than implementation choices.
+
+\paragraph*{Security and Confidentiality}
+\begin{itemize}[label={-}]
+    \item Users must be logged in to access protected parts of the system.
+    \item Users can only perform actions allowed by their role (Candidate, HR, or Manager).
+    \item Passwords and sensitive personal data (such as CVs and contact details) must be stored securely.
+    \item A candidate account is activated only after the email address is confirmed within a limited time.
+    \item All communication between front-end, back-end, and AI service must be secure.
+    \item The platform must respect data-protection rules, including user consent, access to personal data, and controlled storage of CVs.
+\end{itemize}
+
+\paragraph*{Performance and Responsiveness}
+\begin{itemize}[label={-}]
+    \item The main pages (dashboards, application lists, calendars) should remain smooth and responsive, with loading times under 2 seconds under normal use.
+    \item CV analysis and scoring should be completed quickly, with a target processing time of less than 10 seconds per application.
+    \item AI processing should run in the background so that candidates can submit their applications without waiting.
+\end{itemize}
+
+\paragraph*{Reliability and Availability}
+\begin{itemize}[label={-}]
+    \item The platform should be available at least 99\% of the time during business hours.
+    \item If the AI service is temporarily unavailable, applications must still be saved, and scoring can be recalculated later.
+    \item The recruitment process must remain consistent, and important errors must be recorded instead of being ignored.
+\end{itemize}
+
+\paragraph*{Usability and Ergonomics}
+\begin{itemize}[label={-}]
+    \item The interface should have a modern and professional design, and each screen should follow the natural way users work.
+    \item Every action performed by a user should immediately show visual feedback, and the system status should be displayed consistently across the application.
+    \item The application process should guide candidates step by step and include a clear GDPR consent step.
+\end{itemize}
+
+\paragraph*{Compatibility and Accessibility}
+\begin{itemize}[label={-}]
+    \item The platform should be accessible through major web browsers (Chrome, Edge, Firefox, Safari) without requiring any installation.
+    \item The interface should work well on desktop, laptop, and tablet screens, use consistent language, and allow adding other languages in the future.
+\end{itemize}
+
+\paragraph*{Scalability}
+\begin{itemize}[label={-}]
+    \item The platform should support a growing number of users, job offers, and applications without noticeable slowdowns, and its main features should remain independent.
+\end{itemize}
+
+\paragraph*{Maintainability and Evolvability}
+\begin{itemize}[label={-}]
+    \item The source code should be well-organized into clear modules and documented so that a new developer can easily understand and maintain the project.
+    \item Configuration settings (database, AI service, email server, security keys) should be kept separate from the code so the application can run in different environments.
+    \item HR users should be able to adjust the recruitment workflow and scoring criteria without needing a new software update.
+\end{itemize}
+
+\paragraph*{Portability and Deployment}
+\begin{itemize}[label={-}]
+    \item The platform's components should be deployable separately, for example, on cloud or container-based systems, without changing the application logic.
+\end{itemize}
+
+\section{Project Management Using SCRUM}
+
+To manage and develop the intelligent recruitment platform, the Agile SCRUM approach was adopted. SCRUM is highly suitable for this project because of its iterative nature and flexibility in handling evolving requirements. This approach allows continuous improvement of the product while ensuring regular delivery of functional increments.
+
+The SCRUM methodology is based on the following principles:
+
+\begin{itemize}[label={-}]
+    \item Continuous collaboration between team members and stakeholders to ensure a shared understanding of project objectives.
+    \item Regular ceremonies such as Sprint Planning, Daily Meetings, Sprint Reviews, and Sprint Retrospectives, which help structure the work and monitor progress.
+    \item Iterative development through sprints, which are short development cycles with clearly defined objectives.
+    \item Constant monitoring of project progress, enabling early detection of issues and gradual delivery of a stable and high-quality product.
+\end{itemize}
+
+This approach allowed the team to prioritize essential functionalities, integrate feedback progressively, and adapt the platform to real user needs throughout the development process.
+
+\subsection{Team and Roles}
+
+\paragraph*{The Product Owner (PO)}
+
+The Product Owner is responsible for defining the functional requirements of the project and ensuring that the product delivers value to its users. The Product Owner's responsibilities include:
+
+\begin{itemize}[label={-}]
+    \item Defining and prioritizing project needs based on user expectations and business objectives.
+    \item Managing and maintaining the product backlog.
+    \item Validating completed functionalities at the end of each sprint.
+    \item Collaborating closely with stakeholders to ensure their requirements are properly understood and implemented.
+\end{itemize}
+
+In this project, the Product Owner role was fulfilled by Mr.\ Ramzi Ben Chamekh, Manager at Sopra HR Software.
+
+\paragraph*{SCRUM Master (SM)}
+
+The Scrum Master ensures that SCRUM principles and practices are properly applied throughout the project. This role focuses on facilitating collaboration within the team and supporting the development process by removing obstacles. The Scrum Master's responsibilities include:
+
+\begin{itemize}[label={-}]
+    \item Ensuring correct application of the SCRUM framework.
+    \item Facilitating communication between team members.
+    \item Assisting the team in resolving impediments.
+    \item Coordinating SCRUM ceremonies and supporting sprint execution.
+\end{itemize}
+
+In this project, the Scrum Master role was assumed by Ms.\ Nada Bouhlel, the project supervisor.
+
+\paragraph*{Development Team}
+
+The Development Team is responsible for the concrete implementation of the intelligent recruitment platform. Team members collaborate actively during each sprint to design, develop, and test the system's functionalities. The responsibilities of the development team include:
+
+\begin{itemize}[label={-}]
+    \item Designing and implementing platform features.
+    \item Participating in sprint planning, daily meetings, and reviews.
+    \item Delivering functional increments at the end of each sprint.
+\end{itemize}
+
+In this project, the development team consists of Mayssem ESSMAII and Bechir JABLI.
+
+\subsection{Product Backlog}
+
+The product backlog constitutes the ordered list of all features and requirements to be implemented in the intelligent recruitment portal. Each item is expressed as a user story and is assigned a priority level and a complexity estimate using story points. The backlog is organized into thirteen functional epics covering all major system capabilities.
+
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.3}
+\begin{singlespace}
+\small
+\begin{longtable}{|>{\centering\arraybackslash}p{1.8cm}|>{\centering\arraybackslash}p{2.2cm}|>{\centering\arraybackslash}p{1.8cm}|p{5.3cm}|>{\centering\arraybackslash}p{1.4cm}|>{\centering\arraybackslash}p{2.0cm}|}
+
+\hline
+\textbf{Epic} & \textbf{Actor} & \textbf{ID} & \multicolumn{1}{c|}{\textbf{User Story}} & \textbf{Priority} & \textbf{Complexity} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{Epic} & \textbf{Actor} & \textbf{ID} & \multicolumn{1}{c|}{\textbf{User Story}} & \textbf{Priority} & \textbf{Complexity} \\
+\hline
+\endhead
+
+\hline
+\endfoot
+
+\endlastfoot
+
+% ---- Epic 1 ----
+\multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 1}\par\smallskip Authentication \& Registration}}
+& Visitor & US-AUTH-01
+& As a visitor, I want to create an account with my first name, last name, email and password, so that I can access the platform as a candidate.
+& High & 3 \\
+\cline{2-6}
+& Candidate & US-AUTH-02
+& As a candidate, I want to receive an activation email and verify my account by clicking the link, so that my identity is confirmed before I can sign in for the first time.
+& High & 2 \\
+\cline{2-6}
+& \footnotesize Candidate / Admin RH / Manager & US-AUTH-03
+& As an authenticated user, I want to sign in with my email and password, so that I can access the functionalities corresponding to my role.
+& High & 2 \\
+\cline{2-6}
+& \footnotesize Candidate / Admin RH / Manager & US-AUTH-04
+& As an authenticated user, I want to sign out of the platform, so that my session is closed securely.
+& High & 1 \\
+\hline
+
+% ---- Epic 2 ----
+\multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 2}\par\smallskip User Management}}
+& Admin RH & US-USR-01
+& As an Admin RH, I want to create user accounts (Candidate, Manager, Admin RH) directly as active, so that new members can access the platform immediately without going through email verification.
+& High & 2 \\
+\cline{2-6}
+& Admin RH & US-USR-02
+& As an Admin RH, I want to list and update user information, so that user records remain accurate and up to date.
+& High & 2 \\
+\cline{2-6}
+& Admin RH & US-USR-03
+& As an Admin RH, I want to assign or change a user's role, so that each user accesses only the functionalities relevant to their responsibility.
+& High & 3 \\
+\hline
+
+% ---- Epic 3 ----
+\multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 3}\par\smallskip User Profile}}
+& \footnotesize Candidate / Admin RH / Manager & US-PROF-01
+& As an authenticated user, I want to view and update my personal profile (phone number, address, profile picture), so that my information remains accurate and my identity is recognisable on the platform.
+& Medium & 3 \\
+\hline
+
+% ---- Epic 4 ----
+\multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 4}\par\smallskip Job Offer Management}}
+& Admin RH & US-OFF-01
+& As an Admin RH, I want to create, update, change the status (draft, published, archived) and delete job offers, so that the list of available positions is always accurate and up to date.
+& High & 5 \\
+\cline{2-6}
+& Admin RH & US-OFF-02
+& As an Admin RH, I want to consult all offers regardless of their status, so that I have a complete and permanent view of the recruitment pipeline.
+& High & 2 \\
+\cline{2-6}
+& \footnotesize Visitor / Candidate & US-OFF-03
+& As a visitor or candidate, I want to browse published job offers and filter them by keyword, experience level, education level and contract type, so that I can quickly identify relevant opportunities.
+& High & 3 \\
+\hline
+
+% ---- Epic 5 ----
+\multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 5}\par\smallskip Application Management}}
+& Candidate & US-CAND-01
+& As a candidate, I want to apply to a job offer by submitting my CV, a cover letter and my GDPR consent through a guided wizard, so that my application is formally and completely registered in the system.
+& High & 5 \\
+\cline{2-6}
+& Candidate & US-CAND-02
+& As a candidate, I want to consult the list and the details of my applications with their current status, so that I am always informed about the progress of my candidacy.
+& High & 2 \\
+\cline{2-6}
+& Admin RH & US-CAND-03
+& As an Admin RH, I want to consult, filter and sort all received applications by status, score or date, so that I can efficiently manage the recruitment pipeline.
+& High & 3 \\
+\cline{2-6}
+& Admin RH & US-CAND-04
+& As an Admin RH, I want to process an application by placing it under evaluation, forwarding it to a chosen manager, or rejecting it, so that only qualified profiles progress in the recruitment workflow.
+& High & 3 \\
+\cline{2-6}
+& Manager & US-CAND-05
+& As a Manager, I want to consult the applications forwarded to me and validate or reject them, so that I exercise my responsibility in the final selection of candidates.
+& High & 3 \\
+\cline{2-6}
+& \footnotesize Admin RH / Manager & US-CAND-06
+& As an Admin RH or Manager, I want to download the original CV file of a candidate, so that I can review the source document directly.
+& High & 2 \\
+\hline
+
+% ---- Epic 6 ----
+\multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 6}\par\smallskip CV \& AI Analysis}}
+& Admin RH & US-CV-01
+& As an Admin RH, I want to consult the structured data automatically extracted from a candidate's CV (skills, experiences, education, languages, certifications, soft skills), so that I can review the candidate's profile without manually reading the raw document.
+& High & 5 \\
+\hline
+
+% ---- Epic 7 ----
+\multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 7}\par\smallskip AI Scoring}}
+& Admin RH & US-SCORE-01
+& As an Admin RH, I want to define, update and delete weighted scoring criteria (skills, experience, education, languages, certifications) per job offer, so that candidates are evaluated objectively against the specific requirements of each position.
+& High & 5 \\
+\cline{2-6}
+& Admin RH & US-SCORE-02
+& As an Admin RH, I want to consult the AI matching score and its breakdown per criterion for each application, so that I can make objective and informed selection decisions.
+& High & 3 \\
+\cline{2-6}
+& Admin RH & US-SCORE-03
+& As an Admin RH, I want to sort applications by descending score and manually trigger a score recalculation when needed, so that the candidate ranking always reflects the latest criteria.
+& Medium & 2 \\
+\hline
+
+% ---- Epic 8 ----
+\multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 8}\par\smallskip Interviews \& Calendar}}
+& Admin RH & US-ENT-01
+& As an Admin RH, I want to schedule an interview for a validated application by specifying the date, location and format (in-person, video or phone), so that the recruitment process advances in a structured and traceable manner.
+& High & 5 \\
+\cline{2-6}
+& Admin RH & US-ENT-02
+& As an Admin RH, I want to confirm or cancel a planned interview, so that the calendar remains accurate and all parties are informed.
+& Medium & 2 \\
+\cline{2-6}
+& \footnotesize Admin RH / Manager & US-ENT-03
+& As an Admin RH or Manager, I want to consult the interview calendar relevant to my role, so that scheduling conflicts are avoided and workload is managed effectively.
+& High & 3 \\
+\cline{2-6}
+& Candidate & US-ENT-04
+& As a candidate, I want to consult my upcoming interviews with their date, location and format, so that I can prepare accordingly.
+& High & 2 \\
+\hline
+
+% ---- Epic 9 ----
+\multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 9}\par\smallskip Evaluations}}
+& Admin RH & US-EVAL-01
+& As an Admin RH, I want to evaluate an application with a structured comment and decision (to follow up, to review, to reject), so that my assessment is formally recorded and traceable.
+& High & 3 \\
+\cline{2-6}
+& Manager & US-EVAL-02
+& As a Manager, I want to evaluate a forwarded application with a comment and a decision, so that my validation is documented and directly influences the status of the application.
+& High & 3 \\
+\cline{2-6}
+& \footnotesize Admin RH / Manager & US-EVAL-03
+& As an Admin RH or Manager, I want to consult the full evaluation history of an application, so that all assessments are visible and the decision trail is traceable.
+& Medium & 2 \\
+\hline
+
+% ---- Epic 10 ----
+\multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 10}\par\smallskip Offer Recommendation}}
+& Manager & US-REC-01
+& As a Manager, I want to draft and submit a job offer recommendation to the Admin RH when a position becomes available, so that recruitment needs are formalised and communicated promptly.
+& Medium & 3 \\
+\cline{2-6}
+& Admin RH & US-REC-02
+& As an Admin RH, I want to consult, edit, accept or reject an offer recommended by a Manager, so that I retain full control over the offers published on the platform.
+& Medium & 3 \\
+\hline
+
+% ---- Epic 11 ----
+\multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 11}\par\smallskip Notifications}}
+& \footnotesize Candidate / Admin RH / Manager & US-NOTIF-01
+& As an authenticated user, I want to receive notifications for key recruitment events (application submitted, status changed, interview scheduled, account activated) and mark them as read individually or all at once, so that I remain informed without having to check the platform manually.
+& High & 3 \\
+\hline
+
+% ---- Epic 12 ----
+\multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 12}\par\smallskip Dashboard \& Statistics}}
+& Admin RH & US-DASH-01
+& As an Admin RH, I want to consult a recruitment dashboard displaying key indicators (total applications, published offers, selection rate, average score, status distribution), so that I can monitor and steer recruitment activity in real time.
+& High & 5 \\
+\cline{2-6}
+& Admin RH & US-DASH-02
+& As an Admin RH, I want to consult detailed statistics (applications per month, top offers, average recruitment time) and export a statistical report, so that I can analyse recruitment performance and share results with management.
+& Medium & 5 \\
+\hline
+
+% ---- Epic 13 ----
+\multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 13}\par\smallskip Public Site}}
+& Visitor & US-PUB-01
+& As a visitor, I want to browse the landing page and institutional pages (About us, Our professions, Our sectors, Why choose us, Culture and presence), so that I can learn about Sopra HR Software and its opportunities before registering.
+& Medium & 3 \\
+\hline
+
+\caption{Product Backlog --- Intelligent Recruitment Portal (Sopra HR)}\label{tab:backlog}
+\end{longtable}
+\end{singlespace}
+\normalsize
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1}

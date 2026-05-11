@@ -1,0 +1,17 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/c:\\Users\\messmaii\\OneDrive - Sopra Steria\\Bureau\\rapport-v1\\chapitre\\05-Chapter1.aux": true,
+        "**/c:\\Users\\messmaii\\OneDrive - Sopra Steria\\Bureau\\rapport-v1\\chapitre\\05-Chapter1.log": true,
+        "**/c:\\Users\\messmaii\\OneDrive - Sopra Steria\\Bureau\\rapport-v1\\chapitre\\05-Chapter1.gz": true,
+        "**/c:\\Users\\messmaii\\OneDrive - Sopra Steria\\Bureau\\rapport-v1\\chapitre\\05-Chapter1.out": true,
+        "**/c:\\Users\\messmaii\\OneDrive - Sopra Steria\\Bureau\\rapport-v1\\chapitre\\06-Chapter2.aux": true,
+        "**/c:\\Users\\messmaii\\OneDrive - Sopra Steria\\Bureau\\rapport-v1\\chapitre\\06-Chapter2.log": true,
+        "**/c:\\Users\\messmaii\\OneDrive - Sopra Steria\\Bureau\\rapport-v1\\chapitre\\06-Chapter2.gz": true,
+        "**/c:\\Users\\messmaii\\OneDrive - Sopra Steria\\Bureau\\rapport-v1\\chapitre\\06-Chapter2.out": true
+    }
+}

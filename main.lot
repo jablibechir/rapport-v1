@@ -1,2 +1,8 @@
 \babel@toc {french}{}\relax 
-\thispagestyle {MyStyle}
+\addvspace {10\p@ }
+\contentsline {xchapter}{GENERAL PROJECT CONTEXT}{3}{chapter.1}%
+\contentsline {table}{\numberline {1.1}{\ignorespaces Table 1.1: Comparative Overview of Recruitment Solutions}}{6}{table.caption.7}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{REQUIREMENTS ANALYSIS AND SPECIFICATION}{9}{chapter.2}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Identification of System Actors}}{11}{table.caption.9}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Product Backlog --- Intelligent Recruitment Portal (Sopra HR)}}{21}{table.2.2}%

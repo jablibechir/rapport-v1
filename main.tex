@@ -16,11 +16,39 @@
   pdfsubject={\reportSubject},%
   pdfkeywords={report} {internship} {pfe} {recruitment} {portal}
 }
-\dominitoc
+
 \begin{document}
-  \doublespacing{}% Double spacing between lines
-    \pagenumbering{arabic} % 1 2 3 4 ...
-    \setcounter{page}{1}
+
+  % ===== FRONT MATTER — roman page numbering =====
+  \pagenumbering{roman}
+  \setcounter{page}{1}
+
+  \dominitoc
+  \setcounter{tocdepth}{3}
+
+  \renewcommand{\contentsname}{TABLE OF CONTENTS}
+  \titlespacing*{\chapter}{0pt}{-1.8cm}{50pt}
+  \tableofcontents
+  \titlespacing*{\chapter}{0pt}{0pt}{50pt}
+  \clearpage
+
+  \listoffigures
+  \clearpage
+
+  \listoftables
+  \clearpage
+
+  % ===== MAIN MATTER — arabic page numbering =====
+  \pagenumbering{arabic}
+  \setcounter{page}{1}
+  \onehalfspacing{}
+
   \input{chapitre/04-GeneralIntroduction}
+  \clearpage
+
   \input{chapitre/05-Chapter1}
+
+  \clearpage
+  \input{chapitre/06-Chapter2}
+
 \end{document}

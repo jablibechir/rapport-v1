@@ -25,6 +25,10 @@
 \usepackage[french]{varioref}
 \usepackage{acronym}
 \usepackage[french]{minitoc}
+\mtcsettitle{minitoc}{Plan}
+\setcounter{minitocdepth}{2}
+\mtcsetrules{minitoc}{on}
+\mtcsetoffset{minitoc}{0em}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -41,6 +45,7 @@
 \usepackage{minted}
 \usepackage{color}
 \usepackage{tabularx}
+\usepackage{longtable}
 \usepackage{ctable}
 \usepackage{graphicx}
 \usepackage{multirow}
@@ -50,6 +55,7 @@
 %\usepackage{lipsum}
 %\usepackage{todonotes}
 \usepackage{wrapfig}
+\usepackage{float}
 \usepackage{setspace}
 \usepackage[all]{nowidow}
 \usepackage{acronym}
@@ -111,14 +117,14 @@
  \newlength\Aux
   % chapter tiltes formatting
   \titleformat{\chapter}[display]%
-    {\fontsize{26}{6}\bfseries\selectfont%
+    {\fontsize{22}{26}\bfseries\selectfont%
       \settowidth\Aux{\textcolor{white}{\Huge\thechapter}}%
       \ifnum\Aux>\BoxWd%
         \setlength\BoxWd{\Aux}%
       \else\fi%
     }%
     {%
-      {\hspace*{-1.5mm}\normalfont\fontsize{14}{6}\selectfont{Chapitre}}\\%
+      {\hspace*{-1.5mm}\normalfont\fontsize{14}{6}\selectfont{Chapter}}\\%
       \colorbox{black}{%
         \parbox[c][20mm][t]{\BoxWd}{%
           \vspace{2.5mm}\centering\textcolor{white}{\Huge\thechapter}%
@@ -127,12 +133,12 @@
     }%
     {-10mm}%
     {%
-      \vspace{-5mm}\hspace*{15mm}\titlerule\\\\\hspace*{15mm}#1%
+      \vspace{-5mm}\hspace*{15mm}\titlerule\\[3pt]\hspace*{15mm}#1%
     } %\centering
 
   % chapter tiltes formatting
   \titleformat{name=\chapter, numberless}[display]%
-    {\fontsize{26}{6}\bfseries\selectfont%
+    {\fontsize{22}{26}\bfseries\selectfont%
       \settowidth\Aux{\textcolor{white}{\Huge\thechapter}}%
       \ifnum\Aux>\BoxWd%
         \setlength\BoxWd{\Aux}%
@@ -148,7 +154,7 @@
     }%
     {-10mm}%
     {%
-      \vspace{-5mm}\hspace*{15mm}\titlerule\\\\\hspace*{15mm}#1%
+      \vspace{-5mm}\hspace*{15mm}\titlerule\\[3pt]\hspace*{15mm}#1%
     } %\centering
 
 % chapter tiltes spacing
@@ -157,6 +163,17 @@
 \titleformat{\section}[block]%
   {\Large\bfseries}{\thesection}%
   {10pt}{\Large{\bfseries{#1}}}
+\titlespacing*{\section}{0pt}{18pt}{8pt}
+
+\titleformat{\subsection}[block]%
+  {\large\bfseries}{\thesubsection}%
+  {10pt}{\large{\bfseries{#1}}}
+\titlespacing*{\subsection}{0pt}{14pt}{6pt}
+
+\titleformat{\subsubsection}[block]%
+  {\normalsize\bfseries}{\thesubsubsection}%
+  {10pt}{\normalsize{\bfseries{#1}}}
+\titlespacing*{\subsubsection}{0pt}{10pt}{4pt}
 
 \titleformat{\paragraph}[block]%
   {\normalfont\normalsize\bfseries}%
@@ -170,10 +187,13 @@
 
 % \captionsetup[figure]{name={Figure}}
 \captionsetup{labelfont=bf,font={singlespacing},justification=RaggedRight,font=small,textfont=sc, textfont=bf }
-%\counterwithin{{figure}{chapter}
-%\renewcommand{\figurename}{Figure}
-%\counterwithin{table}{chapter}
-%\renewcommand{\tablename}{Table}
+\counterwithin{figure}{chapter}
+\counterwithin{table}{chapter}
+\addto\captionsfrench{\renewcommand{\figurename}{Figure}}
+\addto\captionsfrench{\renewcommand{\tablename}{Table}}
+\addto\captionsfrench{\renewcommand{\chaptername}{Chapter}}
+\addto\captionsfrench{\renewcommand{\listfigurename}{LIST OF FIGURES}}
+\addto\captionsfrench{\renewcommand{\listtablename}{LIST OF TABLES}}
 
 
 %%%%%%%%%%%% My style begin :p%%%%%%%%%%%%
@@ -252,9 +272,9 @@
 \setlength{\parskip}{1ex} % Spacing between paragraphs
 \setlist[enumerate]{itemsep=-0.35\baselineskip} % Spacing in enumerates
 
-% Remove hyphens
-\hyphenpenalty=10000
-\exhyphenpenalty=10000
+% Allow hyphenation to prevent overfull hbox warnings
+\hyphenpenalty=500
+\exhyphenpenalty=500
 
 % Remove widow lines
 %\clubpenalty=10000

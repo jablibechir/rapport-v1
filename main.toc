@@ -1,6 +1,25 @@
 \babel@toc {french}{}\relax 
-\thispagestyle {MyStyle}
-\contentsline {chapter}{LIST OF FIGURES}{ii}{chapter*.2}%
-\contentsline {chapter}{LIST OF TABLES}{iii}{chapter*.3}%
-\contentsline {chapter}{GENERAL INTRODUCTION}{iv}{chapter*.4}%
-\contentsline {section}{Technology Environment}{1}{section*.5}%
+\contentsline {chapter}{GENERAL INTRODUCTION}{1}{chapter*.4}%
+\contentsline {chapter}{\numberline {1}GENERAL PROJECT CONTEXT}{3}{chapter.1}%
+\contentsline {section}{Introduction}{4}{section*.5}%
+\contentsline {section}{\numberline {1.1}Presentation of the Host Organization}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Project Study}{4}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Project Context}{4}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Analysis of the Existing System}{5}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Comparative Study of Existing Recruitment Solutions}{5}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Proposed Solution}{7}{subsection.1.2.4}%
+\contentsline {section}{\numberline {1.3}Working Methodology Choice}{7}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Agile Method}{7}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}SCRUM Methodology}{8}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}SCRUM Actors}{8}{subsection.1.3.3}%
+\contentsline {chapter}{\numberline {2}REQUIREMENTS ANALYSIS AND SPECIFICATION}{9}{chapter.2}%
+\contentsline {section}{Introduction}{10}{section*.8}%
+\contentsline {section}{\numberline {2.1}Requirements Elicitation}{10}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Requirements Specifications}{10}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Identification of Actors}{10}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Functional and Non-Functional Requirements}{11}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Functional Requirements}{11}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Non-Functional Requirements}{13}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Project Management Using SCRUM}{15}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Team and Roles}{15}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Product Backlog}{16}{subsection.2.3.2}%
