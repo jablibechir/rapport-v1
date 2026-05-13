@@ -23,3 +23,16 @@
 \contentsline {section}{\numberline {2.3}Project Management Using SCRUM}{15}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Team and Roles}{15}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Product Backlog}{16}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Sprint Planning}{21}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Release Planning}{23}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Requirements Modeling}{23}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Global Use Case Diagram}{23}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.5}Working Environment}{25}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Hardware Environment}{25}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Software Environment}{25}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Development Tools}{26}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Technologies Used}{27}{subsection.2.5.4}%
+\contentsline {section}{\numberline {2.6}Proposed Architecture}{30}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Physical Architecture}{30}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Logical Architecture}{31}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Data Flow Description}{32}{subsection.2.6.3}%
