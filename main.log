@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.30)  14 MAY 2026 12:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.30)  15 MAY 2026 14:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1161,191 +1161,125 @@ Overfull \hbox (8.22421pt too wide) in paragraph at lines 260--260
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 270--271
-\T1/ptm/m/n/10.95 to sign in with my email and
+Underfull \hbox (badness 2573) in paragraph at lines 296--297
+\T1/ptm/m/n/10.95 photo) so that my in-for-ma-tion
  []
 
 
-Underfull \hbox (badness 1478) in paragraph at lines 270--271
-\T1/ptm/m/n/10.95 pass-word, so that I can ac-cess
+Underfull \hbox (badness 1616) in paragraph at lines 383--384
+\T1/ptm/m/n/10.95 so that I can avoid sche-du-ling
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 296--297
-\T1/ptm/m/n/10.95 pro-file (phone num-ber, ad-dress,
+Underfull \hbox (badness 2245) in paragraph at lines 387--388
+\T1/ptm/m/n/10.95 up-co-ming in-ter-views with their
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 296--297
-\T1/ptm/m/n/10.95 pro-file pic-ture), so that my in-
+Underfull \hbox (badness 1221) in paragraph at lines 394--395
+[]|\T1/ptm/m/n/10.95 As an RH or ma-na-ger, I want
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 296--297
-\T1/ptm/m/n/10.95 for-ma-tion re-mains ac-cu-rate and
+Underfull \hbox (badness 1102) in paragraph at lines 427--428
+\T1/ptm/m/n/10.95 top of-fers, ave-rage time-to-hire)
  []
 
-
-Underfull \hbox (badness 2865) in paragraph at lines 326--327
-[]|\T1/ptm/m/n/10.95 As an Ad-min RH, I want to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
-\T1/ptm/m/n/10.95 (skills, ex-pe-riences, edu-ca-tion,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
-\T1/ptm/m/n/10.95 lan-guages, cer-ti-fi-ca-tions, soft
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
-\T1/ptm/m/n/10.95 can-di-da-te's pro-file wi-thout
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
-\T1/ptm/m/n/10.95 ma-nually rea-ding the raw
- []
-
-
-Underfull \hbox (badness 2460) in paragraph at lines 352--353
-\T1/ptm/m/n/10.95 fine, up-date and de-lete weigh-
- []
-
-
-Underfull \hbox (badness 1960) in paragraph at lines 356--357
-\T1/ptm/m/n/10.95 the AI mat-ching score and its
- []
-
-
-Underfull \hbox (badness 2865) in paragraph at lines 371--372
-[]|\T1/ptm/m/n/10.95 As an Ad-min RH, I want to
- []
-
-
-Underfull \hbox (badness 6658) in paragraph at lines 379--380
-\T1/ptm/m/n/10.95 my up-co-ming in-ter-views with
- []
-
-
-Underfull \hbox (badness 2865) in paragraph at lines 405--406
-[]|\T1/ptm/m/n/10.95 As an Ad-min RH, I want to
- []
-
-
-Underfull \hbox (badness 2865) in paragraph at lines 419--420
-[]|\T1/ptm/m/n/10.95 As an Ad-min RH, I want to
- []
-
-
-Underfull \hbox (badness 1168) in paragraph at lines 430--431
-[]|\T1/ptm/m/n/10.95 As a vi-si-tor, I want to browse
- []
-
-
-Underfull \hbox (badness 1082) in paragraph at lines 430--431
-\T1/ptm/m/n/10.95 the lan-ding page and ins-ti-tu-tio-
- []
-
-chapitre/06-Chapter2.tex:435: ignored error: Infinite glue shrinkage found in box being split [17]
-chapitre/06-Chapter2.tex:435: ignored error: Infinite glue shrinkage found in box being split [18]
-chapitre/06-Chapter2.tex:435: ignored error: Infinite glue shrinkage found in box being split [19]
-chapitre/06-Chapter2.tex:435: ignored error: Infinite glue shrinkage found in box being split [20] [21] [22]
-<images/Windows-11-Icon.jpg, id=368, 602.25pt x 602.25pt>
+chapitre/06-Chapter2.tex:443: ignored error: Infinite glue shrinkage found in box being split [17]
+chapitre/06-Chapter2.tex:443: ignored error: Infinite glue shrinkage found in box being split [18]
+chapitre/06-Chapter2.tex:443: ignored error: Infinite glue shrinkage found in box being split [19] [20] [21]
+<images/Windows-11-Icon.jpg, id=364, 602.25pt x 602.25pt>
 File: images/Windows-11-Icon.jpg Graphic file (type jpg)
 <use images/Windows-11-Icon.jpg>
-Package pdftex.def Info: images/Windows-11-Icon.jpg  used on input line 509.
+Package pdftex.def Info: images/Windows-11-Icon.jpg  used on input line 517.
 (pdftex.def)             Requested size: 113.81102pt x 113.80379pt.
-<images/vscode_logo.png, id=369, 215.00325pt x 152.36925pt>
+<images/vscode_logo.png, id=365, 215.00325pt x 152.36925pt>
 File: images/vscode_logo.png Graphic file (type png)
 <use images/vscode_logo.png>
-Package pdftex.def Info: images/vscode_logo.png  used on input line 519.
+Package pdftex.def Info: images/vscode_logo.png  used on input line 527.
 (pdftex.def)             Requested size: 113.81102pt x 80.65533pt.
- [23 <./images/Windows-11-Icon.jpg>]
-<images/IntelliJ_logo.png, id=374, 215.00325pt x 158.39175pt>
+ [22 <./images/Windows-11-Icon.jpg>]
+<images/IntelliJ_logo.png, id=370, 215.00325pt x 158.39175pt>
 File: images/IntelliJ_logo.png Graphic file (type png)
 <use images/IntelliJ_logo.png>
-Package pdftex.def Info: images/IntelliJ_logo.png  used on input line 529.
+Package pdftex.def Info: images/IntelliJ_logo.png  used on input line 537.
 (pdftex.def)             Requested size: 113.81102pt x 83.84329pt.
-<images/overleaf_logo.jpg, id=375, 451.6875pt x 175.65625pt>
+<images/overleaf_logo.jpg, id=371, 451.6875pt x 175.65625pt>
 File: images/overleaf_logo.jpg Graphic file (type jpg)
 <use images/overleaf_logo.jpg>
-Package pdftex.def Info: images/overleaf_logo.jpg  used on input line 539.
+Package pdftex.def Info: images/overleaf_logo.jpg  used on input line 547.
 (pdftex.def)             Requested size: 113.81102pt x 44.2597pt.
-<images/git_logo.png, id=376, 3854.4pt x 3854.4pt>
+<images/git_logo.png, id=372, 3854.4pt x 3854.4pt>
 File: images/git_logo.png Graphic file (type png)
 <use images/git_logo.png>
-Package pdftex.def Info: images/git_logo.png  used on input line 549.
+Package pdftex.def Info: images/git_logo.png  used on input line 557.
 (pdftex.def)             Requested size: 113.81102pt x 113.80379pt.
- [24 <./images/vscode_logo.png> <./images/IntelliJ_logo.png> <./images/overleaf_logo.jpg>]
-<images/startuml_logo.png, id=383, 204.765pt x 181.8795pt>
+ [23 <./images/vscode_logo.png> <./images/IntelliJ_logo.png> <./images/overleaf_logo.jpg>]
+<images/startuml_logo.png, id=379, 204.765pt x 181.8795pt>
 File: images/startuml_logo.png Graphic file (type png)
 <use images/startuml_logo.png>
-Package pdftex.def Info: images/startuml_logo.png  used on input line 559.
+Package pdftex.def Info: images/startuml_logo.png  used on input line 567.
 (pdftex.def)             Requested size: 113.81102pt x 101.09416pt.
-<images/swagger_logo.png, id=384, 225.84375pt x 225.84375pt>
+<images/swagger_logo.png, id=380, 225.84375pt x 225.84375pt>
 File: images/swagger_logo.png Graphic file (type png)
 <use images/swagger_logo.png>
-Package pdftex.def Info: images/swagger_logo.png  used on input line 569.
+Package pdftex.def Info: images/swagger_logo.png  used on input line 577.
 (pdftex.def)             Requested size: 113.81102pt x 113.81412pt.
- [25 <./images/git_logo.png> <./images/startuml_logo.png> <./images/swagger_logo.png>]
-<images/react_logo.png, id=392, 172.84575pt x 183.68625pt>
+ [24 <./images/git_logo.png> <./images/startuml_logo.png> <./images/swagger_logo.png>]
+<images/react_logo.png, id=388, 172.84575pt x 183.68625pt>
 File: images/react_logo.png Graphic file (type png)
 <use images/react_logo.png>
-Package pdftex.def Info: images/react_logo.png  used on input line 579.
+Package pdftex.def Info: images/react_logo.png  used on input line 587.
 (pdftex.def)             Requested size: 113.81102pt x 120.94739pt.
-<images/javascript_logo.png, id=393, 983.675pt x 983.675pt>
+<images/javascript_logo.png, id=389, 983.675pt x 983.675pt>
 File: images/javascript_logo.png Graphic file (type png)
 <use images/javascript_logo.png>
-Package pdftex.def Info: images/javascript_logo.png  used on input line 589.
+Package pdftex.def Info: images/javascript_logo.png  used on input line 597.
 (pdftex.def)             Requested size: 113.81102pt x 113.80318pt.
-<images/css3_logo.png, id=394, 963.6pt x 963.6pt>
+<images/css3_logo.png, id=390, 963.6pt x 963.6pt>
 File: images/css3_logo.png Graphic file (type png)
 <use images/css3_logo.png>
-Package pdftex.def Info: images/css3_logo.png  used on input line 599.
+Package pdftex.def Info: images/css3_logo.png  used on input line 607.
 (pdftex.def)             Requested size: 100.15425pt x 100.1444pt.
- [26 <./images/react_logo.png> <./images/javascript_logo.png>]
-<images/vite_logo.jpg, id=401, 269.808pt x 269.20575pt>
+ [25 <./images/react_logo.png> <./images/javascript_logo.png>]
+<images/vite_logo.jpg, id=397, 269.808pt x 269.20575pt>
 File: images/vite_logo.jpg Graphic file (type jpg)
 <use images/vite_logo.jpg>
-Package pdftex.def Info: images/vite_logo.jpg  used on input line 609.
+Package pdftex.def Info: images/vite_logo.jpg  used on input line 617.
 (pdftex.def)             Requested size: 113.81102pt x 113.55446pt.
-<images/springboot_logo.png, id=402, 190.91325pt x 156.585pt>
+<images/springboot_logo.png, id=398, 190.91325pt x 156.585pt>
 File: images/springboot_logo.png Graphic file (type png)
 <use images/springboot_logo.png>
-Package pdftex.def Info: images/springboot_logo.png  used on input line 619.
+Package pdftex.def Info: images/springboot_logo.png  used on input line 627.
 (pdftex.def)             Requested size: 113.81102pt x 93.34961pt.
-<images/java_logo.png, id=403, 202.356pt x 149.358pt>
+<images/java_logo.png, id=399, 202.356pt x 149.358pt>
 File: images/java_logo.png Graphic file (type png)
 <use images/java_logo.png>
-Package pdftex.def Info: images/java_logo.png  used on input line 629.
+Package pdftex.def Info: images/java_logo.png  used on input line 637.
 (pdftex.def)             Requested size: 113.81102pt x 84.00453pt.
- [27 <./images/css3_logo.png> <./images/vite_logo.jpg> <./images/springboot_logo.png>]
-<images/python logo.png, id=411, 161.403pt x 174.6525pt>
+ [26 <./images/css3_logo.png> <./images/vite_logo.jpg> <./images/springboot_logo.png>]
+<images/python logo.png, id=406, 161.403pt x 174.6525pt>
 File: images/python logo.png Graphic file (type png)
 <use images/python logo.png>
-Package pdftex.def Info: images/python logo.png  used on input line 639.
+Package pdftex.def Info: images/python logo.png  used on input line 647.
 (pdftex.def)             Requested size: 113.81102pt x 123.15668pt.
-<images/nodejs_logo.png, id=412, 225.84375pt x 225.84375pt>
+<images/nodejs_logo.png, id=407, 225.84375pt x 225.84375pt>
 File: images/nodejs_logo.png Graphic file (type png)
 <use images/nodejs_logo.png>
-Package pdftex.def Info: images/nodejs_logo.png  used on input line 648.
+Package pdftex.def Info: images/nodejs_logo.png  used on input line 656.
 (pdftex.def)             Requested size: 113.81102pt x 113.81412pt.
- [28 <./images/java_logo.png> <./images/python logo.png> <./images/nodejs_logo.png>]
-<images/postgresql_logo.png, id=420, 175.857pt x 169.23225pt>
+ [27 <./images/java_logo.png> <./images/python logo.png> <./images/nodejs_logo.png>]
+<images/postgresql_logo.png, id=416, 175.857pt x 169.23225pt>
 File: images/postgresql_logo.png Graphic file (type png)
 <use images/postgresql_logo.png>
-Package pdftex.def Info: images/postgresql_logo.png  used on input line 658.
+Package pdftex.def Info: images/postgresql_logo.png  used on input line 666.
 (pdftex.def)             Requested size: 113.81102pt x 109.52452pt.
-<images/diagrammes/UseCaseDiagram.png, id=421, 2394.9475pt x 3505.095pt>
+<images/diagrammes/UseCaseDiagram.png, id=417, 2394.9475pt x 3505.095pt>
 File: images/diagrammes/UseCaseDiagram.png Graphic file (type png)
 <use images/diagrammes/UseCaseDiagram.png>
-Package pdftex.def Info: images/diagrammes/UseCaseDiagram.png  used on input line 672.
+Package pdftex.def Info: images/diagrammes/UseCaseDiagram.png  used on input line 680.
 (pdftex.def)             Requested size: 455.24411pt x 666.2424pt.
- [29 <./images/postgresql_logo.png>]) [30 <./images/diagrammes/UseCaseDiagram.png>]
+ [28 <./images/postgresql_logo.png>]) [29 <./images/diagrammes/UseCaseDiagram.png>]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main.maf file.
@@ -1356,8 +1290,8 @@ Package minitoc(hints) Info: I0053
 (minitoc(hints))             please be aware that the minitoc package 
 (minitoc(hints))             facilities can not be used for new types 
 (minitoc(hints))             of floats defined by the float package.
- [31]
-runsystem(latexminted cleantemp  --timestamp 20260514125038 FAD58DE7366495DB4650CFEFAC2FCD61)...disabled (restricted).
+ [30]
+runsystem(latexminted cleantemp  --timestamp 20260515144711 FAD58DE7366495DB4650CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux)
  ***********
@@ -1368,17 +1302,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 713DF83A5371A6F929CB019C9A86DBF0;5692.
  ) 
 Here is how much of TeX's memory you used:
- 37959 strings out of 467871
- 773362 string characters out of 5419344
- 1400446 words of memory out of 5000000
+ 37958 strings out of 467871
+ 773355 string characters out of 5419344
+ 1398446 words of memory out of 5000000
  66099 multiletter control sequences out of 15000+600000
  683004 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,13n,122p,857b,811s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\MSI\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\MSI\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\MSI\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><C:/Users/MSI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/MSI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (35 pages, 1342834 bytes).
+Output written on main.pdf (34 pages, 1340690 bytes).
 PDF statistics:
- 581 PDF objects out of 1000 (max. 8388607)
- 94 named destinations out of 1000 (max. 500000)
+ 576 PDF objects out of 1000 (max. 8388607)
+ 93 named destinations out of 1000 (max. 500000)
  367 words of extra memory for PDF output out of 10000 (max. 10000000)
 

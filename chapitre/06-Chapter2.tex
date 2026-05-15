@@ -231,23 +231,23 @@ In this project, the development team consists of Mayssem ESSMAII and Bechir JAB
 
 \subsection{Product Backlog}
 
-The product backlog constitutes the ordered list of all features and requirements to be implemented in the intelligent recruitment portal. Each item is expressed as a user story and is assigned a priority level and a complexity estimate using story points. The backlog is organized into thirteen functional epics covering all major system capabilities.
+The product backlog constitutes the ordered list of all features and requirements to be implemented in the intelligent recruitment portal. Each item is expressed as a user story and is assigned a priority level and a story point estimate. The backlog is organized into thirteen functional epics covering all major system capabilities.
 
 \setlength{\tabcolsep}{3pt}
 \renewcommand{\arraystretch}{1.3}
 \begin{singlespace}
 \small
-\begin{longtable}{|>{\centering\arraybackslash}p{1.8cm}|>{\centering\arraybackslash}p{2.2cm}|>{\centering\arraybackslash}p{1.8cm}|p{5.3cm}|>{\centering\arraybackslash}p{1.4cm}|>{\centering\arraybackslash}p{2.0cm}|}
+\begin{longtable}{|>{\centering\arraybackslash}p{1.8cm}|>{\centering\arraybackslash}p{2.2cm}|>{\centering\arraybackslash}p{1.8cm}|p{5.3cm}|>{\centering\arraybackslash}p{1.4cm}|>{\centering\arraybackslash}p{1.2cm}|}
 
 \hline
 \rowcolor[gray]{0.85}
-\textbf{Epic} & \textbf{Actor} & \textbf{ID} & \multicolumn{1}{c|}{\textbf{User Story}} & \textbf{Priority} & \textbf{Complexity} \\
+\textbf{Epic} & \textbf{Actor} & \textbf{ID} & \multicolumn{1}{c|}{\textbf{User Story}} & \textbf{Priority} & \textbf{SP} \\
 \hline
 \endfirsthead
 
 \hline
 \rowcolor[gray]{0.85}
-\textbf{Epic} & \textbf{Actor} & \textbf{ID} & \multicolumn{1}{c|}{\textbf{User Story}} & \textbf{Priority} & \textbf{Complexity} \\
+\textbf{Epic} & \textbf{Actor} & \textbf{ID} & \multicolumn{1}{c|}{\textbf{User Story}} & \textbf{Priority} & \textbf{SP} \\
 \hline
 \endhead
 
@@ -258,176 +258,184 @@ The product backlog constitutes the ordered list of all features and requirement
 
 % ---- Epic 1 ----
 \multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 1}\par\smallskip Authentication \& Registration}}
-& Visitor & US-AUTH-01
-& As a visitor, I want to create an account with my first name, last name, email and password, so that I can access the platform as a candidate.
+& Visiteur & US-AUTH-01
+& As a visitor, I want to register with my name, email and password so that I can create a candidate account on the platform.
 & High & 3 \\
 \cline{2-6}
-& Candidate & US-AUTH-02
-& As a candidate, I want to receive an activation email and verify my account by clicking the link, so that my identity is confirmed before I can sign in for the first time.
+& Candidat & US-AUTH-02
+& As a candidate, I want to verify my account via an activation email so that my identity is confirmed before I can sign in.
 & High & 2 \\
 \cline{2-6}
-& \footnotesize Candidate / Admin RH / Manager & US-AUTH-03
-& As an authenticated user, I want to sign in with my email and password, so that I can access the functionalities corresponding to my role.
+& Candidat & US-AUTH-03
+& As a candidate, I want to sign in with my email and password so that I can access my personal space.
 & High & 2 \\
 \cline{2-6}
-& \footnotesize Candidate / Admin RH / Manager & US-AUTH-04
-& As an authenticated user, I want to sign out of the platform, so that my session is closed securely.
+& Candidat & US-AUTH-04
+& As a candidate, I want to sign out so that my session is closed securely.
 & High & 1 \\
 \hline
 
 % ---- Epic 2 ----
 \multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 2}\par\smallskip User Management}}
-& Admin RH & US-USR-01
-& As an Admin RH, I want to create user accounts (Candidate, Manager, Admin RH) directly as active, so that new members can access the platform immediately without going through email verification.
-& High & 2 \\
-\cline{2-6}
-& Admin RH & US-USR-02
-& As an Admin RH, I want to list and update user information, so that user records remain accurate and up to date.
-& High & 2 \\
-\cline{2-6}
-& Admin RH & US-USR-03
-& As an Admin RH, I want to assign or change a user's role, so that each user accesses only the functionalities relevant to their responsibility.
+& RH & US-USR-01
+& As an RH, I want to create user accounts with an assigned role so that new members can access the platform immediately.
 & High & 3 \\
+\cline{2-6}
+& RH & US-USR-02
+& As an RH, I want to list, search and update user information so that records remain accurate.
+& High & 3 \\
+\cline{2-6}
+& RH & US-USR-03
+& As an RH, I want to change a user's role so that each person accesses only the features relevant to their responsibility.
+& High & 2 \\
 \hline
 
 % ---- Epic 3 ----
 \multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 3}\par\smallskip User Profile}}
-& \footnotesize Candidate / Admin RH / Manager & US-PROF-01
-& As an authenticated user, I want to view and update my personal profile (phone number, address, profile picture), so that my information remains accurate and my identity is recognisable on the platform.
-& Medium & 3 \\
+& \footnotesize Candidat / RH & US-PROF-01
+& As a user, I want to view and update my profile (phone, address, photo) so that my information stays up to date and visible to others.
+& Medium & 2 \\
 \hline
 
 % ---- Epic 4 ----
 \multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 4}\par\smallskip Job Offer Management}}
-& Admin RH & US-OFF-01
-& As an Admin RH, I want to create, update, change the status (draft, published, archived) and delete job offers, so that the list of available positions is always accurate and up to date.
+& RH & US-OFF-01
+& As an RH, I want to create a job offer with title, description, required skills and contract type so that candidates can discover available positions.
 & High & 5 \\
 \cline{2-6}
-& Admin RH & US-OFF-02
-& As an Admin RH, I want to consult all offers regardless of their status, so that I have a complete and permanent view of the recruitment pipeline.
+& RH & US-OFF-02
+& As an RH, I want to change the status of an offer (draft, published, archived) so that only relevant positions are visible to candidates.
 & High & 2 \\
 \cline{2-6}
-& \footnotesize Visitor / Candidate & US-OFF-03
-& As a visitor or candidate, I want to browse published job offers and filter them by keyword, experience level, education level and contract type, so that I can quickly identify relevant opportunities.
+& RH & US-OFF-03
+& As an RH, I want to view all offers regardless of status so that I have a complete view of the recruitment pipeline.
+& High & 2 \\
+\cline{2-6}
+& Visiteur & US-OFF-04
+& As a visitor, I want to browse published offers and filter them by keyword, experience and contract type so that I can find relevant opportunities.
 & High & 3 \\
 \hline
 
 % ---- Epic 5 ----
 \multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 5}\par\smallskip Application Management}}
-& Candidate & US-CAND-01
-& As a candidate, I want to apply to a job offer by submitting my CV, a cover letter and my GDPR consent through a guided wizard, so that my application is formally and completely registered in the system.
+& Candidat & US-CAND-01
+& As a candidate, I want to apply to an offer by uploading my CV and cover letter so that my application is registered.
 & High & 5 \\
 \cline{2-6}
-& Candidate & US-CAND-02
-& As a candidate, I want to consult the list and the details of my applications with their current status, so that I am always informed about the progress of my candidacy.
+& Candidat & US-CAND-02
+& As a candidate, I want to view the list and current status of my applications so that I stay informed about my progress.
 & High & 2 \\
 \cline{2-6}
-& Admin RH & US-CAND-03
-& As an Admin RH, I want to consult, filter and sort all received applications by status, score or date, so that I can efficiently manage the recruitment pipeline.
+& RH & US-CAND-03
+& As an RH, I want to view and filter all applications by status, score or date so that I can manage the recruitment pipeline efficiently.
 & High & 3 \\
 \cline{2-6}
-& Admin RH & US-CAND-04
-& As an Admin RH, I want to process an application by placing it under evaluation, forwarding it to a chosen manager, or rejecting it, so that only qualified profiles progress in the recruitment workflow.
+& RH & US-CAND-04
+& As an RH, I want to change an application status (under evaluation, forwarded to manager, rejected) so that qualified profiles advance in the workflow.
 & High & 3 \\
 \cline{2-6}
 & Manager & US-CAND-05
-& As a Manager, I want to consult the applications forwarded to me and validate or reject them, so that I exercise my responsibility in the final selection of candidates.
+& As a manager, I want to view applications forwarded to me and validate or reject them so that I participate in the final selection.
 & High & 3 \\
 \cline{2-6}
-& \footnotesize Admin RH / Manager & US-CAND-06
-& As an Admin RH or Manager, I want to download the original CV file of a candidate, so that I can review the source document directly.
-& High & 2 \\
+& RH & US-CAND-06
+& As an RH, I want to download a candidate's CV so that I can review the original document.
+& Medium & 1 \\
 \hline
 
 % ---- Epic 6 ----
 \multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 6}\par\smallskip CV \& AI Analysis}}
-& Admin RH & US-CV-01
-& As an Admin RH, I want to consult the structured data automatically extracted from a candidate's CV (skills, experiences, education, languages, certifications, soft skills), so that I can review the candidate's profile without manually reading the raw document.
+& RH & US-CV-01
+& As an RH, I want to view the structured data automatically extracted from a CV (skills, experience, education, languages) so that I can evaluate a candidate quickly.
 & High & 5 \\
+\cline{2-6}
+& RH & US-CV-02
+& As an RH, I want the system to extract certifications and soft skills from a CV so that the candidate profile is as complete as possible.
+& Medium & 3 \\
 \hline
 
 % ---- Epic 7 ----
 \multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 7}\par\smallskip AI Scoring}}
-& Admin RH & US-SCORE-01
-& As an Admin RH, I want to define, update and delete weighted scoring criteria (skills, experience, education, languages, certifications) per job offer, so that candidates are evaluated objectively against the specific requirements of each position.
+& RH & US-SCORE-01
+& As an RH, I want to define weighted scoring criteria for each offer so that candidates are evaluated objectively against the position requirements.
 & High & 5 \\
 \cline{2-6}
-& Admin RH & US-SCORE-02
-& As an Admin RH, I want to consult the AI matching score and its breakdown per criterion for each application, so that I can make objective and informed selection decisions.
+& RH & US-SCORE-02
+& As an RH, I want to view the AI matching score and its breakdown per criterion so that I can make informed selection decisions.
 & High & 3 \\
 \cline{2-6}
-& Admin RH & US-SCORE-03
-& As an Admin RH, I want to sort applications by descending score and manually trigger a score recalculation when needed, so that the candidate ranking always reflects the latest criteria.
+& RH & US-SCORE-03
+& As an RH, I want to sort applications by score and trigger a recalculation so that the ranking always reflects the latest criteria.
 & Medium & 2 \\
 \hline
 
 % ---- Epic 8 ----
 \multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 8}\par\smallskip Interviews \& Calendar}}
-& Admin RH & US-ENT-01
-& As an Admin RH, I want to schedule an interview for a validated application by specifying the date, location and format (in-person, video or phone), so that the recruitment process advances in a structured and traceable manner.
+& RH & US-ENT-01
+& As an RH, I want to schedule an interview with a date, location and format (in-person, video, phone) so that the process advances in an organised manner.
 & High & 5 \\
 \cline{2-6}
-& Admin RH & US-ENT-02
-& As an Admin RH, I want to confirm or cancel a planned interview, so that the calendar remains accurate and all parties are informed.
+& RH & US-ENT-02
+& As an RH, I want to confirm or cancel a planned interview so that the calendar stays accurate.
 & Medium & 2 \\
 \cline{2-6}
-& \footnotesize Admin RH / Manager & US-ENT-03
-& As an Admin RH or Manager, I want to consult the interview calendar relevant to my role, so that scheduling conflicts are avoided and workload is managed effectively.
+& Manager & US-ENT-03
+& As a manager, I want to view the interview calendar for my team so that I can avoid scheduling conflicts.
 & High & 3 \\
 \cline{2-6}
-& Candidate & US-ENT-04
-& As a candidate, I want to consult my upcoming interviews with their date, location and format, so that I can prepare accordingly.
+& Candidat & US-ENT-04
+& As a candidate, I want to view my upcoming interviews with their date, location and format so that I can prepare accordingly.
 & High & 2 \\
 \hline
 
 % ---- Epic 9 ----
 \multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 9}\par\smallskip Evaluations}}
-& Admin RH & US-EVAL-01
-& As an Admin RH, I want to evaluate an application with a structured comment and decision (to follow up, to review, to reject), so that my assessment is formally recorded and traceable.
+& \footnotesize RH / Manager & US-EVAL-01
+& As an RH or manager, I want to evaluate an application with a structured comment and decision so that my assessment is formally recorded and traceable.
 & High & 3 \\
 \cline{2-6}
-& Manager & US-EVAL-02
-& As a Manager, I want to evaluate a forwarded application with a comment and a decision, so that my validation is documented and directly influences the status of the application.
-& High & 3 \\
-\cline{2-6}
-& \footnotesize Admin RH / Manager & US-EVAL-03
-& As an Admin RH or Manager, I want to consult the full evaluation history of an application, so that all assessments are visible and the decision trail is traceable.
+& RH & US-EVAL-03
+& As an RH, I want to view the full evaluation history of an application so that all assessments are visible and traceable.
 & Medium & 2 \\
 \hline
 
 % ---- Epic 10 ----
 \multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 10}\par\smallskip Offer Recommendation}}
 & Manager & US-REC-01
-& As a Manager, I want to draft and submit a job offer recommendation to the Admin RH when a position becomes available, so that recruitment needs are formalised and communicated promptly.
+& As a manager, I want to submit a job offer recommendation to the RH so that recruitment needs are communicated promptly.
 & Medium & 3 \\
 \cline{2-6}
-& Admin RH & US-REC-02
-& As an Admin RH, I want to consult, edit, accept or reject an offer recommended by a Manager, so that I retain full control over the offers published on the platform.
+& RH & US-REC-02
+& As an RH, I want to review, accept or reject a manager's recommendation so that I retain control over published offers.
 & Medium & 3 \\
 \hline
 
 % ---- Epic 11 ----
 \multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 11}\par\smallskip Notifications}}
-& \footnotesize Candidate / Admin RH / Manager & US-NOTIF-01
-& As an authenticated user, I want to receive notifications for key recruitment events (application submitted, status changed, interview scheduled, account activated) and mark them as read individually or all at once, so that I remain informed without having to check the platform manually.
-& High & 3 \\
+& \footnotesize Candidat / RH / Manager & US-NOTIF-01
+& As an authenticated user, I want to receive notifications for relevant recruitment events so that I stay informed without checking the platform manually.
+& High & 2 \\
 \hline
 
 % ---- Epic 12 ----
 \multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 12}\par\smallskip Dashboard \& Statistics}}
-& Admin RH & US-DASH-01
-& As an Admin RH, I want to consult a recruitment dashboard displaying key indicators (total applications, published offers, selection rate, average score, status distribution), so that I can monitor and steer recruitment activity in real time.
+& RH & US-DASH-01
+& As an RH, I want to view a dashboard with key indicators (total applications, published offers, selection rate) so that I can monitor recruitment activity in real time.
 & High & 5 \\
 \cline{2-6}
-& Admin RH & US-DASH-02
-& As an Admin RH, I want to consult detailed statistics (applications per month, top offers, average recruitment time) and export a statistical report, so that I can analyse recruitment performance and share results with management.
+& RH & US-DASH-02
+& As an RH, I want to view detailed statistics (applications per month, top offers, average time-to-hire) and export a report so that I can share results with management.
 & Medium & 5 \\
 \hline
 
 % ---- Epic 13 ----
 \multicolumn{1}{|c|}{\parbox[t]{1.8cm}{\centering\footnotesize\textbf{Epic 13}\par\smallskip Public Site}}
-& Visitor & US-PUB-01
-& As a visitor, I want to browse the landing page and institutional pages (About us, Our professions, Our sectors, Why choose us, Culture and presence), so that I can learn about Sopra HR Software and its opportunities before registering.
+& Visiteur & US-PUB-01
+& As a visitor, I want to browse the landing page so that I can discover Sopra HR and its recruitment opportunities.
+& Medium & 2 \\
+\cline{2-6}
+& Visiteur & US-PUB-02
+& As a visitor, I want to access institutional pages (About us, Our professions, Our sectors, Culture) so that I can learn about the company before applying.
 & Medium & 3 \\
 \hline
 
@@ -450,20 +458,20 @@ After the definition of the product backlog, the workload is distributed across 
 \rowcolor[gray]{0.85}
 \textbf{Sprint} & \multicolumn{1}{c|}{\textbf{Main Tasks}} & \textbf{Duration} \\
 \hline
-Sprint 1 --- Analysis and Setup
-  & Requirements analysis and system design; project architecture setup; authentication and user management development; backend, frontend, and database configuration.
+Sprint 1 --- Authentication \& Setup
+  & Registration with email verification; sign in and sign out for all roles; user creation and role assignment; profile management; landing page and institutional pages.
   & 4 weeks \\
 \hline
 Sprint 2 --- Recruitment Management
-  & Job offer management; application and CV management; HR officer and candidate interfaces; search, filtering, and application tracking.
+  & Job offer creation, publication and archiving; offer browsing with filters; application submission with CV and cover letter; application pipeline management; manager offer recommendations.
   & 4 weeks \\
 \hline
 Sprint 3 --- Artificial Intelligence
-  & CV extraction and structured data analysis; CV-to-offer matching system development; scoring engine implementation; scoring criteria configuration and AI-based recommendations.
+  & Automatic CV extraction (skills, experience, education, languages); structured candidate profile view; weighted scoring criteria configuration; AI matching score with breakdown; score-based ranking and recalculation.
   & 4 weeks \\
 \hline
-Sprint 4 --- Finalization and Deployment
-  & Interview scheduling and candidate evaluation management; HR dashboard and recruitment statistics; testing, optimization, and bug fixing; deployment and project documentation.
+Sprint 4 --- Finalization \& Deployment
+  & Interview scheduling and calendar management; structured evaluation with comment and decision; evaluation history per application; notifications for recruitment events; recruitment dashboard and exportable statistics.
   & 4 weeks \\
 \hline
 \end{tabularx}
