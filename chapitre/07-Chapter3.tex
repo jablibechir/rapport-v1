@@ -1,1 +1,468 @@
-﻿
+﻿\chapter{SPRINT 1: AUTHENTICATION AND SETUP}
+\thispagestyle{MyStyle}
+\minitoc
+\newpage
+\thispagestyle{MyStyle}
+
+\section*{Introduction}
+\addcontentsline{toc}{section}{Introduction}
+
+Sprint 1 represents the foundational phase of the Sopra Recruit platform. It covers the implementation of the complete authentication system, including visitor registration with email verification and secure sign-in and sign-out mechanisms for all platform roles. It also encompasses user creation with role assignment managed by the HR administrator, a profile management module available to all authenticated users, and the public-facing interface composed of the landing page and institutional pages. These features form the essential entry point of the platform and constitute the prerequisite layer for all subsequent development sprints.
+
+% ============================================================
+\section{Sprint Backlog}
+% ============================================================
+
+Table~\ref{tab:sprint1backlog} presents the sprint backlog for Sprint 1, detailing the user stories, their estimated duration, the associated implementation tasks, and the difficulty level assigned to each item.
+
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.5}
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}p{3.2cm}|>{\centering\arraybackslash}p{1.6cm}|X|>{\centering\arraybackslash}p{1.8cm}|}
+\hline
+\rowcolor[gray]{0.85}
+\textbf{User Story} & \textbf{Duration} & \multicolumn{1}{c|}{\textbf{Task}} & \textbf{Difficulty} \\
+\hline
+Registration with email verification
+  & 1 week
+  & Implement the registration form; create the backend user creation endpoint; integrate the email verification service; handle account activation via confirmation link.
+  & Medium \\
+\hline
+Sign in and sign out for all roles
+  & 1 week
+  & Develop the JWT-based authentication endpoint; implement role-based redirection after login; manage refresh tokens; ensure secure session termination on sign-out.
+  & Medium \\
+\hline
+User creation and role assignment
+  & 1 week
+  & Build the HR administration interface for user creation; implement role assignment and permission management; allow the HR officer to activate and manage platform accounts.
+  & High \\
+\hline
+Profile management
+  & 3 days
+  & Develop the profile view and edit form; integrate profile picture upload; enable personal information update for all authenticated roles.
+  & Low \\
+\hline
+Landing page and institutional pages
+  & 4 days
+  & Design and implement the public landing page presenting Sopra HR; create the institutional pages (About Us, Our Professions, Our Sectors, Culture).
+  & Low \\
+\hline
+\end{tabularx}
+\caption{Sprint 1 Backlog}
+\label{tab:sprint1backlog}
+\end{table}
+\normalsize
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1}
+
+% ============================================================
+\section{Sprint Objective}
+% ============================================================
+
+The primary objective of Sprint 1 is to deliver a fully operational authentication and user management system that serves as the structural backbone of the Sopra Recruit platform. By the end of this sprint, visitors will be able to register on the platform and activate their accounts through an email verification mechanism, while all platform roles — candidate, HR officer, and manager — will have access to secure sign-in and sign-out functionality. The HR administrator will be able to create user accounts, assign roles, and manage platform access accordingly. A profile management module and a polished public interface, including the landing page and institutional pages, will also be delivered, ensuring the platform is both accessible to the public and ready for authenticated usage in the sprints that follow.
+
+% ============================================================
+\section{Analysis}
+% ============================================================
+
+% ------------------------------------------------------------
+\subsection{Use Case Diagram}
+% ------------------------------------------------------------
+
+A use case diagram is a UML diagram that illustrates the interactions between users (called actors) and the system. It describes the different functionalities (use cases) that the system offers to its users, showing who uses what and how, without going into technical details.
+
+The use case diagram for Sprint 1, presented in Figure~\ref{fig:sprint1usecase}, identifies the interactions between the four system actors — Visitor, Candidate, HR Officer, and Manager — and the authentication and setup features delivered during this sprint.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.83\textwidth]{diagrammes/Sprint1 - Authentification 1 User Management.png}
+    \caption{Use Case Diagram --- Sprint 1: Authentication and Setup}
+    \label{fig:sprint1usecase}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{Textual Description of Use Cases}
+% ------------------------------------------------------------
+
+This section provides a textual description of the main use cases appearing in the Sprint 1 use case diagram. Each use case is described through its initiating actor, goal, pre-conditions, post-conditions, main success scenario, and alternative scenarios.
+
+% ....................................
+\subsubsection{Use Case Description: ``Register''}
+
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.6}
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{|>{\bfseries\arraybackslash}p{2cm}|X|}
+\hline
+\rowcolor[gray]{0.85}
+\multicolumn{2}{|c|}{\textbf{Use Case: Register}} \\
+\hline
+Use Case            & Register \\
+\hline
+Initiating Actor    & Visitor \\
+\hline
+Goal                & Allow a visitor to create a new candidate account on the Sopra Recruit platform by providing their personal information and confirming their email address. \\
+\hline
+Pre-condition       & The visitor is not authenticated and does not already have an account associated with the provided email address. \\
+\hline
+Post-condition      & A new candidate account is created with a pending status and a verification email is sent to the provided address. \\
+\hline
+Scenario Description &
+The visitor navigates to the registration page, fills in the required information, and submits the form. The system creates a pending account and sends an activation email. The visitor clicks the activation link to complete the registration. \\
+\hline
+Main Scenario (Success) &
+\begin{enumerate}[leftmargin=*, label=\arabic*., topsep=0pt, itemsep=0pt]
+    \item The visitor navigates to the registration page.
+    \item The visitor fills in the form: first name, last name, email address, and password.
+    \item The visitor submits the registration form.
+    \item The system validates the input data and checks that the email is not already registered.
+    \item The system creates a new candidate account with a pending activation status.
+    \item The system sends a verification email containing an activation link.
+    \item The visitor clicks the activation link from their email inbox.
+    \item The system activates the account and confirms successful registration.
+\end{enumerate} \\
+\hline
+Alternative Scenarios &
+\textbf{A1 --- Email already registered:} The system displays an error message indicating that an account with this email already exists and suggests signing in instead. \newline
+\textbf{A2 --- Invalid or incomplete data:} The system highlights the invalid fields and requests the visitor to correct them before resubmitting. \newline
+\textbf{A3 --- Activation link expired:} The system informs the user that the link has expired and offers to resend a new verification email. \\
+\hline
+\end{tabularx}
+\caption{Textual Description of Use Case ``Register''}
+\label{tab:uc-register}
+\end{table}
+\normalsize
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1}
+
+% ....................................
+\subsubsection{Use Case Description: ``Sign In''}
+
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.6}
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{|>{\bfseries\arraybackslash}p{4cm}|X|}
+\hline
+\rowcolor[gray]{0.85}
+\multicolumn{2}{|c|}{\textbf{Use Case: Sign In}} \\
+\hline
+Use Case            & Sign In \\
+\hline
+Initiating Actor    & Candidate, HR Officer (Administrator), Manager \\
+\hline
+Goal                & Allow a registered and active user to log into the Sopra Recruit platform using their credentials in order to access their personal space. \\
+\hline
+Pre-condition       & The user has a registered and activated account on the platform. \\
+\hline
+Post-condition      & The user is authenticated and redirected to their role-specific dashboard. \\
+\hline
+Scenario Description &
+The user navigates to the login page, enters their email address and password, and submits the form. The system validates the credentials, generates a JWT token, and establishes the user session. \\
+\hline
+Main Scenario (Success) &
+\begin{enumerate}[leftmargin=*, label=\arabic*., topsep=0pt, itemsep=0pt]
+    \item The user navigates to the login page.
+    \item The user enters their email address and password.
+    \item The user submits the login form.
+    \item The system verifies the credentials and checks the account status.
+    \item The system generates a JWT token and establishes the user session.
+    \item The system redirects the user to their role-specific dashboard (Candidate, HR Officer, or Manager).
+\end{enumerate} \\
+\hline
+Alternative Scenarios &
+\textbf{A1 --- Invalid credentials:} The system displays an error message and invites the user to try again. \newline
+\textbf{A2 --- Account not yet activated:} The system informs the user that their account has not been activated and offers to resend the verification email. \newline
+\textbf{A3 --- Account suspended:} The system displays a message indicating that the account has been suspended by the administrator. \\
+\hline
+\end{tabularx}
+\caption{Textual Description of Use Case ``Sign In''}
+\label{tab:uc-signin}
+\end{table}
+\normalsize
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1}
+
+% ....................................
+\subsubsection{Use Case Description: ``Manage User Account''}
+
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.6}
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{|>{\bfseries\arraybackslash}p{4cm}|X|}
+\hline
+\rowcolor[gray]{0.85}
+\multicolumn{2}{|c|}{\textbf{Use Case: Manage User Account}} \\
+\hline
+Use Case            & Manage User Account \\
+\hline
+Initiating Actor    & HR Officer (Administrator) \\
+\hline
+Goal                & Allow the HR administrator to create, view, update, and deactivate user accounts on the platform in order to control access and maintain an accurate user directory. \\
+\hline
+Pre-condition       & The HR officer is authenticated and has administrative access to the user management interface. \\
+\hline
+Post-condition      & The requested user account operation is successfully performed and the changes are persisted in the system. \\
+\hline
+Scenario Description &
+The HR officer accesses the user management interface, consults the list of existing accounts, and performs the desired operation: creating a new user, updating an existing account, or deactivating a user. \\
+\hline
+Main Scenario (Success) &
+\begin{enumerate}[leftmargin=*, label=\arabic*., topsep=0pt, itemsep=0pt]
+    \item The HR officer navigates to the user management interface.
+    \item The HR officer views the list of existing user accounts.
+    \item The HR officer selects an action: create a new user, update an existing account, or deactivate an account.
+    \item The HR officer fills in or modifies the required information (name, email, role).
+    \item The system validates the provided data.
+    \item The system saves the changes and displays a confirmation message.
+\end{enumerate} \\
+\hline
+Alternative Scenarios &
+\textbf{A1 --- Duplicate email:} The system displays an error indicating that the email address is already associated with an existing account. \newline
+\textbf{A2 --- Invalid data:} The system highlights the invalid fields and requests the HR officer to correct them. \newline
+\textbf{A3 --- Deactivating the last active administrator:} The system prevents the operation and displays a warning to maintain platform integrity. \\
+\hline
+\end{tabularx}
+\caption{Textual Description of Use Case ``Manage User Account''}
+\label{tab:uc-manageuser}
+\end{table}
+\normalsize
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1}
+
+% ....................................
+\subsubsection{Use Case Description: ``Manage Permission''}
+
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.6}
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{|>{\bfseries\arraybackslash}p{4cm}|X|}
+\hline
+\rowcolor[gray]{0.85}
+\multicolumn{2}{|c|}{\textbf{Use Case: Manage Permission}} \\
+\hline
+Use Case            & Manage Permission \\
+\hline
+Initiating Actor    & HR Officer (Administrator) \\
+\hline
+Goal                & Allow the HR administrator to assign or modify the role of a platform user in order to control their access rights and permissions within the system. \\
+\hline
+Pre-condition       & The HR officer is authenticated and the target user account exists on the platform. \\
+\hline
+Post-condition      & The user's role is updated and their access permissions are adjusted accordingly across the platform. \\
+\hline
+Scenario Description &
+The HR officer accesses the user management interface, selects a user, and modifies their assigned role. The system updates the user's permissions and confirms the change. \\
+\hline
+Main Scenario (Success) &
+\begin{enumerate}[leftmargin=*, label=\arabic*., topsep=0pt, itemsep=0pt]
+    \item The HR officer navigates to the user management interface.
+    \item The HR officer selects a user account from the list.
+    \item The HR officer opens the role assignment section for the selected user.
+    \item The HR officer selects a new role (Candidate, HR Officer, or Manager).
+    \item The system validates the role change.
+    \item The system updates the user's permissions and displays a confirmation message.
+\end{enumerate} \\
+\hline
+Alternative Scenarios &
+\textbf{A1 --- Same role already assigned:} The system notifies the HR officer that the selected role is already assigned to the user and no change is made. \newline
+\textbf{A2 --- Unauthorized operation:} The system prevents the role modification if it would leave the platform without an active administrator and displays an appropriate warning. \\
+\hline
+\end{tabularx}
+\caption{Textual Description of Use Case ``Manage Permission''}
+\label{tab:uc-permission}
+\end{table}
+\normalsize
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1}
+
+% ============================================================
+\section{Design}
+% ============================================================
+
+% ------------------------------------------------------------
+\subsection{Sequence Diagrams}
+% ------------------------------------------------------------
+
+A sequence diagram is a UML behavioral diagram that shows how objects interact with each other over time, illustrating the order of messages exchanged between the system components for a given use case scenario.
+
+% ....................................
+\subsubsection{Sequence Diagram: ``Register''}
+
+Figure~\ref{fig:seq-register} presents the sequence diagram for the Register use case, showing the interactions between the visitor, the frontend interface, the backend server, and the email service during the account creation and activation process.
+
+\begin{figure}[H]
+    \centering
+    % Add your Register sequence diagram image here
+    \includegraphics[width=0.90\textwidth]{diagrammes/seq_register.png}
+    \caption{Sequence Diagram --- Register}
+    \label{fig:seq-register}
+\end{figure}
+
+% ....................................
+\subsubsection{Sequence Diagram: ``Sign In''}
+
+Figure~\ref{fig:seq-signin} presents the sequence diagram for the Sign In use case, illustrating the credential validation flow, JWT token generation, and role-based redirection performed between the client and the server.
+
+\begin{figure}[H]
+    \centering
+    % Add your Sign In sequence diagram image here
+    \includegraphics[width=0.90\textwidth]{diagrammes/seq_signin.png}
+    \caption{Sequence Diagram --- Sign In}
+    \label{fig:seq-signin}
+\end{figure}
+
+% ....................................
+\subsubsection{Sequence Diagram: ``Manage User Account''}
+
+Figure~\ref{fig:seq-manageuser} presents the sequence diagram for the Manage User Account use case, detailing the interactions between the HR officer, the administration interface, and the backend during user creation, update, and deactivation operations.
+
+\begin{figure}[H]
+    \centering
+    % Add your Manage User Account sequence diagram image here
+    \includegraphics[width=0.90\textwidth]{diagrammes/seq_manage_user.png}
+    \caption{Sequence Diagram --- Manage User Account}
+    \label{fig:seq-manageuser}
+\end{figure}
+
+% ....................................
+\subsubsection{Sequence Diagram: ``Manage Permission''}
+
+Figure~\ref{fig:seq-permission} presents the sequence diagram for the Manage Permission use case, showing the role assignment flow between the HR officer, the administration interface, and the backend permission management service.
+
+\begin{figure}[H]
+    \centering
+    % Add your Manage Permission sequence diagram image here
+    \includegraphics[width=0.90\textwidth]{diagrammes/seq_manage_permission.png}
+    \caption{Sequence Diagram --- Manage Permission}
+    \label{fig:seq-permission}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{Class Diagram}
+% ------------------------------------------------------------
+
+The class diagram below illustrates the conceptual structure of the entities involved in Sprint 1, showing the classes related to authentication and user management, along with their attributes, methods, and relationships.
+
+\begin{figure}[H]
+    \centering
+    % Add your Sprint 1 class diagram image here
+    \includegraphics[width=0.90\textwidth]{diagrammes/sprint1_class_diagram.png}
+    \caption{Class Diagram --- Sprint 1: Authentication and User Management}
+    \label{fig:sprint1class}
+\end{figure}
+
+% ============================================================
+\section{Sprint Realization}
+% ============================================================
+
+This section presents the key user interfaces delivered at the end of Sprint 1. Each interface corresponds to a user story defined in the sprint backlog and illustrates the final visual result of the implemented features.
+
+% ------------------------------------------------------------
+\subsection{Registration Interface}
+% ------------------------------------------------------------
+
+The registration interface allows a visitor to create a new candidate account on the Sopra Recruit platform. The form collects the user's first name, last name, email address, and password. Upon submission, the system sends a verification email to activate the account. The interface includes inline validation to guide the user in providing correct information.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{interfaces/sprint1_register.png}
+    \caption{Registration Interface}
+    \label{fig:ui-register}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{Email Verification Interface}
+% ------------------------------------------------------------
+
+After registration, the visitor receives a verification email containing an activation link. Once clicked, the system displays a confirmation page indicating that the account has been successfully activated and inviting the user to proceed to the sign-in page.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{interfaces/sprint1_email_verification.png}
+    \caption{Email Verification Confirmation Interface}
+    \label{fig:ui-verify}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{Sign In Interface}
+% ------------------------------------------------------------
+
+The sign-in interface provides a secure login form for all platform roles — candidates, HR officers, and managers. The user enters their email address and password to authenticate. Upon successful login, the system generates a JWT token and redirects the user to their role-specific dashboard. Error messages are displayed for invalid credentials or inactive accounts.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{interfaces/sprint1_signin.png}
+    \caption{Sign In Interface}
+    \label{fig:ui-signin}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{User Management Interface}
+% ------------------------------------------------------------
+
+The user management interface is accessible exclusively to the HR officer. It displays the full list of platform users with their names, email addresses, roles, and account statuses. The HR officer can create new user accounts, edit existing ones, or deactivate accounts directly from this interface. A search bar is provided to quickly locate specific users.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{interfaces/sprint1_user_management.png}
+    \caption{User Management Interface}
+    \label{fig:ui-usermgmt}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{Role and Permission Management Interface}
+% ------------------------------------------------------------
+
+The role and permission management interface allows the HR officer to assign or modify the role of any platform user. A dropdown menu presents the available roles (Candidate, HR Officer, Manager), and the system enforces a safety rule that prevents removing the last active administrator. Changes are saved immediately and reflected across the platform.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{interfaces/sprint1_role_management.png}
+    \caption{Role and Permission Management Interface}
+    \label{fig:ui-roles}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{Profile Management Interface}
+% ------------------------------------------------------------
+
+The profile management interface is available to all authenticated users. It allows them to view and update their personal information, including their phone number, address, and profile picture. Changes are saved in real time and immediately visible across the platform.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{interfaces/sprint1_profile.png}
+    \caption{Profile Management Interface}
+    \label{fig:ui-profile}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{Landing Page}
+% ------------------------------------------------------------
+
+The landing page serves as the public entry point of the Sopra Recruit platform. It presents the company identity, highlights available job opportunities, and guides visitors toward registration or job browsing. The page features a clean and professional design consistent with the Sopra HR brand identity.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{interfaces/sprint1_landing.png}
+    \caption{Landing Page}
+    \label{fig:ui-landing}
+\end{figure}
+
+% ============================================================
+\section*{Conclusion}
+\addcontentsline{toc}{section}{Conclusion}
+% ============================================================
+
+This chapter presented the complete realization of Sprint 1 of the Sopra Recruit project. Starting from the sprint backlog and objectives, the analysis phase covered the use case diagram and detailed textual descriptions of the four main use cases: Register, Sign In, Manage User Account, and Manage Permission. The design phase introduced the sequence diagrams illustrating the interaction flows for each use case, as well as the class diagram representing the structural foundation of the authentication and user management modules. Finally, the sprint realization section showcased the implemented user interfaces, demonstrating that all planned user stories were successfully delivered. The platform's authentication layer and user management system are now fully operational and serve as the foundation for the development phases carried out in the subsequent sprints.
+
