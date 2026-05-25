@@ -1,1 +1,206 @@
-﻿
+﻿\chapter{SPRINT 3: AI-POWERED CV ANALYSIS AND SCORING}
+\thispagestyle{MyStyle}
+\minitoc
+\newpage
+\thispagestyle{MyStyle}
+
+\section*{Introduction}
+\addcontentsline{toc}{section}{Introduction}
+
+Sprint 3 introduces the intelligence layer of the Sopra Recruit platform. This sprint focuses on automated CV analysis and candidate scoring to support HR decision-making and improve recruitment efficiency. The implemented features aim to provide clear, explainable, and actionable insights while preserving the existing recruitment workflow delivered in previous sprints.
+
+% ============================================================
+\section{Sprint Backlog}
+% ============================================================
+
+Table~\ref{tab:sprint3backlog} presents the sprint backlog for Sprint 3, including the main user stories, estimated duration, implementation tasks, and difficulty level.
+
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.5}
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}p{3.2cm}|>{\centering\arraybackslash}p{1.6cm}|X|>{\centering\arraybackslash}p{1.8cm}|}
+\hline
+\rowcolor[gray]{0.85}
+\textbf{User Story} & \textbf{Duration} & \multicolumn{1}{c|}{\textbf{Task}} & \textbf{Difficulty} \\
+\hline
+Automatic CV analysis
+	& 1 week
+	& Integrate AI-based CV parsing; extract key information (skills, experience, education); normalize extracted data for downstream scoring.
+	& High \\
+\hline
+Candidate scoring engine
+	& 1 week
+	& Implement matching logic between CV content and job requirements; compute weighted scores; store and expose score details.
+	& High \\
+\hline
+HR score visualization
+	& 4 days
+	& Build interfaces to display score, matching criteria, and candidate ranking; add filters and sorting by score.
+	& Medium \\
+\hline
+Analysis traceability
+	& 3 days
+	& Provide transparent explanation fields for score contribution (skills, experience, keywords) and fallback behavior for incomplete CVs.
+	& Medium \\
+\hline
+\end{tabularx}
+\caption{Sprint 3 Backlog}
+\label{tab:sprint3backlog}
+\end{table}
+\normalsize
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1}
+
+% ============================================================
+\section{Sprint Objective}
+% ============================================================
+
+The objective of Sprint 3 is to enhance the recruitment platform with an AI-assisted evaluation workflow that automatically analyzes CVs and produces structured candidate scores. By the end of this sprint, HR officers should be able to view ranked candidates with clear scoring indicators, compare applicants more efficiently, and make faster and more consistent pre-selection decisions.
+
+% ============================================================
+\section{Analysis}
+% ============================================================
+
+% ------------------------------------------------------------
+\subsection{Use Cases of Sprint 3}
+% ------------------------------------------------------------
+
+The Sprint 3 use cases define the interactions required to analyze candidate CVs, compute matching scores, and present understandable results to HR users.
+
+\begin{figure}[H]
+		\centering
+		\framebox[0.90\textwidth]{\rule{0pt}{8cm}}
+		\caption{Use Case Diagram --- Sprint 3}
+		\label{fig:sprint3usecase}
+\end{figure}
+
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{|>{\bfseries\arraybackslash}p{4cm}|X|}
+\hline
+\rowcolor[gray]{0.85}
+\multicolumn{2}{|c|}{\textbf{Use Case: CV Analysis and Scoring}} \\
+\hline
+Use Case & CV Analysis and Scoring \\
+\hline
+Initiating Actor & HR Officer (Administrator) \\
+\hline
+Goal & Automatically analyze submitted CVs and compute a matching score against a target job offer to support pre-selection. \\
+\hline
+Pre-condition & A candidate application exists with a valid CV file; a target job offer exists with defined requirements and weighted criteria. \\
+\hline
+Post-condition & The system stores extracted CV information, the global matching score, and the detailed score breakdown; results are available in the HR interface. \\
+\hline
+Scenario Description &
+The HR officer opens the applications list and triggers candidate evaluation. The system parses CV content, extracts structured attributes, compares them with offer requirements, computes weighted scores, and displays ranked results with explanation details. \\
+\hline
+Main Scenario (Success) &
+\begin{enumerate}[leftmargin=*, label=\arabic*., topsep=0pt, itemsep=0pt]
+	\item The HR officer selects a candidate application linked to a job offer.
+	\item The system retrieves the CV file and offer requirements.
+	\item The system parses the CV and extracts relevant attributes (skills, experience, education, certifications, and languages).
+	\item The system normalizes extracted attributes into a structured profile.
+	\item The scoring engine computes partial scores using configured weights.
+	\item The system computes the final matching score and confidence indicators.
+	\item The system stores analysis results and updates candidate ranking.
+	\item The HR officer views the final score and detailed breakdown.
+\end{enumerate} \\
+\hline
+Alternative Scenarios &
+\textbf{A1 --- CV unreadable or corrupted:} The system marks the analysis as failed and requests a new CV upload. \newline
+\textbf{A2 --- Missing criteria weights:} The system applies default weights and logs a configuration warning. \newline
+\textbf{A3 --- Incomplete CV data:} The system calculates a partial score and displays missing information indicators. \\
+\hline
+\end{tabularx}
+\caption{Textual Description of Use Case ``CV Analysis and Scoring''}
+\label{tab:uc-cv-analysis-scoring}
+\end{table}
+\normalsize
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1}
+
+% ------------------------------------------------------------
+\subsection{Activity Diagram}
+% ------------------------------------------------------------
+
+This section presents the activity diagram for the main Sprint 3 user story.
+
+\subsubsection{Activity Diagram: CV Analysis and Scoring}
+
+\begin{figure}[H]
+		\centering
+		\framebox[0.90\textwidth]{\rule{0pt}{8cm}}
+		\caption{Activity Diagram --- CV Analysis and Scoring}
+		\label{fig:act-cv-analysis}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{Class Diagram}
+% ------------------------------------------------------------
+
+The class diagram below describes the structural entities introduced or extended in Sprint 3 for CV analysis, score computation, and results persistence.
+
+\begin{figure}[H]
+		\centering
+		\framebox[0.90\textwidth]{\rule{0pt}{8cm}}
+		\caption{Class Diagram --- Sprint 3}
+		\label{fig:sprint3class}
+\end{figure}
+
+% ============================================================
+\section{Sprint Realization}
+% ============================================================
+
+This section presents the user interfaces implemented in Sprint 3. Image spaces are intentionally kept as placeholders and can be replaced later with final screenshots.
+
+% ------------------------------------------------------------
+\subsection{CV Analysis Result Interface (HR View)}
+% ------------------------------------------------------------
+
+This interface allows the HR officer to view the extracted CV data and the computed matching score for each candidate.
+
+\begin{figure}[H]
+		\centering
+		\framebox[0.85\textwidth]{\rule{0pt}{8cm}}
+		\caption{CV Analysis Result Interface --- HR View}
+		\label{fig:ui-cv-analysis-hr}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{Candidate Score Detail Interface}
+% ------------------------------------------------------------
+
+This interface displays the detailed score breakdown, including matching criteria such as skills, experience, and keyword relevance.
+
+\begin{figure}[H]
+		\centering
+		\framebox[0.85\textwidth]{\rule{0pt}{8cm}}
+		\caption{Candidate Score Detail Interface}
+		\label{fig:ui-score-detail}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{Candidate Ranking Interface}
+% ------------------------------------------------------------
+
+This interface enables HR to rank and compare applicants based on computed scores and filtering options.
+
+\begin{figure}[H]
+		\centering
+		\framebox[0.85\textwidth]{\rule{0pt}{8cm}}
+		\caption{Candidate Ranking Interface}
+		\label{fig:ui-candidate-ranking}
+\end{figure}
+
+% ============================================================
+\section*{Conclusion}
+\addcontentsline{toc}{section}{Conclusion}
+% ============================================================
+
+This chapter presented the structure and realization plan of Sprint 3, focused on AI-powered CV analysis and candidate scoring. It covered the sprint backlog, objective, analysis artifacts, and realization interfaces that support HR decision-making through automated and explainable candidate evaluation.
+

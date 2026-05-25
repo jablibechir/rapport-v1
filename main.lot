@@ -15,3 +15,17 @@
 \contentsline {table}{\numberline {3.3}{\ignorespaces Textual Description of Use Case ``Sign In''}}{36}{table.caption.32}%
 \contentsline {table}{\numberline {3.4}{\ignorespaces Textual Description of Use Case ``Manage User Account''}}{37}{table.caption.33}%
 \contentsline {table}{\numberline {3.5}{\ignorespaces Textual Description of Use Case ``Manage Permission''}}{38}{table.caption.34}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{SPRINT 2: RECRUITMENT MANAGEMENT}{48}{chapter.4}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Sprint 2 Backlog}}{50}{table.caption.48}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Textual Description of Use Case ``Manage Job Offer''}}{52}{table.caption.50}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Textual Description of Use Case ``Apply to Job Offer''}}{53}{table.caption.51}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Textual Description of Use Case ``Manage Application Pipeline''}}{54}{table.caption.52}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Textual Description of Use Case ``Submit Offer Recommendation''}}{55}{table.caption.53}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{SPRINT 3: AI-POWERED CV ANALYSIS AND SCORING}{64}{chapter.5}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Sprint 3 Backlog}}{65}{table.caption.66}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Textual Description of Use Case ``CV Analysis and Scoring''}}{67}{table.caption.68}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{SPRINT 4: FINALIZATION AND DEPLOYMENT}{72}{chapter.6}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Sprint 4 Backlog}}{73}{table.caption.75}%

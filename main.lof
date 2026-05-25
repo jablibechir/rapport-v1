@@ -36,3 +36,33 @@
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Role and Permission Management Interface}}{46}{figure.caption.44}%
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Profile Management Interface}}{46}{figure.caption.45}%
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Landing Page}}{47}{figure.caption.46}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{SPRINT 2: RECRUITMENT MANAGEMENT}{48}{chapter.4}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Use Case Diagram --- Sprint 2: Recruitment Management}}{51}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Sequence Diagram --- Manage Job Offer}}{56}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Sequence Diagram --- Apply to Job Offer}}{57}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Sequence Diagram --- Manage Application Pipeline}}{57}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Sequence Diagram --- Submit Offer Recommendation}}{58}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Class Diagram --- Sprint 2: Recruitment Management}}{59}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Job Offer Management Interface --- HR View}}{60}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Public Job Offers Listing Interface}}{60}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Application Submission Interface}}{61}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Candidate Applications List Interface}}{61}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces HR Application Pipeline Interface}}{62}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Offer Recommendation Interface}}{63}{figure.caption.64}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{SPRINT 3: AI-POWERED CV ANALYSIS AND SCORING}{64}{chapter.5}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Use Case Diagram --- Sprint 3}}{66}{figure.caption.67}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Activity Diagram --- CV Analysis and Scoring}}{68}{figure.caption.69}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Class Diagram --- Sprint 3}}{68}{figure.caption.70}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces CV Analysis Result Interface --- HR View}}{69}{figure.caption.71}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Candidate Score Detail Interface}}{70}{figure.caption.72}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Candidate Ranking Interface}}{70}{figure.caption.73}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{SPRINT 4: FINALIZATION AND DEPLOYMENT}{72}{chapter.6}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Global Use Case Diagram --- Final System}}{74}{figure.caption.76}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Global Class Diagram --- Final System}}{75}{figure.caption.77}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Activity Diagram --- Interview Planning}}{75}{figure.caption.78}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Interview Scheduling Interface --- HR View}}{76}{figure.caption.79}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Interview Calendar Interface}}{77}{figure.caption.80}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Candidate Interview Notification Interface}}{77}{figure.caption.81}%

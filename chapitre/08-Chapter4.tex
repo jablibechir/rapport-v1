@@ -1,1 +1,453 @@
-﻿
+﻿\chapter{SPRINT 2: RECRUITMENT MANAGEMENT}
+\thispagestyle{MyStyle}
+\minitoc
+\newpage
+\thispagestyle{MyStyle}
+
+\section*{Introduction}
+\addcontentsline{toc}{section}{Introduction}
+
+Sprint 2 covers the core recruitment management features of the Sopra Recruit platform. It encompasses the full lifecycle of job offers, from creation and publication to archiving, as well as candidate-facing browsing and filtering of available positions. This sprint also implements the application submission workflow, allowing candidates to upload their CV and cover letter, and introduces the application pipeline management tools available to HR officers and managers. Finally, the manager offer recommendation mechanism is delivered, enabling internal recruitment needs to be formally communicated and validated by HR. Together, these features form the operational heart of the recruitment platform and build directly on the authentication layer established in Sprint 1.
+
+% ============================================================
+\section{Sprint Backlog}
+% ============================================================
+
+Table~\ref{tab:sprint2backlog} presents the sprint backlog for Sprint 2, detailing the user stories, their estimated duration, the associated implementation tasks, and the difficulty level assigned to each item.
+
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.5}
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}p{3.2cm}|>{\centering\arraybackslash}p{1.6cm}|X|>{\centering\arraybackslash}p{1.8cm}|}
+\hline
+\rowcolor[gray]{0.85}
+\textbf{User Story} & \textbf{Duration} & \multicolumn{1}{c|}{\textbf{Task}} & \textbf{Difficulty} \\
+\hline
+Job offer creation, publication and archiving
+  & 1 week
+  & Build the offer creation form with title, description, required skills, and contract type; implement status management (draft, published, archived); restrict published offer visibility to candidates.
+  & High \\
+\hline
+Offer browsing with filters
+  & 4 days
+  & Develop the public offer listing page; implement keyword, experience level, and contract type filters; display offer detail view accessible without authentication.
+  & Medium \\
+\hline
+Application submission with CV and cover letter
+  & 1 week
+  & Implement the multi-step application form; handle CV upload and storage; allow reuse of an existing CV; record application date and initial status.
+  & High \\
+\hline
+Application pipeline management
+  & 1 week
+  & Build the HR application list with status, score, and date filters; implement status transitions (under evaluation, forwarded to manager, rejected); allow CV download; build the manager review interface for forwarded applications.
+  & High \\
+\hline
+Manager offer recommendations
+  & 3 days
+  & Develop the recommendation submission form for managers; implement the HR review interface to accept or reject recommendations; trigger automatic offer creation upon acceptance.
+  & Medium \\
+\hline
+\end{tabularx}
+\caption{Sprint 2 Backlog}
+\label{tab:sprint2backlog}
+\end{table}
+\normalsize
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1}
+
+% ============================================================
+\section{Sprint Objective}
+% ============================================================
+
+The primary objective of Sprint 2 is to deliver a fully operational recruitment management system that enables the complete lifecycle of job offers and candidate applications within the Sopra Recruit platform. By the end of this sprint, HR officers will be able to create, publish, and archive job offers, and will have access to a comprehensive application pipeline with status management and CV download capabilities. Visitors and candidates will be able to browse and filter published positions, and candidates will be able to submit applications with their CV and cover letter in a guided, multi-step process. Managers will be able to review applications forwarded by HR and either validate or reject them, as well as submit job offer recommendations that HR can approve or decline. These features transform the platform into a functional end-to-end recruitment tool and lay the groundwork for the AI-powered analysis features of Sprint 3.
+
+% ============================================================
+\section{Analysis}
+% ============================================================
+
+% ------------------------------------------------------------
+\subsection{Use Case Diagram}
+% ------------------------------------------------------------
+
+A use case diagram is a UML diagram that illustrates the interactions between users (called actors) and the system. It describes the different functionalities (use cases) that the system offers to its users, showing who uses what and how, without going into technical details.
+
+The use case diagram for Sprint 2, presented in Figure~\ref{fig:sprint2usecase}, identifies the interactions between the four system actors --- Visitor, Candidate, HR Officer, and Manager --- and the recruitment management features delivered during this sprint.
+
+\begin{figure}[H]
+    \centering
+    \framebox[0.90\textwidth]{\rule{0pt}{8cm}}
+    \caption{Use Case Diagram --- Sprint 2: Recruitment Management}
+    \label{fig:sprint2usecase}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{Textual Description of Use Cases}
+% ------------------------------------------------------------
+
+This section provides a textual description of the main use cases appearing in the Sprint 2 use case diagram. Each use case is described through its initiating actor, goal, pre-conditions, post-conditions, main success scenario, and alternative scenarios.
+
+% ....................................
+\subsubsection{Use Case Description: ``Manage Job Offer''}
+
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.4}
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{|>{\bfseries\arraybackslash}p{4cm}|X|}
+\hline
+\rowcolor[gray]{0.85}
+\multicolumn{2}{|c|}{\textbf{Use Case: Manage Job Offer}} \\
+\hline
+Use Case            & Manage Job Offer \\
+\hline
+Initiating Actor    & HR Officer (Administrator) \\
+\hline
+Goal                & Allow the HR officer to create, update, publish, and archive job offers so that available positions are communicated accurately to candidates on the platform. \\
+\hline
+Pre-condition       & The HR officer is authenticated and has access to the offer management interface. \\
+\hline
+Post-condition      & The job offer is created or updated with the desired status and, if published, becomes visible to visitors and candidates on the public listing page. \\
+\hline
+Scenario Description &
+The HR officer navigates to the offer management interface, fills in the offer details, and selects the appropriate status. Published offers become immediately visible to unauthenticated visitors and candidates. \\
+\hline
+Main Scenario (Success) &
+\begin{enumerate}[leftmargin=*, label=\arabic*., topsep=0pt, itemsep=0pt]
+    \item The HR officer navigates to the job offer management interface.
+    \item The HR officer clicks ``Create New Offer''.
+    \item The HR officer fills in the offer form: title, description, required skills, experience level, contract type, and location.
+    \item The HR officer selects the offer status: draft, published, or archived.
+    \item The HR officer submits the form.
+    \item The system validates the data and saves the offer.
+    \item If the status is ``published'', the offer becomes visible on the public listing page immediately.
+    \item The system displays a confirmation message and redirects to the offer list.
+\end{enumerate} \\
+\hline
+Alternative Scenarios &
+\textbf{A1 --- Incomplete form:} The system highlights the missing required fields and asks the HR officer to complete them before saving. \newline
+\textbf{A2 --- Archive a published offer:} The HR officer changes the status to ``archived''; the offer is immediately removed from the public listing. \newline
+\textbf{A3 --- Edit an existing offer:} The HR officer selects an existing offer, modifies the desired fields, and saves the changes. \\
+\hline
+\end{tabularx}
+\caption{Textual Description of Use Case ``Manage Job Offer''}
+\label{tab:uc-manageoffer}
+\end{table}
+\normalsize
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1}
+
+% ....................................
+\subsubsection{Use Case Description: ``Apply to Job Offer''}
+
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{|>{\bfseries\arraybackslash}p{4cm}|X|}
+\hline
+\rowcolor[gray]{0.85}
+\multicolumn{2}{|c|}{\textbf{Use Case: Apply to Job Offer}} \\
+\hline
+Use Case            & Apply to Job Offer \\
+\hline
+Initiating Actor    & Candidate \\
+\hline
+Goal                & Allow an authenticated candidate to submit an application for a published job offer by providing a CV and optional cover letter, so that their profile enters the recruitment pipeline. \\
+\hline
+Pre-condition       & The candidate is authenticated. The targeted job offer exists and is published. The candidate has not already applied to this offer. \\
+\hline
+Post-condition      & A new application is recorded in the system with the status ``Under Evaluation''. The submitted CV is stored and linked to the application. The HR officer can view the new application in the pipeline. \\
+\hline
+Scenario Description &
+The candidate navigates to the offer detail page, clicks ``Apply'', and is guided through a multi-step form to upload or reuse a CV and add a cover letter. The system records the application upon submission. \\
+\hline
+Main Scenario (Success) &
+\begin{enumerate}[leftmargin=*, label=\arabic*., topsep=0pt, itemsep=0pt]
+    \item The candidate navigates to the published offer detail page.
+    \item The candidate clicks the ``Apply'' button.
+    \item The system presents the application form (Step 1): the candidate chooses to upload a new CV or reuse an existing one.
+    \item The candidate uploads the CV file (PDF format).
+    \item The system presents the application form (Step 2): the candidate optionally adds a cover letter.
+    \item The candidate reviews the application summary and confirms submission.
+    \item The system records the application with the status ``Under Evaluation'' and the submission date.
+    \item The system confirms successful submission and redirects the candidate to their applications list.
+\end{enumerate} \\
+\hline
+Alternative Scenarios &
+\textbf{A1 --- Candidate already applied:} The system detects the duplicate application and informs the candidate that they have already applied to this offer. \newline
+\textbf{A2 --- No CV provided:} The system prevents submission and displays a message requiring the candidate to provide a CV before proceeding. \newline
+\textbf{A3 --- Unsupported file format:} The system rejects the uploaded file and asks the candidate to upload a valid PDF document. \\
+\hline
+\end{tabularx}
+\caption{Textual Description of Use Case ``Apply to Job Offer''}
+\label{tab:uc-applyoffer}
+\end{table}
+\normalsize
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1}
+
+% ....................................
+\subsubsection{Use Case Description: ``Manage Application Pipeline''}
+
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.6}
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{|>{\bfseries\arraybackslash}p{4cm}|X|}
+\hline
+\rowcolor[gray]{0.85}
+\multicolumn{2}{|c|}{\textbf{Use Case: Manage Application Pipeline}} \\
+\hline
+Use Case            & Manage Application Pipeline \\
+\hline
+Initiating Actor    & HR Officer (Administrator) \\
+\hline
+Goal                & Allow the HR officer to view, filter, and update the status of all received applications so that qualified candidates are progressed through the recruitment workflow and unqualified ones are rejected. \\
+\hline
+Pre-condition       & The HR officer is authenticated. At least one application exists in the system. \\
+\hline
+Post-condition      & The application status is updated. If forwarded to a manager, the application becomes visible in the manager's review interface. If rejected, the candidate's application status is updated accordingly. \\
+\hline
+Scenario Description &
+The HR officer opens the application management interface, filters and reviews applications, and transitions them through the pipeline by changing their status. \\
+\hline
+Main Scenario (Success) &
+\begin{enumerate}[leftmargin=*, label=\arabic*., topsep=0pt, itemsep=0pt]
+    \item The HR officer navigates to the application management interface.
+    \item The system displays all received applications with their status, submission date, and offer title.
+    \item The HR officer applies filters (by status, score, or date) to narrow the list.
+    \item The HR officer opens an application detail to review the candidate profile and CV.
+    \item The HR officer changes the application status: ``Forward to Manager'', or ``Reject''.
+    \item The system saves the updated status and records the transition date.
+    \item If forwarded, the application appears in the designated manager's review queue.
+\end{enumerate} \\
+\hline
+Alternative Scenarios &
+\textbf{A1 --- Download CV:} The HR officer clicks ``Download CV'' to retrieve the candidate's original document for offline review. \newline
+\textbf{A2 --- No applications match filters:} The system displays an empty state message and suggests broadening the filter criteria. \\
+\hline
+\end{tabularx}
+\caption{Textual Description of Use Case ``Manage Application Pipeline''}
+\label{tab:uc-pipeline}
+\end{table}
+\normalsize
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1}
+
+% ....................................
+\subsubsection{Use Case Description: ``Submit Offer Recommendation''}
+
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.2}
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{|>{\bfseries\arraybackslash}p{4cm}|X|}
+\hline
+\rowcolor[gray]{0.85}
+\multicolumn{2}{|c|}{\textbf{Use Case: Submit Offer Recommendation}} \\
+\hline
+Use Case            & Submit Offer Recommendation \\
+\hline
+Initiating Actor    & Manager \\
+\hline
+Goal                & Allow a manager to formally propose a new job opening to the HR officer, so that recruitment needs identified at the department level are officially communicated and can be processed. \\
+\hline
+Pre-condition       & The manager is authenticated and has access to the recommendation submission form. \\
+\hline
+Post-condition      & A recommendation request is created and sent to the HR officer's review queue. The HR officer can then accept or reject the proposal. \\
+\hline
+Scenario Description &
+The manager fills in a recommendation form describing the position needed in their department, submits it to HR, and waits for a decision. The HR officer reviews the request and either accepts it, triggering offer creation, or rejects it with a justification. \\
+\hline
+Main Scenario (Success) &
+\begin{enumerate}[leftmargin=*, label=\arabic*., topsep=0pt, itemsep=0pt]
+    \item The manager navigates to the recommendation submission interface.
+    \item The manager fills in the form: proposed job title, department, required skills, and justification.
+    \item The manager submits the recommendation request.
+    \item The system records the request with a ``Pending'' status and notifies the HR officer.
+    \item The HR officer reviews the recommendation and clicks ``Accept'' or ``Reject''.
+    \item If accepted, the system automatically creates a draft job offer pre-filled with the recommendation data.
+    \item If rejected, the HR officer provides a rejection reason visible to the manager.
+    \item The system updates the recommendation status and notifies the manager of the decision.
+\end{enumerate} \\
+\hline
+Alternative Scenarios &
+\textbf{A1 --- Incomplete recommendation form:} The system highlights required fields and prevents submission until all mandatory information is provided. \newline
+\textbf{A2 --- Duplicate recommendation:} The system warns the manager that a similar request for the same position is already pending and asks them to confirm before creating another one. \\
+\hline
+\end{tabularx}
+\caption{Textual Description of Use Case ``Submit Offer Recommendation''}
+\label{tab:uc-recommendation}
+\end{table}
+\normalsize
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1}
+
+% ============================================================
+\section{Design}
+% ============================================================
+
+% ------------------------------------------------------------
+\subsection{Sequence Diagrams}
+% ------------------------------------------------------------
+
+A sequence diagram is a UML behavioral diagram that shows how objects interact with each other over time, illustrating the order of messages exchanged between the system components for a given use case scenario.
+
+% ....................................
+\subsubsection{Sequence Diagram: ``Manage Job Offer''}
+
+Figure~\ref{fig:seq-createoffer} presents the sequence diagram for the Manage Job Offer use case, showing the interactions between the HR officer, the frontend interface, and the backend server during job offer creation and status management.
+
+\begin{figure}[H]
+    \centering
+    \framebox[0.90\textwidth]{\rule{0pt}{8cm}}
+    \caption{Sequence Diagram --- Manage Job Offer}
+    \label{fig:seq-createoffer}
+\end{figure}
+
+% ....................................
+\subsubsection{Sequence Diagram: ``Apply to Job Offer''}
+
+Figure~\ref{fig:seq-applyoffer} presents the sequence diagram for the Apply to Job Offer use case, illustrating the candidate application flow, CV upload handling, and confirmation process between the client, frontend, and backend.
+
+\begin{figure}[H]
+    \centering
+    \framebox[0.90\textwidth]{\rule{0pt}{8cm}}
+    \caption{Sequence Diagram --- Apply to Job Offer}
+    \label{fig:seq-applyoffer}
+\end{figure}
+
+% ....................................
+\subsubsection{Sequence Diagram: ``Manage Application Pipeline''}
+
+Figure~\ref{fig:seq-pipeline} presents the sequence diagram for the Manage Application Pipeline use case, detailing the status transition flow between the HR officer, the application management interface, and the backend during pipeline operations.
+
+\begin{figure}[H]
+    \centering
+    \framebox[0.90\textwidth]{\rule{0pt}{8cm}}
+    \caption{Sequence Diagram --- Manage Application Pipeline}
+    \label{fig:seq-pipeline}
+\end{figure}
+
+% ....................................
+\subsubsection{Sequence Diagram: ``Submit Offer Recommendation''}
+
+Figure~\ref{fig:seq-recommendation} presents the sequence diagram for the Submit Offer Recommendation use case, showing the communication flow between the manager, the recommendation interface, the backend, and the HR officer during the proposal and review process.
+
+\begin{figure}[H]
+    \centering
+    \framebox[0.90\textwidth]{\rule{0pt}{8cm}}
+    \caption{Sequence Diagram --- Submit Offer Recommendation}
+    \label{fig:seq-recommendation}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{Class Diagram}
+% ------------------------------------------------------------
+
+The class diagram below illustrates the conceptual structure of the entities involved in Sprint 2, showing the classes related to job offers, applications, and recommendations, along with their attributes, methods, and relationships.
+
+\begin{figure}[H]
+    \centering
+    \framebox[0.90\textwidth]{\rule{0pt}{8cm}}
+    \caption{Class Diagram --- Sprint 2: Recruitment Management}
+    \label{fig:sprint2class}
+\end{figure}
+
+% ============================================================
+\section{Sprint Realization}
+% ============================================================
+
+This section presents the key user interfaces delivered at the end of Sprint 2. Each interface corresponds to a user story defined in the sprint backlog and illustrates the final visual result of the implemented features.
+
+% ------------------------------------------------------------
+\subsection{Job Offer Management Interface (HR View)}
+% ------------------------------------------------------------
+
+The job offer management interface is accessible exclusively to the HR officer. It combines offer creation and offers listing in a single view: the officer can create a new offer by entering the title, description, required skills, experience level, contract type, and location, while also keeping a complete view of all existing offers. The list displays key information such as title, contract type, status, and creation date, and the officer can change the status of any offer or open its detail page directly from the same interface.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth,keepaspectratio]{interfaces/sprint2_JobOfferHr.png}
+    \caption{Job Offer Management Interface --- HR View}
+    \label{fig:ui-jobofferhr}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{Public Job Offers Listing Interface}
+% ------------------------------------------------------------
+
+The public job offers listing interface is accessible to all visitors without authentication. It displays all currently published offers and provides filter controls for keyword search, experience level, and contract type. Each offer card shows a summary of the position, and clicking on it opens the full offer detail page.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth,keepaspectratio]{interfaces/sprint2_public_job_offer.png}
+    \caption{Public Job Offers Listing Interface}
+    \label{fig:ui-publicoffers}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{Application Submission Interface}
+% ------------------------------------------------------------
+
+The application submission interface guides the candidate through a multi-step process to apply for a job offer. In the first step, the candidate uploads a new CV or selects a previously used one. In the second step, the candidate optionally adds a cover letter. A final summary step allows the candidate to review and confirm the application before it is submitted to the system.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth,keepaspectratio]{interfaces/application_form.png}
+    \caption{Application Submission Interface}
+    \label{fig:ui-applyoffer}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{Candidate Applications List Interface}
+% ------------------------------------------------------------
+
+The candidate applications list interface allows authenticated candidates to track all of their submitted applications in one place. For each application, the interface displays the job title, submission date, and current status (e.g., Under Evaluation, Forwarded to Manager, Rejected). This gives candidates full visibility over their recruitment progress without needing to contact HR.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth,keepaspectratio]{interfaces/candidate_applications_list_interface.png}
+    \caption{Candidate Applications List Interface}
+    \label{fig:ui-candidateapps}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{HR Application Pipeline Interface}
+% ------------------------------------------------------------
+
+The HR application pipeline interface is the central management tool for the HR officer to oversee all received applications. It provides filtering by status, score, and date, displays candidate summaries, and allows the HR officer to change the status of any application: forwarding it to a manager or rejecting it. A CV download button is available for each application.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth,keepaspectratio]{interfaces/hr_application_pipeline_interface.png}
+    \caption{HR Application Pipeline Interface}
+    \label{fig:ui-hrpipeline}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{Offer Recommendation Interface}
+% ------------------------------------------------------------
+
+The offer recommendation interface allows managers to formally propose a new job opening to the HR department. The manager fills in a form describing the position, required skills, and the justification for the recruitment need. Once submitted, the request is sent to the HR officer, who can accept the proposal (generating a draft offer) or reject it with a comment. The manager is notified of the decision.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth,keepaspectratio]{interfaces/offer_recommendation_interface.png}
+    \caption{Offer Recommendation Interface}
+    \label{fig:ui-offerrec}
+\end{figure}
+
+% ============================================================
+\section*{Conclusion}
+\addcontentsline{toc}{section}{Conclusion}
+% ============================================================
+
+This chapter presented the complete realization of Sprint 2 of the Sopra Recruit project. Starting from the sprint backlog and objectives, the analysis phase covered the use case diagram and detailed textual descriptions of the four main use cases: Manage Job Offer, Apply to Job Offer, Manage Application Pipeline, and Submit Offer Recommendation. The design phase introduced the sequence diagrams illustrating the interaction flows for each use case, as well as the class diagram representing the structural entities of the recruitment management module. Finally, the sprint realization section showcased the implemented user interfaces, demonstrating that all planned user stories were successfully delivered. The recruitment management layer is now fully operational and provides the functional foundation on which the AI-powered CV analysis and scoring features of Sprint 3 will be built.

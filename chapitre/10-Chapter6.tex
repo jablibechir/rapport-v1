@@ -1,1 +1,156 @@
-﻿
+﻿\chapter{SPRINT 4: FINALIZATION AND DEPLOYMENT}
+\thispagestyle{MyStyle}
+\minitoc
+\newpage
+\thispagestyle{MyStyle}
+
+\section*{Introduction}
+\addcontentsline{toc}{section}{Introduction}
+
+Sprint 4 focuses on the finalization of the Sopra Recruit platform, production readiness, and operational planning. This sprint consolidates the previous increments by stabilizing the workflow, preparing deployment assets, and introducing interview planning capabilities to complete the end-to-end recruitment cycle.
+
+% ============================================================
+\section{Sprint Backlog}
+% ============================================================
+
+Table~\ref{tab:sprint4backlog} summarizes the Sprint 4 backlog, including finalization tasks, deployment preparation, and interview planning.
+
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.5}
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}p{3.2cm}|>{\centering\arraybackslash}p{1.6cm}|X|>{\centering\arraybackslash}p{1.8cm}|}
+\hline
+\rowcolor[gray]{0.85}
+\textbf{User Story} & \textbf{Duration} & \multicolumn{1}{c|}{\textbf{Task}} & \textbf{Difficulty} \\
+\hline
+Interview planning
+	& 4 days
+	& Implement interview scheduling flow (time slot selection, validation, status update, and notification to candidates and managers).
+	& High \\
+\hline
+System finalization
+	& 3 days
+	& Resolve pending defects, refine UI consistency, and validate complete recruitment flow across roles.
+	& Medium \\
+\hline
+Deployment readiness
+	& 3 days
+	& Prepare environment configuration, deployment checklist, and production release procedure.
+	& Medium \\
+\hline
+Monitoring and reporting
+	& 2 days
+	& Finalize dashboard indicators and export capabilities for operational tracking.
+	& Medium \\
+\hline
+\end{tabularx}
+\caption{Sprint 4 Backlog}
+\label{tab:sprint4backlog}
+\end{table}
+\normalsize
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1}
+
+% ============================================================
+\section{Sprint Objective}
+% ============================================================
+
+The objective of Sprint 4 is to deliver a stable and deployable version of the platform by finalizing key business workflows, especially interview planning, and preparing all technical and functional elements required for production use.
+
+% ============================================================
+\section{Analysis}
+% ============================================================
+
+% ------------------------------------------------------------
+\subsection{Global Use Case Diagram}
+% ------------------------------------------------------------
+
+The global use case diagram consolidates the final system interactions among Visitor, Candidate, HR Officer, and Manager after integrating all sprint deliverables.
+
+\begin{figure}[H]
+		\centering
+		\framebox[0.90\textwidth]{\rule{0pt}{8cm}}
+		\caption{Global Use Case Diagram --- Final System}
+		\label{fig:sprint4-global-usecase}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{Global Class Diagram}
+% ------------------------------------------------------------
+
+The global class diagram presents the complete structural model of the final platform, including authentication, recruitment management, AI scoring, and interview planning entities.
+
+\begin{figure}[H]
+		\centering
+		\framebox[0.90\textwidth]{\rule{0pt}{8cm}}
+		\caption{Global Class Diagram --- Final System}
+		\label{fig:sprint4-global-class}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{Activity Diagram: Interview Planning}
+% ------------------------------------------------------------
+
+This activity diagram describes the end-to-end interview planning process, from selecting a candidate to confirming interview scheduling and notifications.
+
+\begin{figure}[H]
+		\centering
+		\framebox[0.90\textwidth]{\rule{0pt}{8cm}}
+		\caption{Activity Diagram --- Interview Planning}
+		\label{fig:sprint4-activity-interview}
+\end{figure}
+
+% ============================================================
+\section{Sprint Realization}
+% ============================================================
+
+This section presents the final interfaces delivered in Sprint 4. Figure spaces are intentionally kept as placeholders and can be replaced later with actual screenshots.
+
+% ------------------------------------------------------------
+\subsection{Interview Scheduling Interface (HR View)}
+% ------------------------------------------------------------
+
+This interface allows the HR officer to schedule interviews by selecting candidate, date, time, and interviewer.
+
+\begin{figure}[H]
+		\centering
+		\framebox[0.85\textwidth]{\rule{0pt}{8cm}}
+		\caption{Interview Scheduling Interface --- HR View}
+		\label{fig:ui-sprint4-interview-scheduling}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{Interview Calendar Interface}
+% ------------------------------------------------------------
+
+This interface displays planned interviews in calendar format and supports follow-up and updates.
+
+\begin{figure}[H]
+		\centering
+		\framebox[0.85\textwidth]{\rule{0pt}{8cm}}
+		\caption{Interview Calendar Interface}
+		\label{fig:ui-sprint4-interview-calendar}
+\end{figure}
+
+% ------------------------------------------------------------
+\subsection{Candidate Interview Notification Interface}
+% ------------------------------------------------------------
+
+This interface reflects the interview notification and confirmation details visible to the candidate.
+
+\begin{figure}[H]
+		\centering
+		\framebox[0.85\textwidth]{\rule{0pt}{8cm}}
+		\caption{Candidate Interview Notification Interface}
+		\label{fig:ui-sprint4-candidate-notification}
+\end{figure}
+
+% ============================================================
+\section*{Conclusion}
+\addcontentsline{toc}{section}{Conclusion}
+% ============================================================
+
+Sprint 4 completed the platform by consolidating all business processes and preparing deployment. The global analysis artifacts and interview planning workflow demonstrate that the system is functionally complete, stable, and ready for operational use.
+
