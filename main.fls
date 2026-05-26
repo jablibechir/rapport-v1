@@ -1052,12 +1052,12 @@ INPUT .\images\postgresql_logo.png
 INPUT .\images\postgresql_logo.png
 INPUT .\images\postgresql_logo.png
 INPUT .\images\postgresql_logo.png
-INPUT .\images\diagrammes\sprint1\sprint1_usecase.png
-INPUT .\images\diagrammes\sprint1\sprint1_usecase.png
-INPUT .\images\diagrammes\sprint1\sprint1_usecase.png
-INPUT .\images\diagrammes\sprint1\sprint1_usecase.png
-INPUT .\images\diagrammes\sprint1\sprint1_usecase.png
-INPUT .\images\diagrammes\sprint1\sprint1_usecase.png
+INPUT .\images\diagrammes\global use case diagram.jpg
+INPUT .\images\diagrammes\global use case diagram.jpg
+INPUT .\images\diagrammes\global use case diagram.jpg
+INPUT .\images\diagrammes\global use case diagram.jpg
+INPUT .\images\diagrammes\global use case diagram.jpg
+INPUT .\images\diagrammes\global use case diagram.jpg
 INPUT .\chapitre\07-Chapter3.tex
 INPUT .\chapitre\07-Chapter3.tex
 INPUT .\chapitre\07-Chapter3.tex
@@ -1072,42 +1072,42 @@ INPUT .\main.mtc
 INPUT main.mtc
 OUTPUT main.mtc
 INPUT main.mtc4
-INPUT .\images\diagrammes\sprint1\Sprint1 - Authentification 1 User Management.png
-INPUT .\images\diagrammes\sprint1\Sprint1 - Authentification 1 User Management.png
-INPUT .\images\diagrammes\sprint1\Sprint1 - Authentification 1 User Management.png
-INPUT .\images\diagrammes\sprint1\Sprint1 - Authentification 1 User Management.png
-INPUT .\images\diagrammes\sprint1\Sprint1 - Authentification 1 User Management.png
-INPUT .\images\diagrammes\sprint1\Sprint1 - Authentification 1 User Management.png
-INPUT .\images\diagrammes\sprint1\seq_register.png
-INPUT .\images\diagrammes\sprint1\seq_register.png
-INPUT .\images\diagrammes\sprint1\seq_register.png
-INPUT .\images\diagrammes\sprint1\seq_register.png
-INPUT .\images\diagrammes\sprint1\seq_register.png
-INPUT .\images\diagrammes\sprint1\seq_register.png
-INPUT .\images\diagrammes\sprint1\seq_signin.png
-INPUT .\images\diagrammes\sprint1\seq_signin.png
-INPUT .\images\diagrammes\sprint1\seq_signin.png
-INPUT .\images\diagrammes\sprint1\seq_signin.png
-INPUT .\images\diagrammes\sprint1\seq_signin.png
-INPUT .\images\diagrammes\sprint1\seq_signin.png
-INPUT .\images\diagrammes\sprint1\seq_manage_user.png
-INPUT .\images\diagrammes\sprint1\seq_manage_user.png
-INPUT .\images\diagrammes\sprint1\seq_manage_user.png
-INPUT .\images\diagrammes\sprint1\seq_manage_user.png
-INPUT .\images\diagrammes\sprint1\seq_manage_user.png
-INPUT .\images\diagrammes\sprint1\seq_manage_user.png
-INPUT .\images\diagrammes\sprint2\seq_manage_permission.png
-INPUT .\images\diagrammes\sprint2\seq_manage_permission.png
-INPUT .\images\diagrammes\sprint2\seq_manage_permission.png
-INPUT .\images\diagrammes\sprint2\seq_manage_permission.png
-INPUT .\images\diagrammes\sprint2\seq_manage_permission.png
-INPUT .\images\diagrammes\sprint2\seq_manage_permission.png
-INPUT .\images\diagrammes\sprint1\sprint1_class_diagram.png
-INPUT .\images\diagrammes\sprint1\sprint1_class_diagram.png
-INPUT .\images\diagrammes\sprint1\sprint1_class_diagram.png
-INPUT .\images\diagrammes\sprint1\sprint1_class_diagram.png
-INPUT .\images\diagrammes\sprint1\sprint1_class_diagram.png
-INPUT .\images\diagrammes\sprint1\sprint1_class_diagram.png
+INPUT .\images\diagrammes\sprint 1\use case Sprint1 - Authentification and User Management.jpg
+INPUT .\images\diagrammes\sprint 1\use case Sprint1 - Authentification and User Management.jpg
+INPUT .\images\diagrammes\sprint 1\use case Sprint1 - Authentification and User Management.jpg
+INPUT .\images\diagrammes\sprint 1\use case Sprint1 - Authentification and User Management.jpg
+INPUT .\images\diagrammes\sprint 1\use case Sprint1 - Authentification and User Management.jpg
+INPUT .\images\diagrammes\sprint 1\use case Sprint1 - Authentification and User Management.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram registration sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram registration sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram registration sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram registration sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram registration sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram registration sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram sign In sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram sign In sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram sign In sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram sign In sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram sign In sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram sign In sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram manage user account sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram manage user account sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram manage user account sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram manage user account sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram manage user account sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram manage user account sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram manage role permissions sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram manage role permissions sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram manage role permissions sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram manage role permissions sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram manage role permissions sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Sequence diagram manage role permissions sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Class diagram Sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Class diagram Sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Class diagram Sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Class diagram Sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Class diagram Sprint 1.jpg
+INPUT .\images\diagrammes\sprint 1\Class diagram Sprint 1.jpg
 INPUT .\images\interfaces\sprint1_register.png
 INPUT .\images\interfaces\sprint1_register.png
 INPUT .\images\interfaces\sprint1_register.png
@@ -1164,6 +1164,54 @@ INPUT .\main.mtc
 INPUT main.mtc
 OUTPUT main.mtc
 INPUT main.mtc5
+INPUT .\images\diagrammes\sprint 2\use case global sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\use case global sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\use case global sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\use case global sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\use case global sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\use case global sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\use case Apply to a job offer - Raffinement sprint 2.png
+INPUT .\images\diagrammes\sprint 2\use case Apply to a job offer - Raffinement sprint 2.png
+INPUT .\images\diagrammes\sprint 2\use case Apply to a job offer - Raffinement sprint 2.png
+INPUT .\images\diagrammes\sprint 2\use case Apply to a job offer - Raffinement sprint 2.png
+INPUT .\images\diagrammes\sprint 2\use case Apply to a job offer - Raffinement sprint 2.png
+INPUT .\images\diagrammes\sprint 2\use case Apply to a job offer - Raffinement sprint 2.png
+INPUT .\images\diagrammes\sprint 2\use case Submit offer recommendation - reffinement sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\use case Submit offer recommendation - reffinement sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\use case Submit offer recommendation - reffinement sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\use case Submit offer recommendation - reffinement sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\use case Submit offer recommendation - reffinement sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\use case Submit offer recommendation - reffinement sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram manage offers sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram manage offers sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram manage offers sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram manage offers sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram manage offers sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram manage offers sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram views offers and applies sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram views offers and applies sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram views offers and applies sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram views offers and applies sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram views offers and applies sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram views offers and applies sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram manage application pipeline sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram manage application pipeline sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram manage application pipeline sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram manage application pipeline sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram manage application pipeline sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram manage application pipeline sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram submit an offer recommendation sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram submit an offer recommendation sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram submit an offer recommendation sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram submit an offer recommendation sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram submit an offer recommendation sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Sequence diagram submit an offer recommendation sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Class diagram sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Class diagram sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Class diagram sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Class diagram sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Class diagram sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Class diagram sprint 2.jpg
 INPUT .\images\interfaces\sprint2_JobOfferHr.png
 INPUT .\images\interfaces\sprint2_JobOfferHr.png
 INPUT .\images\interfaces\sprint2_JobOfferHr.png
@@ -1214,6 +1262,42 @@ INPUT .\main.mtc
 INPUT main.mtc
 OUTPUT main.mtc
 INPUT main.mtc6
+INPUT .\images\diagrammes\sprint 3\use case global sprint 3 - AI analysis and Scoring CV.jpg
+INPUT .\images\diagrammes\sprint 3\use case global sprint 3 - AI analysis and Scoring CV.jpg
+INPUT .\images\diagrammes\sprint 3\use case global sprint 3 - AI analysis and Scoring CV.jpg
+INPUT .\images\diagrammes\sprint 3\use case global sprint 3 - AI analysis and Scoring CV.jpg
+INPUT .\images\diagrammes\sprint 3\use case global sprint 3 - AI analysis and Scoring CV.jpg
+INPUT .\images\diagrammes\sprint 3\use case global sprint 3 - AI analysis and Scoring CV.jpg
+INPUT .\images\diagrammes\sprint 3\Activity diagram CV analysis and scoring sprint 3.jpg
+INPUT .\images\diagrammes\sprint 3\Activity diagram CV analysis and scoring sprint 3.jpg
+INPUT .\images\diagrammes\sprint 3\Activity diagram CV analysis and scoring sprint 3.jpg
+INPUT .\images\diagrammes\sprint 3\Activity diagram CV analysis and scoring sprint 3.jpg
+INPUT .\images\diagrammes\sprint 3\Activity diagram CV analysis and scoring sprint 3.jpg
+INPUT .\images\diagrammes\sprint 3\Activity diagram CV analysis and scoring sprint 3.jpg
+INPUT .\images\diagrammes\sprint 3\Class diagram sprint 3.jpg
+INPUT .\images\diagrammes\sprint 3\Class diagram sprint 3.jpg
+INPUT .\images\diagrammes\sprint 3\Class diagram sprint 3.jpg
+INPUT .\images\diagrammes\sprint 3\Class diagram sprint 3.jpg
+INPUT .\images\diagrammes\sprint 3\Class diagram sprint 3.jpg
+INPUT .\images\diagrammes\sprint 3\Class diagram sprint 3.jpg
+INPUT .\images\interfaces\CV Analysis Result Interface.png
+INPUT .\images\interfaces\CV Analysis Result Interface.png
+INPUT .\images\interfaces\CV Analysis Result Interface.png
+INPUT .\images\interfaces\CV Analysis Result Interface.png
+INPUT .\images\interfaces\CV Analysis Result Interface.png
+INPUT .\images\interfaces\CV Analysis Result Interface.png
+INPUT .\images\interfaces\Candidate Score Detail Interface.png
+INPUT .\images\interfaces\Candidate Score Detail Interface.png
+INPUT .\images\interfaces\Candidate Score Detail Interface.png
+INPUT .\images\interfaces\Candidate Score Detail Interface.png
+INPUT .\images\interfaces\Candidate Score Detail Interface.png
+INPUT .\images\interfaces\Candidate Score Detail Interface.png
+INPUT .\images\interfaces\Candidate Ranking Interface.png
+INPUT .\images\interfaces\Candidate Ranking Interface.png
+INPUT .\images\interfaces\Candidate Ranking Interface.png
+INPUT .\images\interfaces\Candidate Ranking Interface.png
+INPUT .\images\interfaces\Candidate Ranking Interface.png
+INPUT .\images\interfaces\Candidate Ranking Interface.png
 INPUT .\chapitre\10-Chapter6.tex
 INPUT .\chapitre\10-Chapter6.tex
 INPUT .\chapitre\10-Chapter6.tex
@@ -1228,6 +1312,33 @@ INPUT .\main.mtc
 INPUT main.mtc
 OUTPUT main.mtc
 INPUT main.mtc7
+INPUT .\images\diagrammes\sprint 4\use case global sprint 4.jpg
+INPUT .\images\diagrammes\sprint 4\use case global sprint 4.jpg
+INPUT .\images\diagrammes\sprint 4\use case global sprint 4.jpg
+INPUT .\images\diagrammes\sprint 4\use case global sprint 4.jpg
+INPUT .\images\diagrammes\sprint 4\use case global sprint 4.jpg
+INPUT .\images\diagrammes\sprint 4\use case global sprint 4.jpg
+INPUT .\images\diagrammes\sprint 4\Activity diagram interview planning sprint 4.jpg
+INPUT .\images\diagrammes\sprint 4\Activity diagram interview planning sprint 4.jpg
+INPUT .\images\diagrammes\sprint 4\Activity diagram interview planning sprint 4.jpg
+INPUT .\images\diagrammes\sprint 4\Activity diagram interview planning sprint 4.jpg
+INPUT .\images\diagrammes\sprint 4\Activity diagram interview planning sprint 4.jpg
+INPUT .\images\diagrammes\sprint 4\Activity diagram interview planning sprint 4.jpg
+INPUT .\images\interfaces\Interview Calendar Interface.png
+INPUT .\images\interfaces\Interview Calendar Interface.png
+INPUT .\images\interfaces\Interview Calendar Interface.png
+INPUT .\images\interfaces\Interview Calendar Interface.png
+INPUT .\images\interfaces\Interview Calendar Interface.png
+INPUT .\images\interfaces\Interview Calendar Interface.png
+INPUT .\images\interfaces\Interview Calendar Interface.png
+INPUT .\images\interfaces\Interview Calendar Interface.png
+INPUT .\images\interfaces\Interview Calendar Interface.png
+INPUT .\images\interfaces\Candidate Interview Notification Interface.png
+INPUT .\images\interfaces\Candidate Interview Notification Interface.png
+INPUT .\images\interfaces\Candidate Interview Notification Interface.png
+INPUT .\images\interfaces\Candidate Interview Notification Interface.png
+INPUT .\images\interfaces\Candidate Interview Notification Interface.png
+INPUT .\images\interfaces\Candidate Interview Notification Interface.png
 INPUT .\chapitre\11-Conclusion.tex
 INPUT .\chapitre\11-Conclusion.tex
 INPUT .\chapitre\11-Conclusion.tex
