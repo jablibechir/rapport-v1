@@ -1170,12 +1170,12 @@ INPUT .\images\diagrammes\sprint 2\use case global sprint 2.jpg
 INPUT .\images\diagrammes\sprint 2\use case global sprint 2.jpg
 INPUT .\images\diagrammes\sprint 2\use case global sprint 2.jpg
 INPUT .\images\diagrammes\sprint 2\use case global sprint 2.jpg
-INPUT .\images\diagrammes\sprint 2\use case Apply to a job offer - Raffinement sprint 2.png
-INPUT .\images\diagrammes\sprint 2\use case Apply to a job offer - Raffinement sprint 2.png
-INPUT .\images\diagrammes\sprint 2\use case Apply to a job offer - Raffinement sprint 2.png
-INPUT .\images\diagrammes\sprint 2\use case Apply to a job offer - Raffinement sprint 2.png
-INPUT .\images\diagrammes\sprint 2\use case Apply to a job offer - Raffinement sprint 2.png
-INPUT .\images\diagrammes\sprint 2\use case Apply to a job offer - Raffinement sprint 2.png
+INPUT .\images\diagrammes\sprint 2\Use case diagram apply to a job offer raffinement sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Use case diagram apply to a job offer raffinement sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Use case diagram apply to a job offer raffinement sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Use case diagram apply to a job offer raffinement sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Use case diagram apply to a job offer raffinement sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Use case diagram apply to a job offer raffinement sprint 2.jpg
 INPUT .\images\diagrammes\sprint 2\use case Submit offer recommendation - reffinement sprint 2.jpg
 INPUT .\images\diagrammes\sprint 2\use case Submit offer recommendation - reffinement sprint 2.jpg
 INPUT .\images\diagrammes\sprint 2\use case Submit offer recommendation - reffinement sprint 2.jpg
@@ -1324,9 +1324,12 @@ INPUT .\images\diagrammes\sprint 4\Activity diagram interview planning sprint 4.
 INPUT .\images\diagrammes\sprint 4\Activity diagram interview planning sprint 4.jpg
 INPUT .\images\diagrammes\sprint 4\Activity diagram interview planning sprint 4.jpg
 INPUT .\images\diagrammes\sprint 4\Activity diagram interview planning sprint 4.jpg
-INPUT .\images\interfaces\Interview Calendar Interface.png
-INPUT .\images\interfaces\Interview Calendar Interface.png
-INPUT .\images\interfaces\Interview Calendar Interface.png
+INPUT .\images\interfaces\Interview Scheduling Interface.png
+INPUT .\images\interfaces\Interview Scheduling Interface.png
+INPUT .\images\interfaces\Interview Scheduling Interface.png
+INPUT .\images\interfaces\Interview Scheduling Interface.png
+INPUT .\images\interfaces\Interview Scheduling Interface.png
+INPUT .\images\interfaces\Interview Scheduling Interface.png
 INPUT .\images\interfaces\Interview Calendar Interface.png
 INPUT .\images\interfaces\Interview Calendar Interface.png
 INPUT .\images\interfaces\Interview Calendar Interface.png
@@ -1349,7 +1352,6 @@ INPUT .\chapitre\12-Bibliography.tex
 INPUT .\chapitre\12-Bibliography.tex
 INPUT .\chapitre\12-Bibliography.tex
 INPUT chapitre\12-Bibliography.tex
-INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
 OUTPUT main.maf
 INPUT .\main.mtc
 INPUT .\main.mtc
@@ -1367,8 +1369,6 @@ INPUT .\main.mtc2
 INPUT .\main.mtc2
 INPUT .\main.mtc1
 INPUT .\main.mtc1
-INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
-INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
@@ -1382,5 +1382,3 @@ INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pf
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
-INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmri8a.pfb
-INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmri8a.pfb

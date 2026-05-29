@@ -1,4 +1,4 @@
-﻿\chapter{SPRINT 2: RECRUITMENT MANAGEMENT}
+﻿\chapter[SPRINT 2: RECRUITMENT MANAGEMENT]{SPRINT 2:\\ RECRUITMENT MANAGEMENT}
 \thispagestyle{MyStyle}
 \minitoc
 \newpage
@@ -72,7 +72,7 @@ The primary objective of Sprint 2 is to deliver a fully operational recruitment 
 \subsection{Use Case Diagram}
 % ------------------------------------------------------------
 
-A use case diagram is a UML diagram that illustrates the interactions between users (called actors) and the system. It describes the different functionalities (use cases) that the system offers to its users, showing who uses what and how, without going into technical details.
+A use case diagram is a UML diagram that illustrates the interactions between users (called actors) and the system. It describes the different functionalities (use cases) that the system offers to its users, showing who uses what and how, without going into technical details [11].
 
 The use case diagram for Sprint 2, presented in Figure~\ref{fig:sprint2usecase}, identifies the interactions between the four system actors --- Visitor, Candidate, HR Officer, and Manager --- and the recruitment management features delivered during this sprint.
 
@@ -85,16 +85,16 @@ The use case diagram for Sprint 2, presented in Figure~\ref{fig:sprint2usecase},
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.90\textwidth]{diagrammes/sprint 2/use case Apply to a job offer - Raffinement sprint 2.png}
-    \caption{use case Apply to a job offer--- Sprint 2: Recruitment Management}
-    \label{fig:sprint2usecase}
+    \includegraphics[width=0.88\textwidth]{diagrammes/sprint 2/Use case diagram apply to a job offer raffinement sprint 2.jpg}
+    \caption{Use Case Diagram --- Apply to Job Offer (Refinement)}
+    \label{fig:sprint2usecase-apply}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.90\textwidth]{diagrammes/sprint 2/use case Submit offer recommendation - reffinement sprint 2.jpg}
-    \caption{use case Submit offer recommendation --- Sprint 2: Recruitment Management}
-    \label{fig:sprint2usecase}
+    \caption{Use Case Diagram --- Submit Offer Recommendation (Refinement)}
+    \label{fig:sprint2usecase-recommend}
 \end{figure}
 % ------------------------------------------------------------
 \subsection{Textual Description of Use Cases}
@@ -311,7 +311,7 @@ Alternative Scenarios &
 \subsection{Sequence Diagrams}
 % ------------------------------------------------------------
 
-A sequence diagram is a UML behavioral diagram that shows how objects interact with each other over time, illustrating the order of messages exchanged between the system components for a given use case scenario.
+A sequence diagram is a UML behavioral diagram that shows how objects interact with each other over time, illustrating the order of messages exchanged between the system components for a given use case scenario [12].
 
 % ....................................
 \subsubsection{Sequence Diagram: ``Manage Job Offer''}
@@ -320,7 +320,7 @@ Figure~\ref{fig:seq-createoffer} presents the sequence diagram for the Manage Jo
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.90\textwidth]{diagrammes/sprint 2/Sequence diagram manage offers sprint 2.jpg}
+    \includegraphics[width=0.81\textwidth]{diagrammes/sprint 2/Sequence diagram manage offers sprint 2.jpg}
     \caption{Sequence Diagram --- Manage Job Offer}
     \label{fig:seq-createoffer}
 \end{figure}
@@ -332,7 +332,7 @@ Figure~\ref{fig:seq-applyoffer} presents the sequence diagram for the Apply to J
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.90\textwidth]{diagrammes/sprint 2/Sequence diagram views offers and applies sprint 2.jpg}
+    \includegraphics[width=0.88\textwidth]{diagrammes/sprint 2/Sequence diagram views offers and applies sprint 2.jpg}
     \caption{Sequence Diagram --- Apply to Job Offer}
     \label{fig:seq-applyoffer}
 \end{figure}
@@ -344,7 +344,7 @@ Figure~\ref{fig:seq-pipeline} presents the sequence diagram for the Manage Appli
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.90\textwidth]{diagrammes/sprint 2/Sequence diagram manage application pipeline sprint 2.jpg}
+    \includegraphics[width=0.97\textwidth]{diagrammes/sprint 2/Sequence diagram manage application pipeline sprint 2.jpg}
     \caption{Sequence Diagram --- Manage Application Pipeline}
     \label{fig:seq-pipeline}
 \end{figure}
@@ -356,7 +356,7 @@ Figure~\ref{fig:seq-recommendation} presents the sequence diagram for the Submit
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.60\textwidth]{diagrammes/sprint 2/Sequence diagram submit an offer recommendation sprint 2.jpg}
+    \includegraphics[width=0.68\textwidth]{diagrammes/sprint 2/Sequence diagram submit an offer recommendation sprint 2.jpg}
     \caption{Sequence Diagram --- Submit Offer Recommendation}
     \label{fig:seq-recommendation}
 \end{figure}
@@ -365,7 +365,7 @@ Figure~\ref{fig:seq-recommendation} presents the sequence diagram for the Submit
 \subsection{Class Diagram}
 % ------------------------------------------------------------
 
-The class diagram below illustrates the conceptual structure of the entities involved in Sprint 2, showing the classes related to job offers, applications, and recommendations, along with their attributes, methods, and relationships.
+The class diagram below illustrates the conceptual structure of the entities involved in Sprint 2, showing the classes related to job offers, applications, and recommendations, along with their attributes, methods, and relationships [13].
 
 \begin{figure}[H]
     \centering

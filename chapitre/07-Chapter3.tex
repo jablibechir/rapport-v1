@@ -1,4 +1,4 @@
-﻿\chapter{SPRINT 1: AUTHENTICATION AND SETUP}
+﻿\chapter[SPRINT 1: AUTHENTICATION AND SETUP]{SPRINT 1:\\ AUTHENTICATION AND SETUP}
 \thispagestyle{MyStyle}
 \minitoc
 \newpage
@@ -72,7 +72,7 @@ The primary objective of Sprint 1 is to deliver a fully operational authenticati
 \subsection{Use Case Diagram}
 % ------------------------------------------------------------
 
-A use case diagram is a UML diagram that illustrates the interactions between users (called actors) and the system. It describes the different functionalities (use cases) that the system offers to its users, showing who uses what and how, without going into technical details.
+A use case diagram is a UML diagram that illustrates the interactions between users (called actors) and the system. It describes the different functionalities (use cases) that the system offers to its users, showing who uses what and how, without going into technical details [11].
 
 The use case diagram for Sprint 1, presented in Figure~\ref{fig:sprint1usecase}, identifies the interactions between the four system actors — Visitor, Candidate, HR Officer, and Manager — and the authentication and setup features delivered during this sprint.
 
@@ -295,7 +295,7 @@ Alternative Scenarios &
 \subsection{Sequence Diagrams}
 % ------------------------------------------------------------
 
-A sequence diagram is a UML behavioral diagram that shows how objects interact with each other over time, illustrating the order of messages exchanged between the system components for a given use case scenario.
+A sequence diagram is a UML behavioral diagram that shows how objects interact with each other over time, illustrating the order of messages exchanged between the system components for a given use case scenario [12].
 
 % ....................................
 \subsubsection{Sequence Diagram: ``Register''}
@@ -344,7 +344,7 @@ Figure~\ref{fig:seq-permission} presents the sequence diagram for the Manage Per
 \begin{figure}[H]
     \centering
     % Add your Manage Permission sequence diagram image here
-    \includegraphics[width=0.90\textwidth]{diagrammes/sprint 1/Sequence diagram manage role permissions sprint 1.jpg}
+    \includegraphics[width=0.88\textwidth]{diagrammes/sprint 1/Sequence diagram manage role permissions sprint 1.jpg}
     \caption{Sequence Diagram --- Manage Permission}
     \label{fig:seq-permission}
 \end{figure}
@@ -353,7 +353,7 @@ Figure~\ref{fig:seq-permission} presents the sequence diagram for the Manage Per
 \subsection{Class Diagram}
 % ------------------------------------------------------------
 
-The class diagram below illustrates the conceptual structure of the entities involved in Sprint 1, showing the classes related to authentication and user management, along with their attributes, methods, and relationships.
+The class diagram below illustrates the conceptual structure of the entities involved in Sprint 1, showing the classes related to authentication and user management, along with their attributes, methods, and relationships [13].
 
 \begin{figure}[H]
     \centering
@@ -399,7 +399,7 @@ After registration, the visitor receives a verification email containing an acti
 \subsection{Sign In Interface}
 % ------------------------------------------------------------
 
-The sign-in interface provides a secure login form for all platform roles — candidates, HR officers, and managers. The user enters their email address and password to authenticate. Upon successful login, the system generates a JWT token and redirects the user to their role-specific dashboard. Error messages are displayed for invalid credentials or inactive accounts.
+The sign-in interface provides a secure login form for all platform roles --- candidates, HR officers, and managers. The user enters their email address and password to authenticate. Upon successful login, the system generates a JWT token and redirects the user to their role-specific dashboard [9]. Error messages are displayed for invalid credentials or inactive accounts.
 
 \begin{figure}[H]
     \centering
