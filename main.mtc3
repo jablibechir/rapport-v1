@@ -1,19 +1,11 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Introduction}{\reset@font\mtcSfont 10}{section*.8}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}Requirements Elicitation}{\reset@font\mtcSfont 10}{section.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1.1}Requirements Specifications}{\reset@font\mtcSSfont 10}{subsection.2.1.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1.2}Identification of Actors}{\reset@font\mtcSSfont 10}{subsection.2.1.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Functional and Non-Functional Requirements}{\reset@font\mtcSfont 11}{section.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.1}Functional Requirements}{\reset@font\mtcSSfont 11}{subsection.2.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.2}Non-Functional Requirements}{\reset@font\mtcSSfont 13}{subsection.2.2.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Project Management Using SCRUM}{\reset@font\mtcSfont 15}{section.2.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.1}Team and Roles}{\reset@font\mtcSSfont 16}{subsection.2.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.2}Product Backlog}{\reset@font\mtcSSfont 17}{subsection.2.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.3}Sprint Planning}{\reset@font\mtcSSfont 21}{subsection.2.3.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Working Environment}{\reset@font\mtcSfont 21}{section.2.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.1}Hardware Environment}{\reset@font\mtcSSfont 22}{subsection.2.4.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.2}Software Environment}{\reset@font\mtcSSfont 22}{subsection.2.4.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.3}Development Tools}{\reset@font\mtcSSfont 22}{subsection.2.4.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.4}Technologies Used}{\reset@font\mtcSSfont 24}{subsection.2.4.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}Requirements Modeling}{\reset@font\mtcSfont 28}{section.2.5}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.1}Global Use Case Diagram}{\reset@font\mtcSSfont 28}{subsection.2.5.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Conclusion}{\reset@font\mtcSfont 30}{figure.caption.27}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Introduction}{\reset@font\mtcSfont 4}{section*.6}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.1}Presentation of the Host Organization}{\reset@font\mtcSfont 4}{section.1.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.2}Project Study}{\reset@font\mtcSfont 4}{section.1.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.1}Project Context}{\reset@font\mtcSSfont 4}{subsection.1.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.2}Analysis of the Existing System}{\reset@font\mtcSSfont 5}{subsection.1.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.3}Comparative Study of Existing Recruitment Solutions}{\reset@font\mtcSSfont 5}{subsection.1.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.4}Proposed Solution}{\reset@font\mtcSSfont 6}{subsection.1.2.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.3}Working Methodology Choice}{\reset@font\mtcSfont 7}{section.1.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.1}Agile Method}{\reset@font\mtcSSfont 7}{subsection.1.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.2}SCRUM Methodology}{\reset@font\mtcSSfont 7}{subsection.1.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.3}SCRUM Actors}{\reset@font\mtcSSfont 8}{subsection.1.3.3}}

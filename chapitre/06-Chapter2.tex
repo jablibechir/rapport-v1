@@ -15,7 +15,7 @@ The purpose of requirements elicitation is to identify the stakeholders' needs a
 
 \subsection{Requirements Specifications}
 
-The specification of requirements begins during the preliminary analysis phase, which marks the start of the system development process. This phase focuses on identifying and formalizing both functional and non-functional requirements of the proposed recruitment portal, based on the information gathered during requirements elicitation. These requirements are expressed using clear textual descriptions and simple models to ensure a precise understanding of the system's expected behavior and constraints.
+Requirements specification is the process of formally defining what the system must do and how it must behave. Based on the information gathered in the previous section, both functional and non-functional requirements are identified and expressed through clear textual descriptions and structured models, providing a precise foundation for the design and development phases.
 
 \subsection{Identification of Actors}
 
@@ -33,7 +33,7 @@ Administrator / HR
   & Manages the recruitment platform by creating job offers, configuring scoring criteria, and supervising applications and system settings. \\
 \hline
 Manager
-  & Reviews applications related to their department and contributes to candidate evaluation and selection. \\
+  & Reviews applications forwarded by the HR department, contributes to candidate evaluation and final selection, and can submit job offer recommendations to the HR officer when a position needs to be filled. \\
 \hline
 Candidate
   & Applies for job offers by submitting a CV and tracks the status of submitted applications. \\
@@ -48,11 +48,11 @@ Visitor
 
 \section{Functional and Non-Functional Requirements}
 
-In this section, we present the functional and non-functional requirements for the development of our portal, Sopra Recruit. The proposed solution aims to centralize the management of job offers and applications, automate CV analysis through parsing and scoring mechanisms, and support recruiters in candidate pre-selection and decision-making. These requirements define the expected behavior of the system as well as the quality constraints necessary to ensure efficiency, reliability, and security.
+This section defines the functional and non-functional requirements of Sopra Recruit. Functional requirements describe what the system must do, including offer management, application processing, CV analysis, scoring, and user management. Non-functional requirements define the quality constraints the system must satisfy, including security, performance, usability, and maintainability.
 
 \subsection{Functional Requirements}
 
-The functional requirements of the intelligent recruitment portal are organized according to the different user profiles interacting with the system. These profiles include the Visitor, the Candidate, the Human Resources Officer, the Manager, and the automated system. Each actor is associated with a specific set of functionalities that define their interactions with the platform.
+The functional requirements are organized by actor. Each actor, including the Visitor, Candidate, Human Resources Officer, and Manager, is associated with a specific set of interactions and capabilities within the platform.
 
 \paragraph*{Visitor (Unauthenticated User)}
 
@@ -92,7 +92,7 @@ The Human Resources Officer acts as the administrator of the recruitment platfor
     \item Access the secured administration interface.
     \item Manage user accounts and assign roles and permissions.
     \item Create, publish, update and archive job offers.
-    \item Define and analyze received applications.
+    \item Consult, filter, and manage received applications according to their status, score, or submission date.
     \item Evaluate applications and decide on rejection or progression.
     \item Forward selected applications to managers.
     \item Plan and manage recruitment interviews.
@@ -147,7 +147,6 @@ Beyond the functionalities described above, the recruitment portal must meet a s
 \begin{itemize}[label={-}]
     \item The interface should have a modern and professional design, and each screen should follow the natural way users work.
     \item Every action performed by a user should immediately show visual feedback, and the system status should be displayed consistently across the application.
-    \item The application process should guide candidates step by step and include a clear GDPR consent step.
 \end{itemize}
 
 \paragraph*{Compatibility and Accessibility}
@@ -175,59 +174,36 @@ Beyond the functionalities described above, the recruitment portal must meet a s
 
 \section{Project Management Using SCRUM}
 
-To manage and develop the intelligent recruitment platform, the Agile SCRUM approach was adopted. SCRUM is highly suitable for this project because of its iterative nature and flexibility in handling evolving requirements. This approach allows continuous improvement of the product while ensuring regular delivery of functional increments [2].
-
-The SCRUM methodology is based on the following principles:
-
-\begin{itemize}[label={-}]
-    \item Continuous collaboration between team members and stakeholders to ensure a shared understanding of project objectives.
-    \item Regular ceremonies such as Sprint Planning, Daily Meetings, Sprint Reviews, and Sprint Retrospectives, which help structure the work and monitor progress.
-    \item Iterative development through sprints, which are short development cycles with clearly defined objectives.
-    \item Constant monitoring of project progress, enabling early detection of issues and gradual delivery of a stable and high-quality product.
-\end{itemize}
-
-This approach allowed the team to prioritize essential functionalities, integrate feedback progressively, and adapt the platform to real user needs throughout the development process.
+The Agile SCRUM framework, presented in Chapter 1, was used to manage the development of this project. Its iterative structure allowed the team to organize work into four sprints, prioritize features progressively, and deliver functional increments at regular intervals. The following sections present the team composition, the product backlog, and the sprint planning adopted for this project.
 
 \subsection{Team and Roles}
 
-\paragraph*{The Product Owner (PO)}
+The project team was organized according to the three SCRUM roles defined in Chapter 1. Table~\ref{tab:scrumteam} presents each role, the person responsible, and their specific involvement in this project.
 
-The Product Owner is responsible for defining the functional requirements of the project and ensuring that the product delivers value to its users. The Product Owner's responsibilities include:
-
-\begin{itemize}[label={-}]
-    \item Defining and prioritizing project needs based on user expectations and business objectives.
-    \item Managing and maintaining the product backlog.
-    \item Validating completed functionalities at the end of each sprint.
-    \item Collaborating closely with stakeholders to ensure their requirements are properly understood and implemented.
-\end{itemize}
-
-In this project, the Product Owner role was fulfilled by Mr.\ Ramzi Ben Chamekh, Manager at Sopra HR Software.
-
-\paragraph*{SCRUM Master (SM)}
-
-The Scrum Master ensures that SCRUM principles and practices are properly applied throughout the project. This role focuses on facilitating collaboration within the team and supporting the development process by removing obstacles. The Scrum Master's responsibilities include:
-
-\begin{itemize}[label={-}]
-    \item Ensuring correct application of the SCRUM framework.
-    \item Facilitating communication between team members.
-    \item Assisting the team in resolving impediments.
-    \item Coordinating SCRUM ceremonies and supporting sprint execution.
-\end{itemize}
-
-In this project, the Scrum Master role was assumed by Ms.\ Nada Bouhlel, the project supervisor.
-
-\paragraph*{Development Team}
-
-The Development Team is responsible for the concrete implementation of the intelligent recruitment platform. Team members collaborate actively during each sprint to design, develop, and test the system's functionalities. The responsibilities of the development team include:
-
-\begin{itemize}[label={-}]
-    \item Designing and implementing platform features.
-    \newpage
-    \item Participating in sprint planning, daily meetings, and reviews.
-    \item Delivering functional increments at the end of each sprint.
-\end{itemize}
-
-In this project, the development team consists of Mayssem ESSMAII and Bechir JABLI.
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.6}
+\begin{tabularx}{\textwidth}{|>{\bfseries\centering\arraybackslash}p{3.5cm}|>{\centering\arraybackslash}p{4cm}|X|}
+\hline
+\rowcolor[gray]{0.85}
+\textbf{Scrum Role} & \textbf{Assigned Member} & \multicolumn{1}{c|}{\textbf{Main Responsibilities}} \\
+\hline
+Product Owner
+  & Mr.\ Ramzi Ben Chamekh
+  & Defines and prioritizes functional requirements, validates deliverables at each sprint review. \\
+\hline
+Scrum Master
+  & Ms.\ Nada Bouhlel
+  & Ensures SCRUM practices are followed, facilitates sprint ceremonies, supports the development team. \\
+\hline
+Development Team
+  & Mayssem ESSMAII \& Bechir JABLI
+  & Designs, implements, and tests all platform features across the four sprints. \\
+\hline
+\end{tabularx}
+\caption{SCRUM Team Composition}
+\label{tab:scrumteam}
+\end{table}
 
 \subsection{Product Backlog}
 

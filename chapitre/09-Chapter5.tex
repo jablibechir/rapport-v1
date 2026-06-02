@@ -27,7 +27,7 @@ Table~\ref{tab:sprint3backlog} presents the sprint backlog for Sprint 3, includi
 \hline
 Automatic CV analysis
 	& 1 week
-	& Integrate AI-based CV parsing; extract key information (skills, experience, education); normalize extracted data for downstream scoring.
+	& Integrate AI-based CV parsing; extract key information (skills, experience, education, languages); normalize extracted data into a structured candidate profile.
 	& High \\
 \hline
 Candidate scoring engine
@@ -35,9 +35,14 @@ Candidate scoring engine
 	& Implement matching logic between CV content and job requirements; compute weighted scores; store and expose score details.
 	& High \\
 \hline
-HR score visualization
+Scoring criteria configuration
+	& 1 week
+	& Build HR interface for defining and adjusting weighted scoring criteria per offer; allow priority configuration for skills, experience, and education.
+	& Medium \\
+\hline
+HR score visualization and ranking
 	& 4 days
-	& Build interfaces to display score, matching criteria, and candidate ranking; add filters and sorting by score.
+	& Build interfaces to display score breakdown, matching criteria, and candidate ranking; add filters and sorting by score; implement score-based recalculation.
 	& Medium \\
 \hline
 Analysis traceability
@@ -58,6 +63,34 @@ Analysis traceability
 % ============================================================
 
 The objective of Sprint 3 is to enhance the recruitment platform with an AI-assisted evaluation workflow that automatically analyzes CVs and produces structured candidate scores. By the end of this sprint, HR officers should be able to view ranked candidates with clear scoring indicators, compare applicants more efficiently, and make faster and more consistent pre-selection decisions.
+
+% ============================================================
+\section{AI Module Integration}
+% ============================================================
+
+The AI-powered CV analysis is implemented as a separate Python microservice that communicates with the main application via REST APIs. This modular approach allows independent scaling and technology flexibility.
+
+% ------------------------------------------------------------
+\subsection{Processing Pipeline}
+% ------------------------------------------------------------
+
+The AI module processes CVs in two steps:
+
+\begin{enumerate}
+    \item \textbf{Text Extraction}: The system extracts text content from uploaded PDF files, with automatic fallback to OCR for scanned documents.
+    \item \textbf{Data Structuring}: The extracted text is analyzed to identify key sections (skills, experience, education, languages, certifications) and candidate contact information.
+\end{enumerate}
+
+% ------------------------------------------------------------
+\subsection{Scoring Mechanism}
+% ------------------------------------------------------------
+
+The scoring engine uses machine learning to measure how well a candidate's profile matches job requirements:
+
+\begin{itemize}
+    \item Computes a global matching score (0--100) between the CV and offer criteria.
+    \item Applies configurable weights to different criteria (skills, experience, education).
+\end{itemize}
 
 % ============================================================
 \section{Analysis}
@@ -97,24 +130,23 @@ Pre-condition & A candidate application exists with a valid CV file; a target jo
 Post-condition & The system stores extracted CV information, the global matching score, and the detailed score breakdown; results are available in the HR interface. \\
 \hline
 Scenario Description &
-The HR officer opens the applications list and triggers candidate evaluation. The system parses CV content, extracts structured attributes, compares them with offer requirements, computes weighted scores, and displays ranked results with explanation details. \\
+The HR officer opens the applications list and triggers candidate evaluation. The system sends the CV to the AI module, which extracts text from the PDF, identifies key information (skills, experience, education, languages), and computes a matching score against job requirements. Results are stored and displayed to the HR officer with ranked candidates and score breakdowns. \\
 \hline
 Main Scenario (Success) &
 \begin{enumerate}[leftmargin=*, label=\arabic*., topsep=0pt, itemsep=0pt]
 	\item The HR officer selects a candidate application linked to a job offer.
-	\item The system retrieves the CV file and offer requirements.
-	\item The system parses the CV and extracts relevant attributes (skills, experience, education, certifications, and languages).
-	\item The system normalizes extracted attributes into a structured profile.
-	\item The scoring engine computes partial scores using configured weights.
-	\item The system computes the final matching score and confidence indicators.
+	\item The system sends the CV file to the AI module for analysis.
+	\item The AI module extracts text from the PDF (with OCR fallback for scanned documents).
+	\item The AI module identifies structured information: skills, experience, education, certifications, and languages.
+	\item The scoring engine computes a matching score based on job requirements and configured weights.
 	\item The system stores analysis results and updates candidate ranking.
-	\item The HR officer views the final score and detailed breakdown.
+	\item The HR officer views the final score (0--100) and detailed breakdown.
 \end{enumerate} \\
 \hline
 Alternative Scenarios &
-\textbf{A1 --- CV unreadable or corrupted:} The system marks the analysis as failed and requests a new CV upload. \newline
-\textbf{A2 --- Missing criteria weights:} The system applies default weights and logs a configuration warning. \newline
-\textbf{A3 --- Incomplete CV data:} The system calculates a partial score and displays missing information indicators. \\
+\textbf{A1 --- CV unreadable:} The system marks the analysis as failed and requests a new CV upload. \newline
+\textbf{A2 --- Incomplete CV data:} The system calculates a partial score and indicates missing information. \newline
+\textbf{A3 --- AI service unavailable:} The system displays an error and allows retry or manual evaluation. \\
 \hline
 \end{tabularx}
 \caption{Textual Description of Use Case ``CV Analysis and Scoring''}

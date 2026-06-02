@@ -1,25 +1,26 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Introduction}{\reset@font\mtcSfont 51}{section*.47}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.1}Sprint Backlog}{\reset@font\mtcSfont 51}{section.4.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.2}Sprint Objective}{\reset@font\mtcSfont 52}{section.4.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.3}Analysis}{\reset@font\mtcSfont 53}{section.4.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.1}Use Case Diagram}{\reset@font\mtcSSfont 53}{subsection.4.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.2}Textual Description of Use Cases}{\reset@font\mtcSSfont 55}{subsection.4.3.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.1}Use Case Description: ``Manage Job Offer''}{\reset@font\mtcSSSfont 56}{subsubsection.4.3.2.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.2}Use Case Description: ``Apply to Job Offer''}{\reset@font\mtcSSSfont 57}{subsubsection.4.3.2.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.3}Use Case Description: ``Manage Application Pipeline''}{\reset@font\mtcSSSfont 58}{subsubsection.4.3.2.3}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.4}Use Case Description: ``Submit Offer Recommendation''}{\reset@font\mtcSSSfont 59}{subsubsection.4.3.2.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.4}Design}{\reset@font\mtcSfont 60}{section.4.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.1}Sequence Diagrams}{\reset@font\mtcSSfont 60}{subsection.4.4.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.1.1}Sequence Diagram: ``Manage Job Offer''}{\reset@font\mtcSSSfont 60}{subsubsection.4.4.1.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.1.2}Sequence Diagram: ``Apply to Job Offer''}{\reset@font\mtcSSSfont 62}{subsubsection.4.4.1.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.1.3}Sequence Diagram: ``Manage Application Pipeline''}{\reset@font\mtcSSSfont 63}{subsubsection.4.4.1.3}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.1.4}Sequence Diagram: ``Submit Offer Recommendation''}{\reset@font\mtcSSSfont 64}{subsubsection.4.4.1.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.2}Class Diagram}{\reset@font\mtcSSfont 66}{subsection.4.4.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.5}Sprint Realization}{\reset@font\mtcSfont 66}{section.4.5}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.1}Job Offer Management Interface (HR View)}{\reset@font\mtcSSfont 67}{subsection.4.5.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.2}Public Job Offers Listing Interface}{\reset@font\mtcSSfont 67}{subsection.4.5.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.3}Application Submission Interface}{\reset@font\mtcSSfont 68}{subsection.4.5.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.4}Candidate Applications List Interface}{\reset@font\mtcSSfont 68}{subsection.4.5.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.5}HR Application Pipeline Interface}{\reset@font\mtcSSfont 69}{subsection.4.5.5}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.6}Offer Recommendation Interface}{\reset@font\mtcSSfont 70}{subsection.4.5.6}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Conclusion}{\reset@font\mtcSfont 70}{figure.caption.66}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Introduction}{\reset@font\mtcSfont 31}{section*.30}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.1}Sprint Backlog}{\reset@font\mtcSfont 31}{section.3.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.2}Sprint Objective}{\reset@font\mtcSfont 32}{section.3.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.3}Analysis}{\reset@font\mtcSfont 32}{section.3.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.1}Use Case Diagram}{\reset@font\mtcSSfont 32}{subsection.3.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.2}Textual Description of Use Case}{\reset@font\mtcSSfont 33}{subsection.3.3.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.3.2.1}Use Case Description: ``Register''}{\reset@font\mtcSSSfont 34}{subsubsection.3.3.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.3.2.2}Use Case Description: ``Sign In''}{\reset@font\mtcSSSfont 35}{subsubsection.3.3.2.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.3.2.3}Use Case Description: ``Manage User Account''}{\reset@font\mtcSSSfont 36}{subsubsection.3.3.2.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.3.2.4}Use Case Description: ``Manage Permission''}{\reset@font\mtcSSSfont 37}{subsubsection.3.3.2.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.4}Design}{\reset@font\mtcSfont 38}{section.3.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.4.1}Sequence Diagrams}{\reset@font\mtcSSfont 38}{subsection.3.4.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.4.1.1}Sequence Diagram: ``Register''}{\reset@font\mtcSSSfont 38}{subsubsection.3.4.1.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.4.1.2}Sequence Diagram: ``Sign In''}{\reset@font\mtcSSSfont 40}{subsubsection.3.4.1.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.4.1.3}Sequence Diagram: ``Manage User Account''}{\reset@font\mtcSSSfont 41}{subsubsection.3.4.1.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.4.1.4}Sequence Diagram: ``Manage Permission''}{\reset@font\mtcSSSfont 42}{subsubsection.3.4.1.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.4.2}Class Diagram}{\reset@font\mtcSSfont 44}{subsection.3.4.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.5}Sprint Realization}{\reset@font\mtcSfont 44}{section.3.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.5.1}Registration Interface}{\reset@font\mtcSSfont 44}{subsection.3.5.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.5.2}Email Verification Interface}{\reset@font\mtcSSfont 45}{subsection.3.5.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.5.3}Sign In Interface}{\reset@font\mtcSSfont 45}{subsection.3.5.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.5.4}User Management Interface}{\reset@font\mtcSSfont 46}{subsection.3.5.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.5.5}Role and Permission Management Interface}{\reset@font\mtcSSfont 46}{subsection.3.5.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.5.6}Profile Management Interface}{\reset@font\mtcSSfont 47}{subsection.3.5.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.5.7}Landing Page}{\reset@font\mtcSSfont 47}{subsection.3.5.7}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Conclusion}{\reset@font\mtcSfont 48}{figure.caption.48}}

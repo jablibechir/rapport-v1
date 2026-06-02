@@ -841,6 +841,7 @@ OUTPUT main.mtc6
 OUTPUT main.mtc7
 OUTPUT main.mtc8
 OUTPUT main.mtc9
+OUTPUT main.mtc10
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
@@ -886,6 +887,11 @@ INPUT .\main.lot
 INPUT .\main.lot
 INPUT main.lot
 OUTPUT main.lot
+INPUT .\chapitre\03-Abbreviations.tex
+INPUT .\chapitre\03-Abbreviations.tex
+INPUT .\chapitre\03-Abbreviations.tex
+INPUT .\chapitre\03-Abbreviations.tex
+INPUT chapitre\03-Abbreviations.tex
 INPUT .\chapitre\04-GeneralIntroduction.tex
 INPUT .\chapitre\04-GeneralIntroduction.tex
 INPUT .\chapitre\04-GeneralIntroduction.tex
@@ -899,18 +905,6 @@ INPUT chapitre\05-Chapter1.tex
 INPUT .\main.mtc2
 INPUT .\main.mtc2
 INPUT main.mtc2
-OUTPUT main.mtc
-INPUT .\main.mtc
-INPUT .\main.mtc
-INPUT main.mtc
-OUTPUT main.mtc
-INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1095.tfm
-INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1440.tfm
-INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
-INPUT main.mtc2
-INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1095.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
@@ -923,8 +917,10 @@ INPUT .\images\soprahr_logo.png
 INPUT .\images\soprahr_logo.png
 INPUT .\images\soprahr_logo.png
 INPUT .\images\soprahr_logo.png
+INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbc8t.tfm
+INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
@@ -947,7 +943,11 @@ INPUT .\main.mtc
 INPUT .\main.mtc
 INPUT main.mtc
 OUTPUT main.mtc
+INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1095.tfm
+INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1440.tfm
+INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
 INPUT main.mtc3
+INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1095.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
@@ -1176,12 +1176,9 @@ INPUT .\images\diagrammes\sprint 2\Use case diagram apply to a job offer raffine
 INPUT .\images\diagrammes\sprint 2\Use case diagram apply to a job offer raffinement sprint 2.jpg
 INPUT .\images\diagrammes\sprint 2\Use case diagram apply to a job offer raffinement sprint 2.jpg
 INPUT .\images\diagrammes\sprint 2\Use case diagram apply to a job offer raffinement sprint 2.jpg
-INPUT .\images\diagrammes\sprint 2\use case Submit offer recommendation - reffinement sprint 2.jpg
-INPUT .\images\diagrammes\sprint 2\use case Submit offer recommendation - reffinement sprint 2.jpg
-INPUT .\images\diagrammes\sprint 2\use case Submit offer recommendation - reffinement sprint 2.jpg
-INPUT .\images\diagrammes\sprint 2\use case Submit offer recommendation - reffinement sprint 2.jpg
-INPUT .\images\diagrammes\sprint 2\use case Submit offer recommendation - reffinement sprint 2.jpg
-INPUT .\images\diagrammes\sprint 2\use case Submit offer recommendation - reffinement sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Use case diagram apply to a job offer raffinement sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Use case diagram apply to a job offer raffinement sprint 2.jpg
+INPUT .\images\diagrammes\sprint 2\Use case diagram apply to a job offer raffinement sprint 2.jpg
 INPUT .\images\diagrammes\sprint 2\Sequence diagram manage offers sprint 2.jpg
 INPUT .\images\diagrammes\sprint 2\Sequence diagram manage offers sprint 2.jpg
 INPUT .\images\diagrammes\sprint 2\Sequence diagram manage offers sprint 2.jpg
@@ -1352,6 +1349,11 @@ INPUT .\chapitre\12-Bibliography.tex
 INPUT .\chapitre\12-Bibliography.tex
 INPUT .\chapitre\12-Bibliography.tex
 INPUT chapitre\12-Bibliography.tex
+INPUT .\chapitre\13-Appendix.tex
+INPUT .\chapitre\13-Appendix.tex
+INPUT .\chapitre\13-Appendix.tex
+INPUT .\chapitre\13-Appendix.tex
+INPUT chapitre\13-Appendix.tex
 OUTPUT main.maf
 INPUT .\main.mtc
 INPUT .\main.mtc

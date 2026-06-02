@@ -1,12 +1,16 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Introduction}{\reset@font\mtcSfont 80}{section*.76}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.1}Sprint Backlog}{\reset@font\mtcSfont 80}{section.6.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.2}Sprint Objective}{\reset@font\mtcSfont 80}{section.6.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.3}Analysis}{\reset@font\mtcSfont 81}{section.6.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.3.1}Global Use Case Diagram}{\reset@font\mtcSSfont 81}{subsection.6.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.3.2}Global Class Diagram}{\reset@font\mtcSSfont 81}{subsection.6.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.3.3}Activity Diagram: Interview Planning}{\reset@font\mtcSSfont 82}{subsection.6.3.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.4}Sprint Realization}{\reset@font\mtcSfont 84}{section.6.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.4.1}Interview Scheduling Interface (HR View)}{\reset@font\mtcSSfont 84}{subsection.6.4.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.4.2}Interview Calendar Interface}{\reset@font\mtcSSfont 84}{subsection.6.4.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.4.3}Candidate Interview Notification Interface}{\reset@font\mtcSSfont 85}{subsection.6.4.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Conclusion}{\reset@font\mtcSfont 85}{figure.caption.83}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Introduction}{\reset@font\mtcSfont 71}{section*.69}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.1}Sprint Backlog}{\reset@font\mtcSfont 71}{section.5.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.2}Sprint Objective}{\reset@font\mtcSfont 71}{section.5.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.3}AI Module Integration}{\reset@font\mtcSfont 72}{section.5.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.1}Processing Pipeline}{\reset@font\mtcSSfont 72}{subsection.5.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.3.2}Scoring Mechanism}{\reset@font\mtcSSfont 72}{subsection.5.3.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.4}Analysis}{\reset@font\mtcSfont 72}{section.5.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.4.1}Use Cases of Sprint 3}{\reset@font\mtcSSfont 72}{subsection.5.4.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.4.2}Activity Diagram}{\reset@font\mtcSSfont 74}{subsection.5.4.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {5.4.2.1}Activity Diagram: CV Analysis and Scoring}{\reset@font\mtcSSSfont 75}{subsubsection.5.4.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.4.3}Class Diagram}{\reset@font\mtcSSfont 76}{subsection.5.4.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.5}Sprint Realization}{\reset@font\mtcSfont 76}{section.5.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.5.1}CV Analysis Result Interface (HR View)}{\reset@font\mtcSSfont 76}{subsection.5.5.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.5.2}Candidate Score Detail Interface}{\reset@font\mtcSSfont 77}{subsection.5.5.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.5.3}Candidate Ranking Interface}{\reset@font\mtcSSfont 77}{subsection.5.5.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Conclusion}{\reset@font\mtcSfont 78}{figure.caption.77}}
