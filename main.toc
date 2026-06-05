@@ -1,4 +1,6 @@
 \babel@toc {french}{}\relax 
+\contentsline {chapter}{LIST OF FIGURES}{v}{chapter*.1}%
+\contentsline {chapter}{LIST OF TABLES}{vii}{chapter*.2}%
 \contentsline {chapter}{LIST OF ABBREVIATIONS}{viii}{chapter*.4}%
 \contentsline {chapter}{GENERAL INTRODUCTION}{1}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}GENERAL PROJECT CONTEXT}{3}{chapter.1}%
@@ -13,6 +15,7 @@
 \contentsline {subsection}{\numberline {1.3.1}Agile Method}{7}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}SCRUM Methodology}{7}{subsection.1.3.2}%
 \contentsline {subsection}{\numberline {1.3.3}SCRUM Actors}{8}{subsection.1.3.3}%
+\contentsline {section}{Conclusion}{8}{subsection.1.3.3}%
 \contentsline {chapter}{\numberline {2}REQUIREMENTS SPECIFICATION}{9}{chapter.2}%
 \contentsline {section}{Introduction}{10}{section*.9}%
 \contentsline {section}{\numberline {2.1}Requirements Elicitation}{10}{section.2.1}%
@@ -21,100 +24,100 @@
 \contentsline {section}{\numberline {2.2}Functional and Non-Functional Requirements}{11}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Functional Requirements}{11}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Non-Functional Requirements}{13}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Project Management Using SCRUM}{15}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Team and Roles}{15}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Product Backlog}{16}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Sprint Planning}{20}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Working Environment}{20}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Hardware Environment}{21}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Software Environment}{21}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Development Tools}{21}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Technologies Used}{23}{subsection.2.4.4}%
-\contentsline {section}{\numberline {2.5}Requirements Modeling}{27}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Global Use Case Diagram}{27}{subsection.2.5.1}%
-\contentsline {section}{Conclusion}{29}{figure.caption.29}%
-\contentsline {chapter}{\numberline {3}SPRINT 1: AUTHENTICATION AND SETUP}{30}{chapter.3}%
-\contentsline {section}{Introduction}{31}{section*.30}%
-\contentsline {section}{\numberline {3.1}Sprint Backlog}{31}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Sprint Objective}{32}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Analysis}{32}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Use Case Diagram}{32}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Textual Description of Use Case}{33}{subsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.2.1}Use Case Description: ``Register''}{34}{subsubsection.3.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.3.2.2}Use Case Description: ``Sign In''}{35}{subsubsection.3.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.3.2.3}Use Case Description: ``Manage User Account''}{36}{subsubsection.3.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.3.2.4}Use Case Description: ``Manage Permission''}{37}{subsubsection.3.3.2.4}%
-\contentsline {section}{\numberline {3.4}Design}{38}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Sequence Diagrams}{38}{subsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.1.1}Sequence Diagram: ``Register''}{38}{subsubsection.3.4.1.1}%
-\contentsline {subsubsection}{\numberline {3.4.1.2}Sequence Diagram: ``Sign In''}{40}{subsubsection.3.4.1.2}%
-\contentsline {subsubsection}{\numberline {3.4.1.3}Sequence Diagram: ``Manage User Account''}{41}{subsubsection.3.4.1.3}%
-\contentsline {subsubsection}{\numberline {3.4.1.4}Sequence Diagram: ``Manage Permission''}{42}{subsubsection.3.4.1.4}%
-\contentsline {subsection}{\numberline {3.4.2}Class Diagram}{44}{subsection.3.4.2}%
-\contentsline {section}{\numberline {3.5}Sprint Realization}{44}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Registration Interface}{44}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Email Verification Interface}{45}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Sign In Interface}{45}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}User Management Interface}{46}{subsection.3.5.4}%
-\contentsline {subsection}{\numberline {3.5.5}Role and Permission Management Interface}{46}{subsection.3.5.5}%
-\contentsline {subsection}{\numberline {3.5.6}Profile Management Interface}{47}{subsection.3.5.6}%
-\contentsline {subsection}{\numberline {3.5.7}Landing Page}{47}{subsection.3.5.7}%
-\contentsline {section}{Conclusion}{48}{figure.caption.48}%
-\contentsline {chapter}{\numberline {4}SPRINT 2: RECRUITMENT MANAGEMENT}{49}{chapter.4}%
-\contentsline {section}{Introduction}{50}{section*.49}%
-\contentsline {section}{\numberline {4.1}Sprint Backlog}{50}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Sprint Objective}{51}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Analysis}{52}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Use Case Diagram}{52}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Textual Description of Use Cases}{54}{subsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.2.1}Use Case Description: ``Manage Job Offer''}{55}{subsubsection.4.3.2.1}%
-\contentsline {subsubsection}{\numberline {4.3.2.2}Use Case Description: ``Apply to Job Offer''}{56}{subsubsection.4.3.2.2}%
-\contentsline {subsubsection}{\numberline {4.3.2.3}Use Case Description: ``Manage Application Pipeline''}{57}{subsubsection.4.3.2.3}%
-\contentsline {subsubsection}{\numberline {4.3.2.4}Use Case Description: ``Submit Offer Recommendation''}{58}{subsubsection.4.3.2.4}%
-\contentsline {section}{\numberline {4.4}Design}{59}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Sequence Diagrams}{59}{subsection.4.4.1}%
-\contentsline {subsubsection}{\numberline {4.4.1.1}Sequence Diagram: ``Manage Job Offer''}{59}{subsubsection.4.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.4.1.2}Sequence Diagram: ``Apply to Job Offer''}{61}{subsubsection.4.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.4.1.3}Sequence Diagram: ``Manage Application Pipeline''}{62}{subsubsection.4.4.1.3}%
-\contentsline {subsubsection}{\numberline {4.4.1.4}Sequence Diagram: ``Submit Offer Recommendation''}{63}{subsubsection.4.4.1.4}%
-\contentsline {subsection}{\numberline {4.4.2}Class Diagram}{65}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Sprint Realization}{65}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Job Offer Management Interface (HR View)}{66}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Public Job Offers Listing Interface}{66}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Application Submission Interface}{67}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Candidate Applications List Interface}{67}{subsection.4.5.4}%
-\contentsline {subsection}{\numberline {4.5.5}HR Application Pipeline Interface}{68}{subsection.4.5.5}%
-\contentsline {subsection}{\numberline {4.5.6}Offer Recommendation Interface}{69}{subsection.4.5.6}%
-\contentsline {section}{Conclusion}{69}{figure.caption.68}%
-\contentsline {chapter}{\numberline {5}SPRINT 3: AI-POWERED CV ANALYSIS AND SCORING}{70}{chapter.5}%
-\contentsline {section}{Introduction}{71}{section*.69}%
-\contentsline {section}{\numberline {5.1}Sprint Backlog}{71}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Sprint Objective}{71}{section.5.2}%
-\contentsline {section}{\numberline {5.3}AI Module Integration}{72}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Processing Pipeline}{72}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Scoring Mechanism}{72}{subsection.5.3.2}%
-\contentsline {section}{\numberline {5.4}Analysis}{72}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Use Cases of Sprint 3}{72}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Activity Diagram}{74}{subsection.5.4.2}%
-\contentsline {subsubsection}{\numberline {5.4.2.1}Activity Diagram: CV Analysis and Scoring}{75}{subsubsection.5.4.2.1}%
-\contentsline {subsection}{\numberline {5.4.3}Class Diagram}{76}{subsection.5.4.3}%
-\contentsline {section}{\numberline {5.5}Sprint Realization}{76}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}CV Analysis Result Interface (HR View)}{76}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Candidate Score Detail Interface}{77}{subsection.5.5.2}%
-\contentsline {subsection}{\numberline {5.5.3}Candidate Ranking Interface}{77}{subsection.5.5.3}%
-\contentsline {section}{Conclusion}{78}{figure.caption.77}%
-\contentsline {chapter}{\numberline {6}SPRINT 4: FINALIZATION AND DEPLOYMENT}{79}{chapter.6}%
-\contentsline {section}{Introduction}{80}{section*.78}%
-\contentsline {section}{\numberline {6.1}Sprint Backlog}{80}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Sprint Objective}{81}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Analysis}{81}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Global Use Case Diagram}{81}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Global Class Diagram}{82}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Activity Diagram: Interview Planning}{83}{subsection.6.3.3}%
-\contentsline {section}{\numberline {6.4}Sprint Realization}{85}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Interview Scheduling Interface (HR View)}{85}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Interview Calendar Interface}{85}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}Candidate Interview Notification Interface}{86}{subsection.6.4.3}%
-\contentsline {section}{Conclusion}{86}{figure.caption.85}%
-\contentsline {chapter}{GENERAL CONCLUSION}{87}{chapter*.86}%
-\contentsline {chapter}{WEBOGRAPHY}{88}{chapter*.87}%
+\contentsline {section}{\numberline {2.3}Project Management Using SCRUM}{14}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Team and Roles}{14}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Product Backlog}{15}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Sprint Planning}{19}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Working Environment}{19}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Hardware Environment}{20}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Software Environment}{20}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Development Tools}{20}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Technologies Used}{22}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}Requirements Modeling}{26}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Global Use Case Diagram}{26}{subsection.2.5.1}%
+\contentsline {section}{Conclusion}{28}{figure.caption.29}%
+\contentsline {chapter}{\numberline {3}SPRINT 1: AUTHENTICATION AND SETUP}{29}{chapter.3}%
+\contentsline {section}{Introduction}{30}{section*.30}%
+\contentsline {section}{\numberline {3.1}Sprint Backlog}{30}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Sprint Objective}{31}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Analysis}{31}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Use Case Diagram}{31}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Textual Description of Use Case}{32}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Use Case Description: ``Register''}{33}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}Use Case Description: ``Sign In''}{34}{subsubsection.3.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.3}Use Case Description: ``Manage User Account''}{35}{subsubsection.3.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.3.2.4}Use Case Description: ``Manage Permission''}{36}{subsubsection.3.3.2.4}%
+\contentsline {section}{\numberline {3.4}Design}{37}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Sequence Diagrams}{37}{subsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.1.1}Sequence Diagram: ``Register''}{37}{subsubsection.3.4.1.1}%
+\contentsline {subsubsection}{\numberline {3.4.1.2}Sequence Diagram: ``Sign In''}{39}{subsubsection.3.4.1.2}%
+\contentsline {subsubsection}{\numberline {3.4.1.3}Sequence Diagram: ``Manage User Account''}{40}{subsubsection.3.4.1.3}%
+\contentsline {subsubsection}{\numberline {3.4.1.4}Sequence Diagram: ``Manage Permission''}{41}{subsubsection.3.4.1.4}%
+\contentsline {subsection}{\numberline {3.4.2}Class Diagram}{42}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Sprint Realization}{42}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Registration Interface}{42}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Email Verification Interface}{43}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Sign In Interface}{43}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}User Management Interface}{44}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Role and Permission Management Interface}{44}{subsection.3.5.5}%
+\contentsline {subsection}{\numberline {3.5.6}Profile Management Interface}{45}{subsection.3.5.6}%
+\contentsline {subsection}{\numberline {3.5.7}Landing Page}{45}{subsection.3.5.7}%
+\contentsline {section}{Conclusion}{46}{figure.caption.48}%
+\contentsline {chapter}{\numberline {4}SPRINT 2: RECRUITMENT MANAGEMENT}{47}{chapter.4}%
+\contentsline {section}{Introduction}{48}{section*.49}%
+\contentsline {section}{\numberline {4.1}Sprint Backlog}{48}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Sprint Objective}{49}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Analysis}{50}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Use Case Diagram}{50}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Textual Description of Use Cases}{52}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}Use Case Description: ``Manage Job Offer''}{52}{subsubsection.4.3.2.1}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}Use Case Description: ``Apply to Job Offer''}{53}{subsubsection.4.3.2.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}Use Case Description: ``Manage Application Pipeline''}{54}{subsubsection.4.3.2.3}%
+\contentsline {subsubsection}{\numberline {4.3.2.4}Use Case Description: ``Submit Offer Recommendation''}{55}{subsubsection.4.3.2.4}%
+\contentsline {section}{\numberline {4.4}Design}{56}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Sequence Diagrams}{56}{subsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.1.1}Sequence Diagram: ``Manage Job Offer''}{56}{subsubsection.4.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.4.1.2}Sequence Diagram: ``Apply to Job Offer''}{58}{subsubsection.4.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.4.1.3}Sequence Diagram: ``Manage Application Pipeline''}{59}{subsubsection.4.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.4.1.4}Sequence Diagram: ``Submit Offer Recommendation''}{59}{subsubsection.4.4.1.4}%
+\contentsline {subsection}{\numberline {4.4.2}Class Diagram}{61}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Sprint Realization}{61}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Job Offer Management Interface (HR View)}{62}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Public Job Offers Listing Interface}{62}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Application Submission Interface}{63}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Candidate Applications List Interface}{63}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.5.5}HR Application Pipeline Interface}{64}{subsection.4.5.5}%
+\contentsline {subsection}{\numberline {4.5.6}Offer Recommendation Interface}{65}{subsection.4.5.6}%
+\contentsline {section}{Conclusion}{65}{figure.caption.68}%
+\contentsline {chapter}{\numberline {5}SPRINT 3: AI-POWERED CV ANALYSIS AND SCORING}{66}{chapter.5}%
+\contentsline {section}{Introduction}{67}{section*.69}%
+\contentsline {section}{\numberline {5.1}Sprint Backlog}{67}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Sprint Objective}{67}{section.5.2}%
+\contentsline {section}{\numberline {5.3}AI Module Integration}{68}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Processing Pipeline}{68}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Scoring Mechanism}{68}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}Analysis}{68}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Use Cases of Sprint 3}{68}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Activity Diagram}{70}{subsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.2.1}Activity Diagram: CV Analysis and Scoring}{71}{subsubsection.5.4.2.1}%
+\contentsline {subsection}{\numberline {5.4.3}Class Diagram}{72}{subsection.5.4.3}%
+\contentsline {section}{\numberline {5.5}Sprint Realization}{72}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}CV Analysis Result Interface (HR View)}{72}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Candidate Score Detail Interface}{73}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Candidate Ranking Interface}{73}{subsection.5.5.3}%
+\contentsline {section}{Conclusion}{74}{figure.caption.77}%
+\contentsline {chapter}{\numberline {6}SPRINT 4: FINALIZATION AND DEPLOYMENT}{75}{chapter.6}%
+\contentsline {section}{Introduction}{76}{section*.78}%
+\contentsline {section}{\numberline {6.1}Sprint Backlog}{76}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Sprint Objective}{77}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Analysis}{77}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Global Use Case Diagram}{77}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Global Class Diagram}{78}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Activity Diagram: Interview Planning}{78}{subsection.6.3.3}%
+\contentsline {section}{\numberline {6.4}Sprint Realization}{80}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Interview Scheduling Interface (HR View)}{80}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Interview Calendar Interface}{80}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Candidate Interview Notification Interface}{81}{subsection.6.4.3}%
+\contentsline {section}{Conclusion}{81}{figure.caption.85}%
+\contentsline {chapter}{GENERAL CONCLUSION}{82}{chapter*.86}%
+\contentsline {chapter}{WEBOGRAPHY}{83}{chapter*.87}%

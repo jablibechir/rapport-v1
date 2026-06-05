@@ -1,25 +1,19 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Introduction}{\reset@font\mtcSfont 50}{section*.49}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.1}Sprint Backlog}{\reset@font\mtcSfont 50}{section.4.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.2}Sprint Objective}{\reset@font\mtcSfont 51}{section.4.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.3}Analysis}{\reset@font\mtcSfont 52}{section.4.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.1}Use Case Diagram}{\reset@font\mtcSSfont 52}{subsection.4.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.2}Textual Description of Use Cases}{\reset@font\mtcSSfont 54}{subsection.4.3.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.1}Use Case Description: ``Manage Job Offer''}{\reset@font\mtcSSSfont 55}{subsubsection.4.3.2.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.2}Use Case Description: ``Apply to Job Offer''}{\reset@font\mtcSSSfont 56}{subsubsection.4.3.2.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.3}Use Case Description: ``Manage Application Pipeline''}{\reset@font\mtcSSSfont 57}{subsubsection.4.3.2.3}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.4}Use Case Description: ``Submit Offer Recommendation''}{\reset@font\mtcSSSfont 58}{subsubsection.4.3.2.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.4}Design}{\reset@font\mtcSfont 59}{section.4.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.1}Sequence Diagrams}{\reset@font\mtcSSfont 59}{subsection.4.4.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.1.1}Sequence Diagram: ``Manage Job Offer''}{\reset@font\mtcSSSfont 59}{subsubsection.4.4.1.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.1.2}Sequence Diagram: ``Apply to Job Offer''}{\reset@font\mtcSSSfont 61}{subsubsection.4.4.1.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.1.3}Sequence Diagram: ``Manage Application Pipeline''}{\reset@font\mtcSSSfont 62}{subsubsection.4.4.1.3}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.1.4}Sequence Diagram: ``Submit Offer Recommendation''}{\reset@font\mtcSSSfont 63}{subsubsection.4.4.1.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.2}Class Diagram}{\reset@font\mtcSSfont 65}{subsection.4.4.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.5}Sprint Realization}{\reset@font\mtcSfont 65}{section.4.5}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.1}Job Offer Management Interface (HR View)}{\reset@font\mtcSSfont 66}{subsection.4.5.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.2}Public Job Offers Listing Interface}{\reset@font\mtcSSfont 66}{subsection.4.5.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.3}Application Submission Interface}{\reset@font\mtcSSfont 67}{subsection.4.5.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.4}Candidate Applications List Interface}{\reset@font\mtcSSfont 67}{subsection.4.5.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.5}HR Application Pipeline Interface}{\reset@font\mtcSSfont 68}{subsection.4.5.5}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.6}Offer Recommendation Interface}{\reset@font\mtcSSfont 69}{subsection.4.5.6}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Conclusion}{\reset@font\mtcSfont 69}{figure.caption.68}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Introduction}{\reset@font\mtcSfont 10}{section*.9}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}Requirements Elicitation}{\reset@font\mtcSfont 10}{section.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1.1}Requirements Specifications}{\reset@font\mtcSSfont 10}{subsection.2.1.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1.2}Identification of Actors}{\reset@font\mtcSSfont 10}{subsection.2.1.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Functional and Non-Functional Requirements}{\reset@font\mtcSfont 11}{section.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.1}Functional Requirements}{\reset@font\mtcSSfont 11}{subsection.2.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.2}Non-Functional Requirements}{\reset@font\mtcSSfont 13}{subsection.2.2.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Project Management Using SCRUM}{\reset@font\mtcSfont 14}{section.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.1}Team and Roles}{\reset@font\mtcSSfont 14}{subsection.2.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.2}Product Backlog}{\reset@font\mtcSSfont 15}{subsection.2.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.3}Sprint Planning}{\reset@font\mtcSSfont 19}{subsection.2.3.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Working Environment}{\reset@font\mtcSfont 19}{section.2.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.1}Hardware Environment}{\reset@font\mtcSSfont 20}{subsection.2.4.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.2}Software Environment}{\reset@font\mtcSSfont 20}{subsection.2.4.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.3}Development Tools}{\reset@font\mtcSSfont 20}{subsection.2.4.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.4}Technologies Used}{\reset@font\mtcSSfont 22}{subsection.2.4.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}Requirements Modeling}{\reset@font\mtcSfont 26}{section.2.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.1}Global Use Case Diagram}{\reset@font\mtcSSfont 26}{subsection.2.5.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Conclusion}{\reset@font\mtcSfont 28}{figure.caption.29}}

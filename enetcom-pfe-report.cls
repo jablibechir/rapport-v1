@@ -18,6 +18,7 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{needspace}% http://ctan.org/pkg/needspace
 \usepackage{pdfpages}
+\usepackage{pdflscape}
 \usepackage{chngcntr}
 \usepackage{enumitem}
 \usepackage[bottom]{footmisc}

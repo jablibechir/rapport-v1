@@ -1,26 +1,12 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Introduction}{\reset@font\mtcSfont 31}{section*.30}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.1}Sprint Backlog}{\reset@font\mtcSfont 31}{section.3.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.2}Sprint Objective}{\reset@font\mtcSfont 32}{section.3.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.3}Analysis}{\reset@font\mtcSfont 32}{section.3.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.1}Use Case Diagram}{\reset@font\mtcSSfont 32}{subsection.3.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.2}Textual Description of Use Case}{\reset@font\mtcSSfont 33}{subsection.3.3.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.3.2.1}Use Case Description: ``Register''}{\reset@font\mtcSSSfont 34}{subsubsection.3.3.2.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.3.2.2}Use Case Description: ``Sign In''}{\reset@font\mtcSSSfont 35}{subsubsection.3.3.2.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.3.2.3}Use Case Description: ``Manage User Account''}{\reset@font\mtcSSSfont 36}{subsubsection.3.3.2.3}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.3.2.4}Use Case Description: ``Manage Permission''}{\reset@font\mtcSSSfont 37}{subsubsection.3.3.2.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.4}Design}{\reset@font\mtcSfont 38}{section.3.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.4.1}Sequence Diagrams}{\reset@font\mtcSSfont 38}{subsection.3.4.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.4.1.1}Sequence Diagram: ``Register''}{\reset@font\mtcSSSfont 38}{subsubsection.3.4.1.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.4.1.2}Sequence Diagram: ``Sign In''}{\reset@font\mtcSSSfont 40}{subsubsection.3.4.1.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.4.1.3}Sequence Diagram: ``Manage User Account''}{\reset@font\mtcSSSfont 41}{subsubsection.3.4.1.3}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.4.1.4}Sequence Diagram: ``Manage Permission''}{\reset@font\mtcSSSfont 42}{subsubsection.3.4.1.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.4.2}Class Diagram}{\reset@font\mtcSSfont 44}{subsection.3.4.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.5}Sprint Realization}{\reset@font\mtcSfont 44}{section.3.5}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.5.1}Registration Interface}{\reset@font\mtcSSfont 44}{subsection.3.5.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.5.2}Email Verification Interface}{\reset@font\mtcSSfont 45}{subsection.3.5.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.5.3}Sign In Interface}{\reset@font\mtcSSfont 45}{subsection.3.5.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.5.4}User Management Interface}{\reset@font\mtcSSfont 46}{subsection.3.5.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.5.5}Role and Permission Management Interface}{\reset@font\mtcSSfont 46}{subsection.3.5.5}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.5.6}Profile Management Interface}{\reset@font\mtcSSfont 47}{subsection.3.5.6}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.5.7}Landing Page}{\reset@font\mtcSSfont 47}{subsection.3.5.7}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Conclusion}{\reset@font\mtcSfont 48}{figure.caption.48}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Introduction}{\reset@font\mtcSfont 4}{section*.6}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.1}Presentation of the Host Organization}{\reset@font\mtcSfont 4}{section.1.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.2}Project Study}{\reset@font\mtcSfont 4}{section.1.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.1}Project Context}{\reset@font\mtcSSfont 4}{subsection.1.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.2}Analysis of the Existing System}{\reset@font\mtcSSfont 5}{subsection.1.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.3}Comparative Study of Existing Recruitment Solutions}{\reset@font\mtcSSfont 5}{subsection.1.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.4}Proposed Solution}{\reset@font\mtcSSfont 6}{subsection.1.2.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.3}Working Methodology Choice}{\reset@font\mtcSfont 7}{section.1.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.1}Agile Method}{\reset@font\mtcSSfont 7}{subsection.1.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.2}SCRUM Methodology}{\reset@font\mtcSSfont 7}{subsection.1.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.3}SCRUM Actors}{\reset@font\mtcSSfont 8}{subsection.1.3.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Conclusion}{\reset@font\mtcSfont 8}{subsection.1.3.3}}

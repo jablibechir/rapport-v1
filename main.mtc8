@@ -1,12 +1,25 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Introduction}{\reset@font\mtcSfont 80}{section*.78}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.1}Sprint Backlog}{\reset@font\mtcSfont 80}{section.6.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.2}Sprint Objective}{\reset@font\mtcSfont 81}{section.6.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.3}Analysis}{\reset@font\mtcSfont 81}{section.6.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.3.1}Global Use Case Diagram}{\reset@font\mtcSSfont 81}{subsection.6.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.3.2}Global Class Diagram}{\reset@font\mtcSSfont 82}{subsection.6.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.3.3}Activity Diagram: Interview Planning}{\reset@font\mtcSSfont 83}{subsection.6.3.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.4}Sprint Realization}{\reset@font\mtcSfont 85}{section.6.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.4.1}Interview Scheduling Interface (HR View)}{\reset@font\mtcSSfont 85}{subsection.6.4.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.4.2}Interview Calendar Interface}{\reset@font\mtcSSfont 85}{subsection.6.4.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.4.3}Candidate Interview Notification Interface}{\reset@font\mtcSSfont 86}{subsection.6.4.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Conclusion}{\reset@font\mtcSfont 86}{figure.caption.85}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Introduction}{\reset@font\mtcSfont 48}{section*.49}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.1}Sprint Backlog}{\reset@font\mtcSfont 48}{section.4.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.2}Sprint Objective}{\reset@font\mtcSfont 49}{section.4.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.3}Analysis}{\reset@font\mtcSfont 50}{section.4.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.1}Use Case Diagram}{\reset@font\mtcSSfont 50}{subsection.4.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.2}Textual Description of Use Cases}{\reset@font\mtcSSfont 52}{subsection.4.3.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.1}Use Case Description: ``Manage Job Offer''}{\reset@font\mtcSSSfont 52}{subsubsection.4.3.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.2}Use Case Description: ``Apply to Job Offer''}{\reset@font\mtcSSSfont 53}{subsubsection.4.3.2.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.3}Use Case Description: ``Manage Application Pipeline''}{\reset@font\mtcSSSfont 54}{subsubsection.4.3.2.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.4}Use Case Description: ``Submit Offer Recommendation''}{\reset@font\mtcSSSfont 55}{subsubsection.4.3.2.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.4}Design}{\reset@font\mtcSfont 56}{section.4.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.1}Sequence Diagrams}{\reset@font\mtcSSfont 56}{subsection.4.4.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.1.1}Sequence Diagram: ``Manage Job Offer''}{\reset@font\mtcSSSfont 56}{subsubsection.4.4.1.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.1.2}Sequence Diagram: ``Apply to Job Offer''}{\reset@font\mtcSSSfont 58}{subsubsection.4.4.1.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.1.3}Sequence Diagram: ``Manage Application Pipeline''}{\reset@font\mtcSSSfont 59}{subsubsection.4.4.1.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.1.4}Sequence Diagram: ``Submit Offer Recommendation''}{\reset@font\mtcSSSfont 59}{subsubsection.4.4.1.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.2}Class Diagram}{\reset@font\mtcSSfont 61}{subsection.4.4.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.5}Sprint Realization}{\reset@font\mtcSfont 61}{section.4.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.1}Job Offer Management Interface (HR View)}{\reset@font\mtcSSfont 62}{subsection.4.5.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.2}Public Job Offers Listing Interface}{\reset@font\mtcSSfont 62}{subsection.4.5.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.3}Application Submission Interface}{\reset@font\mtcSSfont 63}{subsection.4.5.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.4}Candidate Applications List Interface}{\reset@font\mtcSSfont 63}{subsection.4.5.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.5}HR Application Pipeline Interface}{\reset@font\mtcSSfont 64}{subsection.4.5.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.6}Offer Recommendation Interface}{\reset@font\mtcSSfont 65}{subsection.4.5.6}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode Conclusion}{\reset@font\mtcSfont 65}{figure.caption.68}}
