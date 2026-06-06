@@ -831,19 +831,11 @@ OUTPUT main.pdf
 INPUT .\main.out
 INPUT .\main.out
 OUTPUT main.out
-INPUT main.toc
-OUTPUT main.mtc1
-OUTPUT main.mtc2
-OUTPUT main.mtc3
-OUTPUT main.mtc4
-OUTPUT main.mtc5
-OUTPUT main.mtc6
-OUTPUT main.mtc7
-OUTPUT main.mtc8
-OUTPUT main.mtc9
-OUTPUT main.mtc10
-OUTPUT main.mtc11
-OUTPUT main.mtc12
+INPUT .\chapitre\01-Dedication.tex
+INPUT .\chapitre\01-Dedication.tex
+INPUT .\chapitre\01-Dedication.tex
+INPUT .\chapitre\01-Dedication.tex
+INPUT chapitre\01-Dedication.tex
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
@@ -857,10 +849,45 @@ INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
+INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
+INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
+INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
+INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\MSI\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
+INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
+INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
+INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT .\chapitre\01b-Dedication2.tex
+INPUT .\chapitre\01b-Dedication2.tex
+INPUT .\chapitre\01b-Dedication2.tex
+INPUT .\chapitre\01b-Dedication2.tex
+INPUT chapitre\01b-Dedication2.tex
+INPUT .\chapitre\02-Acknowledgments.tex
+INPUT .\chapitre\02-Acknowledgments.tex
+INPUT .\chapitre\02-Acknowledgments.tex
+INPUT .\chapitre\02-Acknowledgments.tex
+INPUT chapitre\02-Acknowledgments.tex
+INPUT main.toc
+OUTPUT main.mtc1
+OUTPUT main.mtc2
+OUTPUT main.mtc3
+OUTPUT main.mtc4
+OUTPUT main.mtc5
+OUTPUT main.mtc6
+OUTPUT main.mtc7
+OUTPUT main.mtc8
+OUTPUT main.mtc9
+OUTPUT main.mtc10
+OUTPUT main.mtc11
+OUTPUT main.mtc12
 INPUT .\main.toc
 INPUT .\main.toc
 INPUT main.toc
-INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
@@ -872,14 +899,8 @@ INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc8t.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc8t.vf
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\MSI\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
-INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 OUTPUT main.toc
 INPUT .\main.lof
 INPUT .\main.lof
@@ -933,15 +954,12 @@ INPUT .\images\soprahr_logo.png
 INPUT .\images\soprahr_logo.png
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbc8t.tfm
-INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbc8t.vf
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
-INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
-INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT .\chapitre\06-Chapter2.tex
 INPUT .\chapitre\06-Chapter2.tex
 INPUT .\chapitre\06-Chapter2.tex
@@ -1232,12 +1250,12 @@ INPUT .\images\interfaces\sprint2_public_job_offer.png
 INPUT .\images\interfaces\sprint2_public_job_offer.png
 INPUT .\images\interfaces\sprint2_public_job_offer.png
 INPUT .\images\interfaces\sprint2_public_job_offer.png
-INPUT .\images\interfaces\application_form.png
-INPUT .\images\interfaces\application_form.png
-INPUT .\images\interfaces\application_form.png
-INPUT .\images\interfaces\application_form.png
-INPUT .\images\interfaces\application_form.png
-INPUT .\images\interfaces\application_form.png
+INPUT .\images\interfaces\application form.png
+INPUT .\images\interfaces\application form.png
+INPUT .\images\interfaces\application form.png
+INPUT .\images\interfaces\application form.png
+INPUT .\images\interfaces\application form.png
+INPUT .\images\interfaces\application form.png
 INPUT .\images\interfaces\candidate_applications_list_interface.png
 INPUT .\images\interfaces\candidate_applications_list_interface.png
 INPUT .\images\interfaces\candidate_applications_list_interface.png
@@ -1407,3 +1425,5 @@ INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pf
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
 INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
+INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmri8a.pfb
+INPUT C:\Users\MSI\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmri8a.pfb

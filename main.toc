@@ -1,10 +1,10 @@
 \babel@toc {french}{}\relax 
-\contentsline {chapter}{LIST OF FIGURES}{v}{chapter*.1}%
-\contentsline {chapter}{LIST OF TABLES}{vii}{chapter*.2}%
-\contentsline {chapter}{LIST OF ABBREVIATIONS}{viii}{chapter*.4}%
-\contentsline {chapter}{GENERAL INTRODUCTION}{1}{chapter*.5}%
+\contentsline {chapter}{LIST OF FIGURES}{viii}{chapter*.4}%
+\contentsline {chapter}{LIST OF TABLES}{x}{chapter*.5}%
+\contentsline {chapter}{LIST OF ABBREVIATIONS}{xi}{chapter*.7}%
+\contentsline {chapter}{GENERAL INTRODUCTION}{1}{chapter*.8}%
 \contentsline {chapter}{\numberline {1}GENERAL PROJECT CONTEXT}{3}{chapter.1}%
-\contentsline {section}{Introduction}{4}{section*.6}%
+\contentsline {section}{Introduction}{4}{section*.9}%
 \contentsline {section}{\numberline {1.1}Presentation of the Host Organization}{4}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Project Study}{4}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Project Context}{4}{subsection.1.2.1}%
@@ -17,7 +17,7 @@
 \contentsline {subsection}{\numberline {1.3.3}SCRUM Actors}{8}{subsection.1.3.3}%
 \contentsline {section}{Conclusion}{8}{subsection.1.3.3}%
 \contentsline {chapter}{\numberline {2}REQUIREMENTS SPECIFICATION}{9}{chapter.2}%
-\contentsline {section}{Introduction}{10}{section*.9}%
+\contentsline {section}{Introduction}{10}{section*.12}%
 \contentsline {section}{\numberline {2.1}Requirements Elicitation}{10}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Requirements Specifications}{10}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Identification of Actors}{10}{subsection.2.1.2}%
@@ -35,9 +35,9 @@
 \contentsline {subsection}{\numberline {2.4.4}Technologies Used}{22}{subsection.2.4.4}%
 \contentsline {section}{\numberline {2.5}Requirements Modeling}{26}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Global Use Case Diagram}{26}{subsection.2.5.1}%
-\contentsline {section}{Conclusion}{28}{figure.caption.29}%
+\contentsline {section}{Conclusion}{28}{figure.caption.32}%
 \contentsline {chapter}{\numberline {3}SPRINT 1: AUTHENTICATION AND SETUP}{29}{chapter.3}%
-\contentsline {section}{Introduction}{30}{section*.30}%
+\contentsline {section}{Introduction}{30}{section*.33}%
 \contentsline {section}{\numberline {3.1}Sprint Backlog}{30}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Sprint Objective}{31}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Analysis}{31}{section.3.3}%
@@ -62,14 +62,14 @@
 \contentsline {subsection}{\numberline {3.5.5}Role and Permission Management Interface}{44}{subsection.3.5.5}%
 \contentsline {subsection}{\numberline {3.5.6}Profile Management Interface}{45}{subsection.3.5.6}%
 \contentsline {subsection}{\numberline {3.5.7}Landing Page}{45}{subsection.3.5.7}%
-\contentsline {section}{Conclusion}{46}{figure.caption.48}%
+\contentsline {section}{Conclusion}{46}{figure.caption.51}%
 \contentsline {chapter}{\numberline {4}SPRINT 2: RECRUITMENT MANAGEMENT}{47}{chapter.4}%
-\contentsline {section}{Introduction}{48}{section*.49}%
+\contentsline {section}{Introduction}{48}{section*.52}%
 \contentsline {section}{\numberline {4.1}Sprint Backlog}{48}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Sprint Objective}{49}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Analysis}{50}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Use Case Diagram}{50}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Textual Description of Use Cases}{52}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.3}Analysis}{49}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Use Case Diagram}{49}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Textual Description of Use Cases}{51}{subsection.4.3.2}%
 \contentsline {subsubsection}{\numberline {4.3.2.1}Use Case Description: ``Manage Job Offer''}{52}{subsubsection.4.3.2.1}%
 \contentsline {subsubsection}{\numberline {4.3.2.2}Use Case Description: ``Apply to Job Offer''}{53}{subsubsection.4.3.2.2}%
 \contentsline {subsubsection}{\numberline {4.3.2.3}Use Case Description: ``Manage Application Pipeline''}{54}{subsubsection.4.3.2.3}%
@@ -88,9 +88,9 @@
 \contentsline {subsection}{\numberline {4.5.4}Candidate Applications List Interface}{63}{subsection.4.5.4}%
 \contentsline {subsection}{\numberline {4.5.5}HR Application Pipeline Interface}{64}{subsection.4.5.5}%
 \contentsline {subsection}{\numberline {4.5.6}Offer Recommendation Interface}{65}{subsection.4.5.6}%
-\contentsline {section}{Conclusion}{65}{figure.caption.68}%
+\contentsline {section}{Conclusion}{65}{figure.caption.71}%
 \contentsline {chapter}{\numberline {5}SPRINT 3: AI-POWERED CV ANALYSIS AND SCORING}{66}{chapter.5}%
-\contentsline {section}{Introduction}{67}{section*.69}%
+\contentsline {section}{Introduction}{67}{section*.72}%
 \contentsline {section}{\numberline {5.1}Sprint Backlog}{67}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Sprint Objective}{67}{section.5.2}%
 \contentsline {section}{\numberline {5.3}AI Module Integration}{68}{section.5.3}%
@@ -105,9 +105,9 @@
 \contentsline {subsection}{\numberline {5.5.1}CV Analysis Result Interface (HR View)}{72}{subsection.5.5.1}%
 \contentsline {subsection}{\numberline {5.5.2}Candidate Score Detail Interface}{73}{subsection.5.5.2}%
 \contentsline {subsection}{\numberline {5.5.3}Candidate Ranking Interface}{73}{subsection.5.5.3}%
-\contentsline {section}{Conclusion}{74}{figure.caption.77}%
+\contentsline {section}{Conclusion}{74}{figure.caption.80}%
 \contentsline {chapter}{\numberline {6}SPRINT 4: FINALIZATION AND DEPLOYMENT}{75}{chapter.6}%
-\contentsline {section}{Introduction}{76}{section*.78}%
+\contentsline {section}{Introduction}{76}{section*.81}%
 \contentsline {section}{\numberline {6.1}Sprint Backlog}{76}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Sprint Objective}{77}{section.6.2}%
 \contentsline {section}{\numberline {6.3}Analysis}{77}{section.6.3}%
@@ -118,6 +118,6 @@
 \contentsline {subsection}{\numberline {6.4.1}Interview Scheduling Interface (HR View)}{80}{subsection.6.4.1}%
 \contentsline {subsection}{\numberline {6.4.2}Interview Calendar Interface}{80}{subsection.6.4.2}%
 \contentsline {subsection}{\numberline {6.4.3}Candidate Interview Notification Interface}{81}{subsection.6.4.3}%
-\contentsline {section}{Conclusion}{81}{figure.caption.85}%
-\contentsline {chapter}{GENERAL CONCLUSION}{82}{chapter*.86}%
-\contentsline {chapter}{WEBOGRAPHY}{83}{chapter*.87}%
+\contentsline {section}{Conclusion}{81}{figure.caption.88}%
+\contentsline {chapter}{GENERAL CONCLUSION}{82}{chapter*.89}%
+\contentsline {chapter}{WEBOGRAPHY}{83}{chapter*.90}%

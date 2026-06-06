@@ -1,70 +1,70 @@
 \babel@toc {french}{}\relax 
 \addvspace {10\p@ }
 \contentsline {xchapter}{GENERAL PROJECT CONTEXT}{3}{chapter.1}%
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Logo of Sopra HR Software}}{4}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Logo of Sopra HR Software}}{4}{figure.caption.10}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{REQUIREMENTS SPECIFICATION}{9}{chapter.2}%
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Windows 11 Logo}}{20}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Visual Studio Code Logo}}{21}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces IntelliJ IDEA Logo}}{21}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Overleaf Logo}}{21}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Git Logo}}{22}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces StarUML Logo}}{22}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Swagger Logo}}{22}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces React JS Logo}}{23}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces JavaScript Logo}}{23}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces CSS3 Logo}}{24}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Vite Logo}}{24}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Spring Boot Logo}}{24}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces JDK Logo}}{25}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Python Logo}}{25}{figure.caption.26}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Node.js Logo}}{25}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces PostgreSQL Logo}}{26}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Global Use Case Diagram}}{27}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Windows 11 Logo}}{20}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Visual Studio Code Logo}}{21}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces IntelliJ IDEA Logo}}{21}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Overleaf Logo}}{21}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Git Logo}}{22}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces StarUML Logo}}{22}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Swagger Logo}}{22}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces React JS Logo}}{23}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces JavaScript Logo}}{23}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces CSS3 Logo}}{24}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Vite Logo}}{24}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Spring Boot Logo}}{24}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces JDK Logo}}{25}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Python Logo}}{25}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Node.js Logo}}{25}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces PostgreSQL Logo}}{26}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Global Use Case Diagram}}{27}{figure.caption.32}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{SPRINT 1: AUTHENTICATION AND SETUP}{29}{chapter.3}%
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Use Case Diagram --- Sprint 1: Authentication and Setup}}{32}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Sequence Diagram --- Register}}{38}{figure.caption.37}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Sequence Diagram --- Sign In}}{39}{figure.caption.38}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Sequence Diagram --- Manage User Account}}{40}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Sequence Diagram --- Manage Permission}}{41}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Class Diagram --- Sprint 1: Authentication and User Management}}{42}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Registration Interface}}{43}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Email Verification Confirmation Interface}}{43}{figure.caption.43}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Sign In Interface}}{44}{figure.caption.44}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces User Management Interface}}{44}{figure.caption.45}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Role and Permission Management Interface}}{45}{figure.caption.46}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Profile Management Interface}}{45}{figure.caption.47}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Landing Page}}{46}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Use Case Diagram --- Sprint 1: Authentication and Setup}}{32}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Sequence Diagram --- Register}}{38}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Sequence Diagram --- Sign In}}{39}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Sequence Diagram --- Manage User Account}}{40}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Sequence Diagram --- Manage Permission}}{41}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Class Diagram --- Sprint 1: Authentication and User Management}}{42}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Registration Interface}}{43}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Email Verification Confirmation Interface}}{43}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Sign In Interface}}{44}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces User Management Interface}}{44}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Role and Permission Management Interface}}{45}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Profile Management Interface}}{45}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Landing Page}}{46}{figure.caption.51}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{SPRINT 2: RECRUITMENT MANAGEMENT}{47}{chapter.4}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Use Case Diagram --- Sprint 2: Recruitment Management}}{50}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Use Case Diagram --- Apply to Job Offer (Refinement)}}{51}{figure.caption.52}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Use Case Diagram --- Submit Offer Recommendation (Refinement)}}{51}{figure.caption.53}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Sequence Diagram --- Manage Job Offer}}{57}{figure.caption.58}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Sequence Diagram --- Apply to Job Offer}}{58}{figure.caption.59}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Sequence Diagram --- Manage Application Pipeline}}{59}{figure.caption.60}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Sequence Diagram --- Submit Offer Recommendation}}{60}{figure.caption.61}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Class Diagram --- Sprint 2: Recruitment Management}}{61}{figure.caption.62}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Job Offer Management Interface --- HR View}}{62}{figure.caption.63}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Public Job Offers Listing Interface}}{63}{figure.caption.64}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Application Submission Interface}}{63}{figure.caption.65}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Candidate Applications List Interface}}{64}{figure.caption.66}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces HR Application Pipeline Interface}}{64}{figure.caption.67}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Offer Recommendation Interface}}{65}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Use Case Diagram --- Sprint 2: Recruitment Management}}{50}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Use Case Diagram --- Apply to Job Offer (Refinement)}}{50}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Use Case Diagram --- Submit Offer Recommendation (Refinement)}}{51}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Sequence Diagram --- Manage Job Offer}}{57}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Sequence Diagram --- Apply to Job Offer}}{58}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Sequence Diagram --- Manage Application Pipeline}}{59}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Sequence Diagram --- Submit Offer Recommendation}}{60}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Class Diagram --- Sprint 2: Recruitment Management}}{61}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Job Offer Management Interface --- HR View}}{62}{figure.caption.66}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Public Job Offers Listing Interface}}{63}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Application Submission Interface}}{63}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Candidate Applications List Interface}}{64}{figure.caption.69}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces HR Application Pipeline Interface}}{64}{figure.caption.70}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Offer Recommendation Interface}}{65}{figure.caption.71}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{SPRINT 3: AI-POWERED CV ANALYSIS AND SCORING}{66}{chapter.5}%
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Use Case Diagram --- Sprint 3}}{69}{figure.caption.71}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Activity Diagram --- CV Analysis and Scoring}}{71}{figure.caption.73}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Class Diagram --- Sprint 3}}{72}{figure.caption.74}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces CV Analysis Result Interface --- HR View}}{73}{figure.caption.75}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Candidate Score Detail Interface}}{73}{figure.caption.76}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Candidate Ranking Interface}}{74}{figure.caption.77}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Use Case Diagram --- Sprint 3}}{69}{figure.caption.74}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Activity Diagram --- CV Analysis and Scoring}}{71}{figure.caption.76}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Class Diagram --- Sprint 3}}{72}{figure.caption.77}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces CV Analysis Result Interface --- HR View}}{73}{figure.caption.78}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Candidate Score Detail Interface}}{73}{figure.caption.79}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Candidate Ranking Interface}}{74}{figure.caption.80}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{SPRINT 4: FINALIZATION AND DEPLOYMENT}{75}{chapter.6}%
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Use Case Diagram --- sprint 4}}{77}{figure.caption.80}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Class Diagram --- Sprint 4}}{78}{figure.caption.81}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Activity Diagram --- Interview Planning}}{79}{figure.caption.82}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Interview Scheduling Interface --- HR View}}{80}{figure.caption.83}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Interview Calendar Interface}}{81}{figure.caption.84}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Candidate Interview Notification Interface}}{81}{figure.caption.85}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Use Case Diagram --- sprint 4}}{77}{figure.caption.83}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Class Diagram --- Sprint 4}}{78}{figure.caption.84}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Activity Diagram --- Interview Planning}}{79}{figure.caption.85}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Interview Scheduling Interface --- HR View}}{80}{figure.caption.86}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Interview Calendar Interface}}{81}{figure.caption.87}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Candidate Interview Notification Interface}}{81}{figure.caption.88}%

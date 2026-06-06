@@ -19,9 +19,26 @@
 
 \begin{document}
 
+  % ===== PAGE BLANCHE =====
+  \thispagestyle{empty}
+  \mbox{}
+  \clearpage
+
   % ===== FRONT MATTER — roman page numbering =====
   \pagenumbering{roman}
   \setcounter{page}{1}
+
+  % ===== DEDICATION 1 - Bechir Jabli =====
+  \input{chapitre/01-Dedication}
+  \clearpage
+
+  % ===== DEDICATION 2 - Mayssem Essmaii =====
+  \input{chapitre/01b-Dedication2}
+  \clearpage
+
+  % ===== ACKNOWLEDGMENT =====
+  \input{chapitre/02-Acknowledgments}
+  \clearpage
 
   \dominitoc
   \setcounter{tocdepth}{3}

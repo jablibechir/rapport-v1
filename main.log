@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.30)  5 JUN 2026 17:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.30)  6 JUN 2026 11:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1069,8 +1069,28 @@ Package minitoc(hints) Info: I0042
 (minitoc(hints))             --- The appendix package is loaded. 
 (minitoc(hints))             See the minitoc package documentation 
 (minitoc(hints))             for specific precautions.
+ [1
+
+] (chapitre/01-Dedication.tex
+LaTeX Font Info:    Calculating math sizes for size <22> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <22> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <15.39993> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <11> on input line 2.
+) [1
+
+
+{C:/Users/MSI/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/MSI/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] (chapitre/01b-Dedication2.tex) [2
+
+
+] (chapitre/02-Acknowledgments.tex) [3
+
+
+]
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM main.toc on input line 27.
+(minitoc)             PREPARING MINITOCS FROM main.toc on input line 44.
 Package minitoc Info: I0033
 (minitoc)             Writing main.mtc1.
 \openout3 = `main.mtc1'.
@@ -1119,13 +1139,6 @@ Package minitoc Info: I0033
 (minitoc)             Writing main.mtc12.
 \openout3 = `main.mtc12'.
 
-LaTeX Font Info:    Calculating math sizes for size <22> on input line 31.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <22> on input line 31.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <15.39993> on input line 31.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 31.
  (main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 7.
@@ -1135,25 +1148,25 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 7.
 Package babel Info: 'french' activates 'french' shorthands.
 (babel)             Reported on input line 28.
- [1{C:/Users/MSI/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/MSI/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+ [4
 
 
-] [2] [3])
+] [5] [6])
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [4] (main.lof [5
+ [7] (main.lof [8
 
 
 ])
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [6] (main.lot)
+ [9] (main.lot)
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
- [7
+ [10
 
 
 ] (chapitre/03-Abbreviations.tex
@@ -1161,10 +1174,15 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 23--24
 [][] 
  []
 
-) [8
+) [11
 
 
-] (chapitre/04-GeneralIntroduction.tex [1
+] (chapitre/04-GeneralIntroduction.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.30   \item \textbf
+                    {Chapter Four} covers Sprint 2, dedicated to recruitment... [1
 
 
 ]) [2] (chapitre/05-Chapter1.tex
@@ -1179,7 +1197,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 ]
-<images/soprahr_logo.png, id=826, 211.992pt x 78.2925pt>
+<images/soprahr_logo.png, id=846, 211.992pt x 78.2925pt>
 File: images/soprahr_logo.png Graphic file (type png)
 <use images/soprahr_logo.png>
 Package pdftex.def Info: images/soprahr_logo.png  used on input line 18.
@@ -1226,93 +1244,93 @@ Underfull \hbox (badness 1102) in paragraph at lines 385--386
 chapitre/06-Chapter2.tex:401: ignored error: Infinite glue shrinkage found in box being split [15]
 chapitre/06-Chapter2.tex:401: ignored error: Infinite glue shrinkage found in box being split [16]
 chapitre/06-Chapter2.tex:401: ignored error: Infinite glue shrinkage found in box being split [17] [18] [19]
-<images/Windows-11-Icon.jpg, id=918, 602.25pt x 602.25pt>
+<images/Windows-11-Icon.jpg, id=938, 602.25pt x 602.25pt>
 File: images/Windows-11-Icon.jpg Graphic file (type jpg)
 <use images/Windows-11-Icon.jpg>
 Package pdftex.def Info: images/Windows-11-Icon.jpg  used on input line 475.
 (pdftex.def)             Requested size: 113.81102pt x 113.80379pt.
-<images/vscode_logo.png, id=919, 215.00325pt x 152.36925pt>
+<images/vscode_logo.png, id=939, 215.00325pt x 152.36925pt>
 File: images/vscode_logo.png Graphic file (type png)
 <use images/vscode_logo.png>
 Package pdftex.def Info: images/vscode_logo.png  used on input line 485.
 (pdftex.def)             Requested size: 113.81102pt x 80.65533pt.
  [20 <./images/Windows-11-Icon.jpg>]
-<images/IntelliJ_logo.png, id=924, 215.00325pt x 158.39175pt>
+<images/IntelliJ_logo.png, id=944, 215.00325pt x 158.39175pt>
 File: images/IntelliJ_logo.png Graphic file (type png)
 <use images/IntelliJ_logo.png>
 Package pdftex.def Info: images/IntelliJ_logo.png  used on input line 495.
 (pdftex.def)             Requested size: 113.81102pt x 83.84329pt.
-<images/overleaf_logo.jpg, id=925, 451.6875pt x 175.65625pt>
+<images/overleaf_logo.jpg, id=945, 451.6875pt x 175.65625pt>
 File: images/overleaf_logo.jpg Graphic file (type jpg)
 <use images/overleaf_logo.jpg>
 Package pdftex.def Info: images/overleaf_logo.jpg  used on input line 505.
 (pdftex.def)             Requested size: 113.81102pt x 44.2597pt.
-<images/git_logo.png, id=926, 3854.4pt x 3854.4pt>
+<images/git_logo.png, id=946, 3854.4pt x 3854.4pt>
 File: images/git_logo.png Graphic file (type png)
 <use images/git_logo.png>
 Package pdftex.def Info: images/git_logo.png  used on input line 515.
 (pdftex.def)             Requested size: 113.81102pt x 113.80379pt.
  [21 <./images/vscode_logo.png> <./images/IntelliJ_logo.png> <./images/overleaf_logo.jpg>]
-<images/startuml_logo.png, id=933, 204.765pt x 181.8795pt>
+<images/startuml_logo.png, id=953, 204.765pt x 181.8795pt>
 File: images/startuml_logo.png Graphic file (type png)
 <use images/startuml_logo.png>
 Package pdftex.def Info: images/startuml_logo.png  used on input line 525.
 (pdftex.def)             Requested size: 113.81102pt x 101.09416pt.
-<images/swagger_logo.png, id=934, 225.84375pt x 225.84375pt>
+<images/swagger_logo.png, id=954, 225.84375pt x 225.84375pt>
 File: images/swagger_logo.png Graphic file (type png)
 <use images/swagger_logo.png>
 Package pdftex.def Info: images/swagger_logo.png  used on input line 535.
 (pdftex.def)             Requested size: 113.81102pt x 113.81412pt.
  [22 <./images/git_logo.png> <./images/startuml_logo.png> <./images/swagger_logo.png>]
-<images/react_logo.png, id=942, 172.84575pt x 183.68625pt>
+<images/react_logo.png, id=962, 172.84575pt x 183.68625pt>
 File: images/react_logo.png Graphic file (type png)
 <use images/react_logo.png>
 Package pdftex.def Info: images/react_logo.png  used on input line 545.
 (pdftex.def)             Requested size: 113.81102pt x 120.94739pt.
-<images/javascript_logo.png, id=943, 983.675pt x 983.675pt>
+<images/javascript_logo.png, id=963, 983.675pt x 983.675pt>
 File: images/javascript_logo.png Graphic file (type png)
 <use images/javascript_logo.png>
 Package pdftex.def Info: images/javascript_logo.png  used on input line 555.
 (pdftex.def)             Requested size: 113.81102pt x 113.80318pt.
-<images/css3_logo.png, id=944, 963.6pt x 963.6pt>
+<images/css3_logo.png, id=964, 963.6pt x 963.6pt>
 File: images/css3_logo.png Graphic file (type png)
 <use images/css3_logo.png>
 Package pdftex.def Info: images/css3_logo.png  used on input line 565.
 (pdftex.def)             Requested size: 100.15425pt x 100.1444pt.
  [23 <./images/react_logo.png> <./images/javascript_logo.png>]
-<images/vite_logo.jpg, id=952, 269.808pt x 269.20575pt>
+<images/vite_logo.jpg, id=971, 269.808pt x 269.20575pt>
 File: images/vite_logo.jpg Graphic file (type jpg)
 <use images/vite_logo.jpg>
 Package pdftex.def Info: images/vite_logo.jpg  used on input line 575.
 (pdftex.def)             Requested size: 113.81102pt x 113.55446pt.
-<images/springboot_logo.png, id=953, 190.91325pt x 156.585pt>
+<images/springboot_logo.png, id=972, 190.91325pt x 156.585pt>
 File: images/springboot_logo.png Graphic file (type png)
 <use images/springboot_logo.png>
 Package pdftex.def Info: images/springboot_logo.png  used on input line 585.
 (pdftex.def)             Requested size: 113.81102pt x 93.34961pt.
-<images/java_logo.png, id=954, 202.356pt x 149.358pt>
+<images/java_logo.png, id=973, 202.356pt x 149.358pt>
 File: images/java_logo.png Graphic file (type png)
 <use images/java_logo.png>
 Package pdftex.def Info: images/java_logo.png  used on input line 595.
 (pdftex.def)             Requested size: 113.81102pt x 84.00453pt.
  [24 <./images/css3_logo.png> <./images/vite_logo.jpg> <./images/springboot_logo.png>]
-<images/python logo.png, id=961, 161.403pt x 174.6525pt>
+<images/python logo.png, id=980, 161.403pt x 174.6525pt>
 File: images/python logo.png Graphic file (type png)
 <use images/python logo.png>
 Package pdftex.def Info: images/python logo.png  used on input line 605.
 (pdftex.def)             Requested size: 113.81102pt x 123.15668pt.
-<images/nodejs_logo.png, id=962, 225.84375pt x 225.84375pt>
+<images/nodejs_logo.png, id=981, 225.84375pt x 225.84375pt>
 File: images/nodejs_logo.png Graphic file (type png)
 <use images/nodejs_logo.png>
 Package pdftex.def Info: images/nodejs_logo.png  used on input line 614.
 (pdftex.def)             Requested size: 113.81102pt x 113.81412pt.
  [25 <./images/java_logo.png> <./images/python logo.png> <./images/nodejs_logo.png>]
-<images/postgresql_logo.png, id=970, 175.857pt x 169.23225pt>
+<images/postgresql_logo.png, id=990, 175.857pt x 169.23225pt>
 File: images/postgresql_logo.png Graphic file (type png)
 <use images/postgresql_logo.png>
 Package pdftex.def Info: images/postgresql_logo.png  used on input line 624.
 (pdftex.def)             Requested size: 113.81102pt x 109.52452pt.
-<images/diagrammes/global use case diagram.jpg, id=971, 1556.06343pt x 2561.82094pt>
+<images/diagrammes/global use case diagram.jpg, id=991, 1556.06343pt x 2561.82094pt>
 File: images/diagrammes/global use case diagram.jpg Graphic file (type jpg)
 <use images/diagrammes/global use case diagram.jpg>
 Package pdftex.def Info: images/diagrammes/global use case diagram.jpg  used on input line 638.
@@ -1332,7 +1350,7 @@ Underfull \hbox (badness 1342) in paragraph at lines 53--53
  []
 
 [30]
-<images/diagrammes/sprint 1/use case Sprint1 - Authentification and User Management.jpg, id=1014, 1031.35312pt x 896.59969pt>
+<images/diagrammes/sprint 1/use case Sprint1 - Authentification and User Management.jpg, id=1033, 1031.35312pt x 896.59969pt>
 File: images/diagrammes/sprint 1/use case Sprint1 - Authentification and User Management.jpg Graphic file (type jpg)
 <use images/diagrammes/sprint 1/use case Sprint1 - Authentification and User Management.jpg>
 Package pdftex.def Info: images/diagrammes/sprint 1/use case Sprint1 - Authentification and User Management.jpg  used on input line 81.
@@ -1373,74 +1391,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--135
  []
 
 [32 <./images/diagrammes/sprint 1/use case Sprint1 - Authentification and User Management.jpg>] [33] [34] [35] [36]
-<images/diagrammes/sprint 1/Sequence diagram registration sprint 1.jpg, id=1068, 1388.18625pt x 2050.66125pt>
+<images/diagrammes/sprint 1/Sequence diagram registration sprint 1.jpg, id=1087, 1388.18625pt x 2050.66125pt>
 File: images/diagrammes/sprint 1/Sequence diagram registration sprint 1.jpg Graphic file (type jpg)
 <use images/diagrammes/sprint 1/Sequence diagram registration sprint 1.jpg>
 Package pdftex.def Info: images/diagrammes/sprint 1/Sequence diagram registration sprint 1.jpg  used on input line 308.
 (pdftex.def)             Requested size: 432.48051pt x 638.85876pt.
  [37]
-<images/diagrammes/sprint 1/Sequence diagram sign In sprint 1.jpg, id=1074, 1303.87125pt x 1689.31125pt>
+<images/diagrammes/sprint 1/Sequence diagram sign In sprint 1.jpg, id=1094, 1303.87125pt x 1689.31125pt>
 File: images/diagrammes/sprint 1/Sequence diagram sign In sprint 1.jpg Graphic file (type jpg)
 <use images/diagrammes/sprint 1/Sequence diagram sign In sprint 1.jpg>
 Package pdftex.def Info: images/diagrammes/sprint 1/Sequence diagram sign In sprint 1.jpg  used on input line 321.
 (pdftex.def)             Requested size: 432.48051pt x 560.33566pt.
  [38 <./images/diagrammes/sprint 1/Sequence diagram registration sprint 1.jpg>]
-<images/diagrammes/sprint 1/Sequence diagram manage user account sprint 1.jpg, id=1080, 1472.50125pt x 1869.98625pt>
+<images/diagrammes/sprint 1/Sequence diagram manage user account sprint 1.jpg, id=1100, 1472.50125pt x 1869.98625pt>
 File: images/diagrammes/sprint 1/Sequence diagram manage user account sprint 1.jpg Graphic file (type jpg)
 <use images/diagrammes/sprint 1/Sequence diagram manage user account sprint 1.jpg>
 Package pdftex.def Info: images/diagrammes/sprint 1/Sequence diagram manage user account sprint 1.jpg  used on input line 334.
 (pdftex.def)             Requested size: 432.48051pt x 549.2158pt.
  [39 <./images/diagrammes/sprint 1/Sequence diagram sign In sprint 1.jpg>]
-<images/diagrammes/sprint 1/Sequence diagram manage role permissions sprint 1.jpg, id=1086, 1580.90625pt x 2050.66125pt>
+<images/diagrammes/sprint 1/Sequence diagram manage role permissions sprint 1.jpg, id=1106, 1580.90625pt x 2050.66125pt>
 File: images/diagrammes/sprint 1/Sequence diagram manage role permissions sprint 1.jpg Graphic file (type jpg)
 <use images/diagrammes/sprint 1/Sequence diagram manage role permissions sprint 1.jpg>
 Package pdftex.def Info: images/diagrammes/sprint 1/Sequence diagram manage role permissions sprint 1.jpg  used on input line 347.
 (pdftex.def)             Requested size: 423.37369pt x 549.18011pt.
  [40 <./images/diagrammes/sprint 1/Sequence diagram manage user account sprint 1.jpg>]
-<images/diagrammes/sprint 1/Class diagram Sprint 1.jpg, id=1091, 1350.54562pt x 499.8675pt>
+<images/diagrammes/sprint 1/Class diagram Sprint 1.jpg, id=1111, 1350.54562pt x 499.8675pt>
 File: images/diagrammes/sprint 1/Class diagram Sprint 1.jpg Graphic file (type jpg)
 <use images/diagrammes/sprint 1/Class diagram Sprint 1.jpg>
 Package pdftex.def Info: images/diagrammes/sprint 1/Class diagram Sprint 1.jpg  used on input line 359.
 (pdftex.def)             Requested size: 455.24338pt x 260.03174pt.
  [41 <./images/diagrammes/sprint 1/Sequence diagram manage role permissions sprint 1.jpg>]
-<images/interfaces/sprint1_register.png, id=1097, 1117.776pt x 552.8655pt>
+<images/interfaces/sprint1_register.png, id=1116, 1111.7535pt x 554.07pt>
 File: images/interfaces/sprint1_register.png Graphic file (type png)
 <use images/interfaces/sprint1_register.png>
 Package pdftex.def Info: images/interfaces/sprint1_register.png  used on input line 377.
-(pdftex.def)             Requested size: 386.96027pt x 191.3968pt.
+(pdftex.def)             Requested size: 386.96027pt x 192.84523pt.
  [42 <./images/diagrammes/sprint 1/Class diagram Sprint 1.jpg>]
-<images/interfaces/sprint1_email_verification.png, id=1102, 1117.776pt x 555.87675pt>
+<images/interfaces/sprint1_email_verification.png, id=1121, 1117.776pt x 555.87675pt>
 File: images/interfaces/sprint1_email_verification.png Graphic file (type png)
 <use images/interfaces/sprint1_email_verification.png>
 Package pdftex.def Info: images/interfaces/sprint1_email_verification.png  used on input line 390.
 (pdftex.def)             Requested size: 386.96027pt x 192.43929pt.
-<images/interfaces/sprint1_signin.png, id=1103, 1118.37825pt x 554.67226pt>
+<images/interfaces/sprint1_signin.png, id=1122, 1115.367pt x 552.26324pt>
 File: images/interfaces/sprint1_signin.png Graphic file (type png)
 <use images/interfaces/sprint1_signin.png>
 Package pdftex.def Info: images/interfaces/sprint1_signin.png  used on input line 403.
-(pdftex.def)             Requested size: 386.96027pt x 191.91226pt.
+(pdftex.def)             Requested size: 386.96027pt x 191.60123pt.
  [43 <./images/interfaces/sprint1_register.png> <./images/interfaces/sprint1_email_verification.png>]
-<images/interfaces/sprint1_user_management.png, id=1110, 1118.37825pt x 558.888pt>
+<images/interfaces/sprint1_user_management.png, id=1130, 1118.37825pt x 558.888pt>
 File: images/interfaces/sprint1_user_management.png Graphic file (type png)
 <use images/interfaces/sprint1_user_management.png>
 Package pdftex.def Info: images/interfaces/sprint1_user_management.png  used on input line 416.
 (pdftex.def)             Requested size: 386.96027pt x 193.37088pt.
-<images/interfaces/sprint1_role_management.png, id=1111, 1106.33325pt x 552.26324pt>
+<images/interfaces/sprint1_role_management.png, id=1131, 1106.33325pt x 552.26324pt>
 File: images/interfaces/sprint1_role_management.png Graphic file (type png)
 <use images/interfaces/sprint1_role_management.png>
 Package pdftex.def Info: images/interfaces/sprint1_role_management.png  used on input line 429.
 (pdftex.def)             Requested size: 386.96027pt x 193.16019pt.
  [44 <./images/interfaces/sprint1_signin.png> <./images/interfaces/sprint1_user_management.png>]
-<images/interfaces/sprint1_profile.png, id=1118, 1108.74225pt x 552.26324pt>
+<images/interfaces/sprint1_profile.png, id=1138, 1108.74225pt x 552.26324pt>
 File: images/interfaces/sprint1_profile.png Graphic file (type png)
 <use images/interfaces/sprint1_profile.png>
 Package pdftex.def Info: images/interfaces/sprint1_profile.png  used on input line 442.
 (pdftex.def)             Requested size: 386.96027pt x 192.74728pt.
-<images/interfaces/sprint1_landing.png, id=1119, 1109.3445pt x 561.297pt>
+<images/interfaces/sprint1_landing.png, id=1139, 1106.33325pt x 552.26324pt>
 File: images/interfaces/sprint1_landing.png Graphic file (type png)
 <use images/interfaces/sprint1_landing.png>
 Package pdftex.def Info: images/interfaces/sprint1_landing.png  used on input line 455.
-(pdftex.def)             Requested size: 386.96027pt x 195.78883pt.
+(pdftex.def)             Requested size: 386.96027pt x 193.16019pt.
  [45 <./images/interfaces/sprint1_role_management.png> <./images/interfaces/sprint1_profile.png>]) [46 <./images/interfaces/sprint1_landing.png>] (chapitre/08-Chapter4.tex
 Chapter 4.
 \openout3 = `main.mtc'.
@@ -1450,83 +1468,83 @@ Chapter 4.
 (main.mtc8) [47
 
 
-] [48] [49]
-<images/diagrammes/sprint 2/use case global sprint 2.jpg, id=1163, 706.13812pt x 657.2053pt>
+] [48]
+<images/diagrammes/sprint 2/use case global sprint 2.jpg, id=1178, 706.13812pt x 657.2053pt>
 File: images/diagrammes/sprint 2/use case global sprint 2.jpg Graphic file (type jpg)
 <use images/diagrammes/sprint 2/use case global sprint 2.jpg>
 Package pdftex.def Info: images/diagrammes/sprint 2/use case global sprint 2.jpg  used on input line 81.
-(pdftex.def)             Requested size: 409.71692pt x 381.32976pt.
-<images/diagrammes/sprint 2/Apply to a job offer - Raffinement.jpg, id=1164, 568.37344pt x 479.54156pt>
+(pdftex.def)             Requested size: 359.63979pt x 334.719pt.
+ [49]
+<images/diagrammes/sprint 2/Apply to a job offer - Raffinement.jpg, id=1184, 568.37344pt x 479.54156pt>
 File: images/diagrammes/sprint 2/Apply to a job offer - Raffinement.jpg Graphic file (type jpg)
 <use images/diagrammes/sprint 2/Apply to a job offer - Raffinement.jpg>
 Package pdftex.def Info: images/diagrammes/sprint 2/Apply to a job offer - Raffinement.jpg  used on input line 88.
-(pdftex.def)             Requested size: 391.51021pt x 330.33524pt.
- [50 <./images/diagrammes/sprint 2/use case global sprint 2.jpg>]
-<images/diagrammes/sprint 2/Use case diagram apply to a job offer raffinement sprint 2.jpg, id=1169, 576.65437pt x 432.86719pt>
+(pdftex.def)             Requested size: 336.88313pt x 284.24416pt.
+<images/diagrammes/sprint 2/Use case diagram apply to a job offer raffinement sprint 2.jpg, id=1185, 576.65437pt x 432.86719pt>
 File: images/diagrammes/sprint 2/Use case diagram apply to a job offer raffinement sprint 2.jpg Graphic file (type jpg)
 <use images/diagrammes/sprint 2/Use case diagram apply to a job offer raffinement sprint 2.jpg>
 Package pdftex.def Info: images/diagrammes/sprint 2/Use case diagram apply to a job offer raffinement sprint 2.jpg  used on input line 95.
-(pdftex.def)             Requested size: 386.96027pt x 290.48186pt.
- [51 <./images/diagrammes/sprint 2/Apply to a job offer - Raffinement.jpg> <./images/diagrammes/sprint 2/Use case diagram apply to a job offer raffinement sprint 2.jpg>] [52] [53] [54] [55]
-<images/diagrammes/sprint 2/Sequence diagram manage offers sprint 2.jpg, id=1223, 1327.96124pt x 1954.30125pt>
+(pdftex.def)             Requested size: 364.19667pt x 273.39468pt.
+ [50 <./images/diagrammes/sprint 2/use case global sprint 2.jpg> <./images/diagrammes/sprint 2/Apply to a job offer - Raffinement.jpg>] [51 <./images/diagrammes/sprint 2/Use case diagram apply to a job offer raffinement sprint 2.jpg>] [52] [53] [54] [55]
+<images/diagrammes/sprint 2/Sequence diagram manage offers sprint 2.jpg, id=1243, 1327.96124pt x 1954.30125pt>
 File: images/diagrammes/sprint 2/Sequence diagram manage offers sprint 2.jpg Graphic file (type jpg)
 <use images/diagrammes/sprint 2/Sequence diagram manage offers sprint 2.jpg>
 Package pdftex.def Info: images/diagrammes/sprint 2/Sequence diagram manage offers sprint 2.jpg  used on input line 323.
 (pdftex.def)             Requested size: 432.48051pt x 636.45248pt.
  [56]
-<images/diagrammes/sprint 2/Sequence diagram views offers and applies sprint 2.jpg, id=1229, 1626.075pt x 1954.30125pt>
+<images/diagrammes/sprint 2/Sequence diagram views offers and applies sprint 2.jpg, id=1249, 1626.075pt x 1954.30125pt>
 File: images/diagrammes/sprint 2/Sequence diagram views offers and applies sprint 2.jpg Graphic file (type jpg)
 <use images/diagrammes/sprint 2/Sequence diagram views offers and applies sprint 2.jpg>
 Package pdftex.def Info: images/diagrammes/sprint 2/Sequence diagram views offers and applies sprint 2.jpg  used on input line 335.
 (pdftex.def)             Requested size: 450.69417pt x 541.65407pt.
  [57 <./images/diagrammes/sprint 2/Sequence diagram manage offers sprint 2.jpg>]
-<images/diagrammes/sprint 2/Sequence diagram manage application pipeline sprint 2.jpg, id=1235, 1901.1025pt x 2050.66125pt>
+<images/diagrammes/sprint 2/Sequence diagram manage application pipeline sprint 2.jpg, id=1255, 1901.1025pt x 2050.66125pt>
 File: images/diagrammes/sprint 2/Sequence diagram manage application pipeline sprint 2.jpg Graphic file (type jpg)
 <use images/diagrammes/sprint 2/Sequence diagram manage application pipeline sprint 2.jpg>
 Package pdftex.def Info: images/diagrammes/sprint 2/Sequence diagram manage application pipeline sprint 2.jpg  used on input line 347.
 (pdftex.def)             Requested size: 450.69417pt x 486.12968pt.
  [58 <./images/diagrammes/sprint 2/Sequence diagram views offers and applies sprint 2.jpg>]
-<images/diagrammes/sprint 2/Sequence diagram submit an offer recommendation sprint 2.jpg, id=1241, 1556.81625pt x 2978.12625pt>
+<images/diagrammes/sprint 2/Sequence diagram submit an offer recommendation sprint 2.jpg, id=1261, 1556.81625pt x 2978.12625pt>
 File: images/diagrammes/sprint 2/Sequence diagram submit an offer recommendation sprint 2.jpg Graphic file (type jpg)
 <use images/diagrammes/sprint 2/Sequence diagram submit an offer recommendation sprint 2.jpg>
 Package pdftex.def Info: images/diagrammes/sprint 2/Sequence diagram submit an offer recommendation sprint 2.jpg  used on input line 359.
 (pdftex.def)             Requested size: 341.43307pt x 653.1449pt.
  [59 <./images/diagrammes/sprint 2/Sequence diagram manage application pipeline sprint 2.jpg>]
-<images/diagrammes/sprint 2/Class diagram sprint 2.jpg, id=1247, 1750.54pt x 1671.24374pt>
+<images/diagrammes/sprint 2/Class diagram sprint 2.jpg, id=1266, 1750.54pt x 1671.24374pt>
 File: images/diagrammes/sprint 2/Class diagram sprint 2.jpg Graphic file (type jpg)
 <use images/diagrammes/sprint 2/Class diagram sprint 2.jpg>
 Package pdftex.def Info: images/diagrammes/sprint 2/Class diagram sprint 2.jpg  used on input line 372.
 (pdftex.def)             Requested size: 409.71692pt x 391.13577pt.
  [60 <./images/diagrammes/sprint 2/Sequence diagram submit an offer recommendation sprint 2.jpg>] [61 <./images/diagrammes/sprint 2/Class diagram sprint 2.jpg>]
-<images/interfaces/sprint2_JobOfferHr.png, id=1256, 1121.99174pt x 560.69475pt>
+<images/interfaces/sprint2_JobOfferHr.png, id=1276, 1121.99174pt x 560.69475pt>
 File: images/interfaces/sprint2_JobOfferHr.png Graphic file (type png)
 <use images/interfaces/sprint2_JobOfferHr.png>
 Package pdftex.def Info: images/interfaces/sprint2_JobOfferHr.png  used on input line 391.
 (pdftex.def)             Requested size: 432.48051pt x 216.12053pt.
-<images/interfaces/sprint2_public_job_offer.png, id=1257, 1118.9805pt x 555.2745pt>
+<images/interfaces/sprint2_public_job_offer.png, id=1277, 1118.9805pt x 555.2745pt>
 File: images/interfaces/sprint2_public_job_offer.png Graphic file (type png)
 <use images/interfaces/sprint2_public_job_offer.png>
 Package pdftex.def Info: images/interfaces/sprint2_public_job_offer.png  used on input line 404.
 (pdftex.def)             Requested size: 432.48051pt x 214.60744pt.
  [62 <./images/interfaces/sprint2_JobOfferHr.png>]
-<images/interfaces/application_form.png, id=1263, 1773.62625pt x 893.3375pt>
-File: images/interfaces/application_form.png Graphic file (type png)
-<use images/interfaces/application_form.png>
-Package pdftex.def Info: images/interfaces/application_form.png  used on input line 417.
+<images/interfaces/application form.png, id=1283, 1773.62625pt x 893.3375pt>
+File: images/interfaces/application form.png Graphic file (type png)
+<use images/interfaces/application form.png>
+Package pdftex.def Info: images/interfaces/application form.png  used on input line 417.
 (pdftex.def)             Requested size: 432.48051pt x 217.82681pt.
- [63 <./images/interfaces/sprint2_public_job_offer.png> <./images/interfaces/application_form.png (PNG copy)>]
-<images/interfaces/candidate_applications_list_interface.png, id=1269, 1114.76476pt x 558.28575pt>
+ [63 <./images/interfaces/sprint2_public_job_offer.png> <./images/interfaces/application form.png (PNG copy)>]
+<images/interfaces/candidate_applications_list_interface.png, id=1289, 1114.76476pt x 558.28575pt>
 File: images/interfaces/candidate_applications_list_interface.png Graphic file (type png)
 <use images/interfaces/candidate_applications_list_interface.png>
 Package pdftex.def Info: images/interfaces/candidate_applications_list_interface.png  used on input line 430.
 (pdftex.def)             Requested size: 432.48051pt x 216.58905pt.
-<images/interfaces/hr_application_pipeline_interface.png, id=1270, 1117.776pt x 554.67226pt>
+<images/interfaces/hr_application_pipeline_interface.png, id=1290, 1117.776pt x 554.67226pt>
 File: images/interfaces/hr_application_pipeline_interface.png Graphic file (type png)
 <use images/interfaces/hr_application_pipeline_interface.png>
 Package pdftex.def Info: images/interfaces/hr_application_pipeline_interface.png  used on input line 443.
 (pdftex.def)             Requested size: 432.48051pt x 214.61165pt.
  [64 <./images/interfaces/candidate_applications_list_interface.png> <./images/interfaces/hr_application_pipeline_interface.png>]
-<images/interfaces/offer_recommendation_interface.png, id=1277, 1121.3895pt x 555.2745pt>
+<images/interfaces/offer_recommendation_interface.png, id=1297, 1121.3895pt x 555.2745pt>
 File: images/interfaces/offer_recommendation_interface.png Graphic file (type png)
 <use images/interfaces/offer_recommendation_interface.png>
 Package pdftex.def Info: images/interfaces/offer_recommendation_interface.png  used on input line 456.
@@ -1546,36 +1564,36 @@ Underfull \hbox (badness 3428) in paragraph at lines 53--53
  []
 
 [67]
-<images/diagrammes/sprint 3/use case global sprint 3 - AI analysis and Scoring CV.jpg, id=1308, 583.42969pt x 654.94687pt>
+<images/diagrammes/sprint 3/use case global sprint 3 - AI analysis and Scoring CV.jpg, id=1328, 583.42969pt x 654.94687pt>
 File: images/diagrammes/sprint 3/use case global sprint 3 - AI analysis and Scoring CV.jpg Graphic file (type jpg)
 <use images/diagrammes/sprint 3/use case global sprint 3 - AI analysis and Scoring CV.jpg>
 Package pdftex.def Info: images/diagrammes/sprint 3/use case global sprint 3 - AI analysis and Scoring CV.jpg  used on input line 107.
 (pdftex.def)             Requested size: 409.71692pt x 459.94875pt.
  [68] [69 <./images/diagrammes/sprint 3/use case global sprint 3 - AI analysis and Scoring CV.jpg>]
-<images/diagrammes/sprint 3/Activity diagram CV analysis and scoring sprint 3.jpg, id=1319, 829.59938pt x 1411.52344pt>
+<images/diagrammes/sprint 3/Activity diagram CV analysis and scoring sprint 3.jpg, id=1339, 829.59938pt x 1411.52344pt>
 File: images/diagrammes/sprint 3/Activity diagram CV analysis and scoring sprint 3.jpg Graphic file (type jpg)
 <use images/diagrammes/sprint 3/Activity diagram CV analysis and scoring sprint 3.jpg>
 Package pdftex.def Info: images/diagrammes/sprint 3/Activity diagram CV analysis and scoring sprint 3.jpg  used on input line 169.
 (pdftex.def)             Requested size: 350.5399pt x 596.41113pt.
  [70]
-<images/diagrammes/sprint 3/Class diagram sprint 3.jpg, id=1331, 2072.74374pt x 1316.92pt>
+<images/diagrammes/sprint 3/Class diagram sprint 3.jpg, id=1351, 2072.74374pt x 1316.92pt>
 File: images/diagrammes/sprint 3/Class diagram sprint 3.jpg Graphic file (type jpg)
 <use images/diagrammes/sprint 3/Class diagram sprint 3.jpg>
 Package pdftex.def Info: images/diagrammes/sprint 3/Class diagram sprint 3.jpg  used on input line 184.
 (pdftex.def)             Requested size: 455.24597pt x 281.10274pt.
  [71 <./images/diagrammes/sprint 3/Activity diagram CV analysis and scoring sprint 3.jpg>]
-<images/interfaces/CV Analysis Result Interface.png, id=1337, 1109.94675pt x 554.67226pt>
+<images/interfaces/CV Analysis Result Interface.png, id=1356, 1109.94675pt x 554.67226pt>
 File: images/interfaces/CV Analysis Result Interface.png Graphic file (type png)
 <use images/interfaces/CV Analysis Result Interface.png>
 Package pdftex.def Info: images/interfaces/CV Analysis Result Interface.png  used on input line 203.
 (pdftex.def)             Requested size: 409.71692pt x 204.74309pt.
  [72 <./images/diagrammes/sprint 3/Class diagram sprint 3.jpg>]
-<images/interfaces/Candidate Score Detail Interface.png, id=1342, 1111.15125pt x 552.8655pt>
+<images/interfaces/Candidate Score Detail Interface.png, id=1361, 1111.15125pt x 552.8655pt>
 File: images/interfaces/Candidate Score Detail Interface.png Graphic file (type png)
 <use images/interfaces/Candidate Score Detail Interface.png>
 Package pdftex.def Info: images/interfaces/Candidate Score Detail Interface.png  used on input line 216.
 (pdftex.def)             Requested size: 409.71692pt x 203.85683pt.
-<images/interfaces/Candidate Ranking Interface.png, id=1343, 1103.322pt x 552.26324pt>
+<images/interfaces/Candidate Ranking Interface.png, id=1362, 1103.322pt x 552.26324pt>
 File: images/interfaces/Candidate Ranking Interface.png Graphic file (type png)
 <use images/interfaces/Candidate Ranking Interface.png>
 Package pdftex.def Info: images/interfaces/Candidate Ranking Interface.png  used on input line 229.
@@ -1595,39 +1613,39 @@ Underfull \hbox (badness 2096) in paragraph at lines 53--53
  []
 
 [76]
-<images/diagrammes/sprint 4/use case global sprint 4.jpg, id=1376, 683.55376pt x 752.0597pt>
+<images/diagrammes/sprint 4/use case global sprint 4.jpg, id=1396, 683.55376pt x 752.0597pt>
 File: images/diagrammes/sprint 4/use case global sprint 4.jpg Graphic file (type jpg)
 <use images/diagrammes/sprint 4/use case global sprint 4.jpg>
 Package pdftex.def Info: images/diagrammes/sprint 4/use case global sprint 4.jpg  used on input line 79.
 (pdftex.def)             Requested size: 400.61703pt x 440.77365pt.
-<images/diagrammes/sprint 4/class diagram Sprint 4.jpg, id=1377, 1243.64626pt x 1072.005pt>
+<images/diagrammes/sprint 4/class diagram Sprint 4.jpg, id=1397, 1243.64626pt x 1072.005pt>
 File: images/diagrammes/sprint 4/class diagram Sprint 4.jpg Graphic file (type jpg)
 <use images/diagrammes/sprint 4/class diagram Sprint 4.jpg>
 Package pdftex.def Info: images/diagrammes/sprint 4/class diagram Sprint 4.jpg  used on input line 92.
 (pdftex.def)             Requested size: 409.71692pt x 353.17387pt.
  [77 <./images/diagrammes/sprint 4/use case global sprint 4.jpg>]
-<images/diagrammes/sprint 4/Activity diagram interview planning sprint 4.jpg, id=1383, 855.195pt x 1296.845pt>
+<images/diagrammes/sprint 4/Activity diagram interview planning sprint 4.jpg, id=1402, 855.195pt x 1296.845pt>
 File: images/diagrammes/sprint 4/Activity diagram interview planning sprint 4.jpg Graphic file (type jpg)
 <use images/diagrammes/sprint 4/Activity diagram interview planning sprint 4.jpg>
 Package pdftex.def Info: images/diagrammes/sprint 4/Activity diagram interview planning sprint 4.jpg  used on input line 105.
 (pdftex.def)             Requested size: 409.71692pt x 621.31104pt.
  [78 <./images/diagrammes/sprint 4/class diagram Sprint 4.jpg>] [79 <./images/diagrammes/sprint 4/Activity diagram interview planning sprint 4.jpg>]
-<images/interfaces/Interview Scheduling Interface.png, id=1392, 1102.1175pt x 557.08125pt>
+<images/interfaces/Interview Scheduling Interface.png, id=1412, 1102.1175pt x 557.08125pt>
 File: images/interfaces/Interview Scheduling Interface.png Graphic file (type png)
 <use images/interfaces/Interview Scheduling Interface.png>
 Package pdftex.def Info: images/interfaces/Interview Scheduling Interface.png  used on input line 124.
 (pdftex.def)             Requested size: 409.71692pt x 207.09438pt.
-<images/interfaces/Interview Calendar Interface.png, id=1393, 1111.15125pt x 555.2745pt>
+<images/interfaces/Interview Calendar Interface.png, id=1413, 1111.15125pt x 555.2745pt>
 File: images/interfaces/Interview Calendar Interface.png Graphic file (type png)
 <use images/interfaces/Interview Calendar Interface.png>
 Package pdftex.def Info: images/interfaces/Interview Calendar Interface.png  used on input line 137.
 (pdftex.def)             Requested size: 409.71692pt x 204.7451pt.
  [80 <./images/interfaces/Interview Scheduling Interface.png>]
-<images/interfaces/Candidate Interview Notification Interface.png, id=1399, 1109.3445pt x 506.49225pt>
+<images/interfaces/Candidate Interview Notification Interface.png, id=1419, 1109.3445pt x 551.661pt>
 File: images/interfaces/Candidate Interview Notification Interface.png Graphic file (type png)
 <use images/interfaces/Candidate Interview Notification Interface.png>
 Package pdftex.def Info: images/interfaces/Candidate Interview Notification Interface.png  used on input line 150.
-(pdftex.def)             Requested size: 409.71692pt x 187.06686pt.
+(pdftex.def)             Requested size: 409.71692pt x 203.7494pt.
 ) [81 <./images/interfaces/Interview Calendar Interface.png> <./images/interfaces/Candidate Interview Notification Interface.png>] (chapitre/11-Conclusion.tex) [82
 
 
@@ -1658,7 +1676,7 @@ Package minitoc(hints) Info: I0053
  [84
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20260605170544 FAD58DE7366495DB4650CFEFAC2FCD61)...disabled (restricted).
+runsystem(latexminted cleantemp  --timestamp 20260606113429 FAD58DE7366495DB4650CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux)
  ***********
@@ -1666,20 +1684,20 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A41C53E4E8A62136A4476B816EAAABDD;22552.
+(rerunfilecheck)             Checksum: 556727CEB81CC8FE618DFDAE7AED1B80;22553.
  ) 
 Here is how much of TeX's memory you used:
- 38865 strings out of 467871
- 805393 string characters out of 5419344
- 1401267 words of memory out of 5000000
- 66691 multiletter control sequences out of 15000+600000
- 683004 words of font info for 92 fonts, out of 8000000 for 9000
+ 38901 strings out of 467871
+ 806485 string characters out of 5419344
+ 1401357 words of memory out of 5000000
+ 66710 multiletter control sequences out of 15000+600000
+ 685852 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,13n,122p,1060b,811s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\MSI\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\MSI\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\MSI\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><C:/Users/MSI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/MSI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (92 pages, 24078800 bytes).
+ <C:\Users\MSI\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\MSI\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\MSI\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><C:/Users/MSI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/MSI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/MSI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (96 pages, 25966410 bytes).
 PDF statistics:
- 1668 PDF objects out of 1728 (max. 8388607)
- 367 named destinations out of 1000 (max. 500000)
+ 1692 PDF objects out of 1728 (max. 8388607)
+ 373 named destinations out of 1000 (max. 500000)
  1274 words of extra memory for PDF output out of 10000 (max. 10000000)
 

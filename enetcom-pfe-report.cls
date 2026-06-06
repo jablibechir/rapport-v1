@@ -96,6 +96,7 @@
 
 \definecolor{tableRow1}{RGB}{210,234,241}
 \definecolor{gray75}{gray}{0.75}
+\definecolor{headerblue}{HTML}{c6d9ec}
 
 \definecolor{reportType}{HTML}{013873}
 % Red    - #FF0000 - Réalisation pratique (machines, bancs d'essai, prototypes...)
@@ -206,7 +207,7 @@
 
   \fancyfoot[R]{\fontsize{12}{12}\selectfont Page \thepage}% Right footer
   
-  \fancyfoot[L]{\fontsize{12}{12}\selectfont MDW35/25}% Right header
+  \fancyfoot[L]{\fontsize{12}{12}\selectfont MDW13/26}% Right header
 
 }
 
@@ -225,7 +226,7 @@
 
   \fancyfoot[R]{\fontsize{12}{12}\selectfont Page \thepage}% Right footer
   
-  \fancyfoot[L]{\fontsize{12}{12}\selectfont\ MDW35/25}% Right header
+  \fancyfoot[L]{\fontsize{12}{12}\selectfont\ MDW13/26}% Right header
 
 }
 
